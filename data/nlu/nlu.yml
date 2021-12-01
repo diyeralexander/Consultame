@@ -1,0 +1,460 @@
+version: "2.0"
+
+nlu:
+- intent: enviar_pregunta
+  examples: |
+    - puedo preguntar?
+    - quisiera preguntar acerca de 
+    - me gustaria hacer una pregunta
+    - Quisiera comunicarme con una persona real
+    - Me podrias comunicar con un asesor del ministerio de minas y energias?
+    - Puedo hablar con una persona?
+    - Puedo comunicarme con una persona?
+    - Me podrias ayudar comunicandome con una persona?
+    - Quiero hablar con una persona real
+    - Hay algun asesor disponible?
+    - Hay asesores reales?
+    - Se encuentra disponible algun asesor?
+    - Me podrias comunicar con un funcionario del ministerio de minas y energias?
+    - Me podrias comunicar con un funcionario
+    - Puedo hablar con un funcionario?
+    - Puedo enviar mi pregunta?
+    - Hay alguna forma de hablar con una persona?
+    - Hay agentes disponibles?
+    - Puedo enviar mi pregunta a los asesores?
+    - Se encuentra alguna persona disponible?
+    - Alguien me puede contestar?
+    - Pero quería una hablar con un asesor.
+    - ¿Puedo tener una llamada mañana a las 3 pm?
+    - ¿Puedo tener una llamada?
+    - ¿CÓMO PUEDO RESERVAR UNA LLAMADA DE CONTACTO?
+    - ¿Cómo puedo contactar con el equipo?
+    - También quiero reservar una llamada de asesoria.
+    - Quiero tener una consulta del ministerio de minas y energia.
+    - Quiero hablar con tu asesor.
+    - Quiero hablar con su gente del ministerio.
+    - quiero una llamada de contacto
+    - Quiero información sobre el ministerio.
+    - quiero reservar una llamada
+    - Quiero reservar una llamada con su equipo de asesores.
+    - Quiero contactar con asesor
+    - Quiero contactar con el equipo del ministerio
+    - Quiero ponerme en contacto con sus asesores.
+    - Quiero obtener más información sobre el ministerio de minas.
+    - quiero hablar con participacion ciudadana
+    - quiero hablar con el ministro
+    - quiero hablar con planeacion
+    - quiero hablar con gestión estratégica
+    - quiero hablar con control interno
+    - quiero hablar con asesoria juridica
+    - quiero hablar con asuntos regulatorios y empresariales
+    - quiero hablar con asuntos ambientales
+    - quiero hablar con el viceministro
+    - quiero hablar con el direccion de mineria empresarial
+    - quiero hablar con direccion de formalizacion minera
+    - quiero hablar con direccion de energia electrica
+    - quiero hablar con direccion de hidrocarburos
+    - quiero hablar con nomina
+    - quiero hablar con talento humano
+    - quiero hablar con la secretaria general
+    - quiero hablar con financiera
+    - quiero hablar con el grupo de soluciones digitales
+    - quiero hablar con el grupo de gestion financiera
+    - quiero hablar con el grupo de comunicación y prensa
+    - quiero hablar con ventas
+    - Quiero hablar con alguien sobre su sistema de precios.
+    - Quiero hablar con sus contratistas.
+    - Quiero hablar con su personal de planta.
+    - Quiero hablar con tu equipo de desarrollo.
+    - me gustaría reservar una llamada
+    - Me gustaría reservar una llamada de ventas.
+    - Me gustaría ponerme en contacto con su equipo de soluciones por favor.
+    - Me gustaría tener una llamada con el equipo del ministerio.
+    - Me gustaría hablar con alguien de su equipo de hidrocarburos.
+    - una llamada
+    - una llamada de asesoria con [Rufus Gardner] (name) estaría bien
+    - citas
+    - reservar una llamada
+    - reservar una llamada de asesoria
+    - reservar una venta
+    - reservar una llamada de ventas
+    - reservar una cita
+    - reservar llamada
+    - llamada de asesoria
+    - reservar una llamada de asesoria
+    - reservando
+    - reserva de asesoria ca
+    - llama
+    - llamar a asesor
+    - llamar al equipo de asesores
+    - ¿Puedo recibir una llamada de soporte?
+    - ¿puedo hablar con el equipo de soporte?
+    - ¿puedo hablar con un representante al cliente?
+    - ¿Puedo hablar con su desagradable asesor?
+    - ¿alguien puede llamarme por favor?
+    - ¿puedes conectarme con un asesor?
+    - comuníqueme con su departamento de soporte
+    - conectarse a asesor
+    - conectarse con el equipo de asesor
+    - contacto
+    - contacta a cualquier asesor
+    - llamada de contacto con asesor
+    - contactar a persona
+    - póngase en contacto con el departamento de asesoria por mí
+    - contacto con asesores
+    - consígueme el equipo de asesores
+    - dame a alguien que pueda explicar tu modelo de trabajo
+    - tener una llamada
+    - tener una llamada con el equipo de asesores
+    - hm ok, entonces quiero hablar con el asesor
+    - hmmm asesoria
+    - cómo reservar una llamada de asesoria
+    - cómo reservar una llamada de asesoria>
+    - ¿Cómo reservar una llamada de asesoria?
+    - elijo la llamada
+    - elijo la llamada con asesor
+    - necesito una llamada de asesoria
+    - necesito una llamada de consulta
+    - necesito la solicitud de llamada
+    - necesito saber cómo puedo reservar soporte
+    - necesito hablar con su equipo de asesores
+    - necesito hablar con asesores
+    - necesito tu fuente de datos
+    - quiero una plataforma por favor
+    - quiero una llamada de asesoria
+    - quiero que alguien me llame
+    - quiero reservar una cita
+    - quiero reservar una llamada de asesores
+    - quiero reservar una llamada de asesor
+    - quiero llamar
+    - quiero charlar con persona
+    - quiero conectarme con personas
+    - quiero conectarme con asesores
+    - quiero conectarme con su equipo de asesores
+    - quiero conectar tus asesores
+    - me gustaría una llamada con [Sr. Hughes] (name)
+    - me gustaría hablar con asesores por favor
+    - me gustaría llamar a [Johnnie Essig] (name)
+    - me gustaría hablar con un asesor
+    - me gustaría hablar con asesor
+    - id como una llamada por favor
+    - solo dame una llamada
+    - déjame llamar al equipo de asesores
+    - déjame contactar a asesoria
+    - déjame tener la llamada
+    - déjame hablar con tus asesores
+    - hablemos con personas
+    - ok, quiero hablar con sus asesores
+    - ok asesoria
+    - por favor, ¿puedes reservar una llamada para mí?
+    - solicitar una llamada
+    - solicitar llamada
+    - Asesoria externa
+    - llamada de asesoria
+    - llamada de soporte
+    - contacto de ventas
+    - Departamento de asesoria
+- intent: enter_data
+  examples: |
+    - $1
+    - 1 euro
+    - 10000 dollars
+    - 10000 dolares
+    - 10000000
+    - 100000k
+    - 10000k
+    - 100k
+    - 150,000 USD
+    - 150,000$/ año
+    - 2 euro
+    - 20k
+    - 240k/año
+    - 400 trillon
+    - 5 pesos
+    - 5 mil pesos
+    - 5 mln
+    - 50,000 dolares
+    - 50,000,000 INR
+    - 50k
+    - 60 millones INR
+    - 75000-150000 euro
+    - 20 mil pesos
+    - 20000 pesos
+    - 100000 pesos
+    - trescientos pesos
+    - doscientos cincuenta mil pesos
+    - 10000 pesos
+    - 150,000 pesos
+    - 60 millones de pesos
+    - 100000-200000 pesis
+    - 1000 pesos
+    - Un bot de servicio al cliente
+    - Un robot lobo
+    - Banco ACME
+    - Marcas ACME
+    - Un robot de cubitos de hielo
+    - Nombres de países
+    - "Evaluar el chat bot :-)"
+    - Flexible, pero buscando una alternativa de bajo costo a la prueba de concepto
+    - Soy [Christina Sullivan] (name)
+    - Soy [Hattie Rice] (name)
+    - Soy [Robert Starks] (name)
+    - Trabajo en [NYT] (company)
+    - Trabajo para [Bayer] (company)
+    - Trabajo para [Stanford University] (company)
+    - Trabajo para el grupo de investigación de IA del centro de turing de la [UBC] (company), Vancouver, Canadá
+    - Trabajo para el [New York Times] (company)
+    - Trabajo para el [new york times] (company)
+    - Me gustaría construir un robot dispensador de cubitos de hielo.
+    - Soy [Gladys Bynum] (name)
+    - Soy [Harvey Cordano] (name)
+    - Soy [Jeanine Hwang] (name)
+    - Soy [Virginia Mason] (name)
+    - Es Drew@Mccarthy.com
+    - Mi presupuesto es oov
+    - Mi correo electrónico es Richard@Simmons.com
+    - Mi nombre es [Ashleigh Mees] (name)
+    - Mi nombre es [chelsea Parker] (name)
+    - Mi nombre es [jessie maglione] (name)
+    - Mi nombre es [Kenneth Sherman] (name)
+    - Mi nombre es [Lee George] (name)
+    - Mi nombre es [Louise Caudill] (name)
+    - Mi nombre es [Richard Smith] (name)
+    - Mi nombre es [Shane Goodyear] (name)
+    - Mi nombre es [Sondra Boyd] (name)
+    - Mi nombre es [Jhon Edinson Castro] (name)
+    - Mi nombre es [Pedro Alvarez] (name)
+    - Mi nombre es [tom Harbin] (name)
+    - Sin trabajo
+    - El nombre de la empresa es [Daimler] (company)
+    - Soy [Kim Vanderveen] (name)
+    - Soy [Norma Taylor] (name)
+    - 0,00 $
+    - $ 1000
+    - 0
+    - 1 millón
+    - 1 millón de grandes
+    - 10 m
+    - 1000000
+    - 100000
+    - 1000
+    - 100
+    - 10
+    - 10k
+    - 120000
+    - 1231
+    - 12
+    - 2 millones
+    - 200 pesos
+    - 200000000
+    - 20000
+    - 20000k
+    - 2000k
+    - 200k
+    - 25.000
+    - 300 rupias
+    - 300000
+    - 300k
+    - 3
+    - 500 millones
+    - 500000
+    - 5000
+    - 500k
+    - 50 p
+    - 5 libras
+    - 6000000
+    - 900 dólares
+    - 90k
+    - 99
+    - [ACME Mops] (company)
+    - [Al Capone] (name)
+    - [Allianz] (company)
+    - [empresa Angel Robinson] (company)
+    - [BBC] (company)
+    - [BCBSM] (company)
+    - [BCG brasil] (company)
+    - [BCG digital ventures] (company)
+    - [BigBotsInc] (company)
+    - [BigBots] (company)
+    - [Bosch] (company)
+    - [CSI] (company)
+    - Carolyn.Eisenhauer@Watkins.com
+    - [Club Mate] (company)
+    - [Empresa de energia de Bogota] (company)
+    - [Ecopetrol] (company)
+    - [aceros s.a] (company)
+    - [David Carter] (name)
+    - [empresa de Denise Armstrong] (company)
+    - Ebony@gmail.com
+    - [Elise] (name)
+    - [Helvetia] (company)
+    - [soy autónomo] (company)
+    - [IBM] (company)
+    - [Soy Phyllis Howard] (name)
+    - J_Herrera@gmail.com
+    - [Jamie Moore] (name)
+    - [Jane Baines] (name)
+    - [John Strickland] (name)
+    - K_Claytor@yahoo.com
+    - K_Rainey@Yochum.net
+    - [Keith Donnell] (name) PhD
+    - Kristin@yahoo.com
+    - [Linda Mchone] (name)
+    - [McKinsey Alemania] (company)
+    - [Michele Perry] (name)
+    - [Michelle García] (name)
+    - [Michelle Vinion] (name)
+    - [Señor. Sweney] (name)
+    - [N26] (company)
+    - [Rasa] (company)
+    - Robert.Sparks@gmail.com
+    - caberto.gonzalez@unal.edu.co
+    - cacastro@minenergia.gov.co
+    - cacastro@outlook.com
+    - firstname.initial@domain.com
+    - [SAP] (company)
+    - [Scalable Minds] (company)
+    - Compañía de [Steven Carter] (name)
+    - diez
+    - [Terri Cline] (name)
+    - [William Zelkind] (name)
+    - Willie@gmail.com
+    - [Zendesk] (company)
+    - a@b.com
+    - abhbose3k@gmail.com
+    - [accenture] (company)
+    - [allianz] (company)
+    - [bayer] (company)
+    - [botium] (company)
+    - [pista] (company)
+    - [intel] (company)
+    - [ETB] (company)
+    - [Enel] (company)
+    - [Vanti] (company)
+    - [Schlumberger] (company)
+    - [Frontera Energy] (company)
+    - [Canacol Energy] (company)
+    - [Halliburton] (company)
+    - [Equion Energy] (company)
+    - [Campetrol] (company)
+    - [klara health] (company)
+    - [microsoft] (company)
+    - mil millones
+    - [reddit] (company)
+    - [susi ai] (company)
+    - [t-mobile US] (company)
+    - [ubisoft] (company)
+    - [vodafone] (company)
+    - [wurst co kg] (company)
+    - [xyz] (company)
+    - alrededor de 10 k
+    - alrededor de $ 500,000 por año
+    - alrededor de 200k
+    - alrededor de un millón de pesos
+    - entre 100 a 200.000
+    - alrededor de 4,000,000 INR
+    - ¿puedes probar con E_Conder@gmail.com en su lugar?
+    - "empresa: [uber] (company)"
+    - correo electrónico = Patti.Salazar@gmail.com
+    - medio millon
+    - tengo unos 200 dólares en mi cuenta de ahorros
+    - soy [Herbert Ball] (name)
+    - es 500000000
+    - es [Katie Betz] (name)
+    - es R_Iuliucci@yahoo.com
+    - es [Robert Weir] (name)
+    - es Shannon.Adelman@Hurt.com
+    - es Mia_Gainey@gmail.com
+    - es Kelly@Coulter.net
+    - es M_Jones@Luna.com
+    - es una pequeña empresa de EE. UU., el nombre es [Microsoft] (company)
+    - es una empresa de tecnología, [apple] (company)
+    - es el [estudio de yoga moabit] (company)
+    - como 60 libras
+    - "correo: Geneva.Favors@yahoo.com"
+    - tal vez entonces en su lugar James@Anast.com
+    - mi nombre es [Kathy Wright] (name)
+    - mi correo comercial es s_Dibenedetto@Simpson.net
+    - mi correo electrónico es Carole@Hart.com
+    - mi correo electrónico es Elinor_Stock@Higgenbotham.com
+    - mi correo electrónico es K_Spivey@yahoo.com
+    - mi correo electrónico es Kelly@Coulter.net
+    - mi correo electrónico es M_Jones@Luna.com
+    - mi correo electrónico es Mia_Gainey@gmail.com
+    - mi correo electrónico es S_Calderon@Cofield.com
+    - mi correo electrónico es Virginia@Brown.com
+    - mi correo electrónico es V_Comley@Nelson.com
+    - mi nombre es [Alexander Kohn] (name)
+    - mi nombre es [betty mclendon] (name)
+    - mi nombre es [Brian Leung] (name)
+    - mi nombre es [Claude Ake] (name)
+    - mi nombre es [Earl Ring] (name)
+    - mi nombre es [Felicia Cosby] (name)
+    - mi nombre es [Frances Kunkle] (name)
+    - mi nombre es [Greg King] (name)
+    - mi nombre es [james culpit] (name)
+    - mi nombre es [Jermaine Mccleery] (name)
+    - mi nombre es [John Evers] (name)
+    - mi nombre es [Joseph Parson] (name)
+    - mi nombre es [Monica Ser] (name)
+    - mi nombre es [Nigel Partida] (name)
+    - mi nombre es [Staci Simpson] (name)
+    - mi nombre es [susan crandall] (name)
+    - mi nombre es [Tabitha Schoenthal] (name)
+    - mi nombre es [Michael Peppers] (name)
+    - mi nombre es [Mariana Pajon] (name)
+    - mi nombre es [Alexander Perez] (name)
+    - mi nombre es [Samuel Castro] (name)
+    - mi nombre es [Santiago Gonzalez] (name)
+    - mi nombre es [Luciana Murcia] (name)
+    - mi nombre es [Daniel López] (name)
+    - mi nombre es [Luis Hernández] (name)
+    - mi nombre es [Hector Sánchez] (name)
+    - mi nombre es [Jose Martínez] (name)
+    - mi nombre es [Martha García] (name)
+    - mi nombre es [John Evers] (name)
+    - mi nombre es [David Martínez] (name)
+    - mi nombre es [Isabella Ramirez] (name)
+    - mi nombre es [Sofia Rojas] (name)
+    - mi nombre es [Sara Restrepo] (name)
+    - mi nombre es [Andres Zapata] (name)
+    - mi nombre es [Maria Estrada] (name)
+    - mi nombre es [Ana Molina] (name)
+    - está bien, es Hee@yahoo.com
+    - ok, es P_Simpkins@Suehs.com
+    - un billón de dólares
+    - nuestra estimación es 10k
+    - la [fábrica de helados] (company) es la empresa
+    - planeamos con 250.000 euros por un año
+    - creemos 4 millones de INR / año
+    - £ 50 mil
+    - [botonic] (company)
+    - [wordpress] (company)
+    - Mi nombre es [manuel] (name)
+    - Soy [Aniket] (name)
+    - Lo siento, no es [john] (name) es [Jhon] (name)
+- intent: restart
+  examples: |
+    - sí, puedes reiniciar
+    - Reinicia este chat /
+    - ok reinicia por favor
+    - reinicia el bot
+    - reinicia esta conversación
+    - quiero reiniciar
+    - ¿Por qué no reinicias ????
+    - oye, dije reiniciar
+    - reiniciar sesión por favor
+    - reiniciar por fa
+    - reiniciar por favor
+    - reinicia la conversación
+    - reinicia esto
+    - reinicia el chat
+    - inicia de nuevo
+    - por favor reinicia
+    - reiniciar chat
+    - reiniciar conversación
+    - reinicia todo
+    - reinicia consultame
+- regex: greet
+  examples: |
+    - hola[^\s]*

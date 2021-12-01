@@ -1,0 +1,704 @@
+version: "2.0"
+nlu:
+- intent: affirm
+  examples: |
+    - aceptar
+    - ¡Impresionante!
+    - Bien
+    - Excelente
+    - Acepto
+    - Acepto.
+    - Estoy de acuerdo
+    - Lo estoy usando
+    - Cambié de opinión. Quiero aceptarlo
+    - Hago
+    - Lo entiendo
+    - Supongo que sí
+    - lo he usado en el pasado
+    - Voy a
+    - Me encantaría eso
+    - ¡Estoy seguro de que lo haré!
+    - Lo estoy usando
+    - Bonito
+    - OK
+    - Por supuesto
+    - Oh si
+    - Ah, OK
+    - OK
+    - De acuerdo, empecemos
+    - OK.
+    - Okey
+    - ¡Okey!
+    - POR FAVOR
+    - SEGURO
+    - Seguro
+    - Dulce
+    - Eso seria genial
+    - SÍ
+    - SÍ
+    - Sí
+    - Sí
+    - Si seguro
+    - Sí
+    - Sí, está bien
+    - ¡Sí!
+    - Yepp
+    - Sí
+    - Sí
+    - Sí, por favor
+    - ¡Sí, por favor!
+    - Sí, acepto
+    - Sí.
+    - Sí
+    - un poquito
+    - absolutamente
+    - aceptar
+    - aceptado
+    - acordado
+    - ah ok
+    - bien
+    - OK, está bien
+    - asombroso
+    - ¡increíble!
+    - increíble
+    - ¡increíble!
+    - confirmar
+    - buena historia hermano
+    - definitivamente si sin duda
+    - hecho
+    - lo suficientemente justo
+    - por supuesto
+    - multa
+    - ¡Joder, sí!
+    - ir
+    - adelante
+    - A por ello
+    - yendo super bien
+    - bien.
+    - estupendo
+    - genial, hagamos eso
+    - ¡estupendo!
+    - Demonios si
+    - Oh sí
+    - hm, me gustaría eso
+    - ¡Que agradable!
+    - acepto
+    - estoy de acuerdo
+    - ¡yo soy!
+    - Quiero eso
+    - ¡voy a!
+    - está bien
+    - está bien
+    - ja
+    - ja genial
+    - eso es genial
+    - jezz
+    - jo
+    - k
+    - kk
+    - vamos a hacerlo
+    - hagámoslo
+    - nada mal
+    - por supuesto
+    - por supuesto que sí
+    - por supuesto
+    - ¡Oh asombroso!
+    - oh genial
+    - oh Dios !!
+    - oh super
+    - OK
+    - está bien
+    - está bien
+    - OK amigo
+    - está bien
+    - vale genial
+    - OK acepto
+    - ok Consultame
+    - ok, me comporto ahora
+    - esta bien, entendí
+    - ok, Consultame
+    - OK...
+    - okey
+    - está bien, genial
+    - bien, seguro
+    - okey..
+    - Oki Doki
+    - okie
+    - ok
+    - oui
+    - Perfecto
+    - por favor
+    - si
+    - algo así como
+    - seguro
+    - cosa segura
+    - ¡seguro!
+    - esta genial
+    - esta bien
+    - eso suena bien
+    - eso es genial
+    - esta bien
+    - eso es bueno
+    - eso es genial
+    - cima
+    - UH Huh
+    - mucho
+    - bueno, sí
+    - y
+    - ya
+    - ya genial
+    - hazlo
+    - ya quiero
+    - ya por favor
+    - eso es genial
+    - yaah
+    - ladrar
+    - gritos
+    - yas
+    - Hurra
+    - S.M
+    - sí, por favor
+    - sí
+    - sí
+    - si haz eso
+    - si seguro
+    - sí '=
+    - Si, Por qué no
+    - yeeeeezzzzz
+    - yeeees
+    - sí
+    - sí, quiero eso
+    - sí, si tengo que hacerlo
+    - si por favor
+    - sí, eso es bueno
+    - sí, eso es genial
+    - sí, lo haré gracias
+    - sí. : /
+    - sí
+    - sí ...
+    - sí
+    - si acepta por favor
+    - sí, cariño
+    - Sí genial
+    - si dame informacion
+    - sí adelante
+    - sí, adelante
+    - si genial
+    - sí, acepto
+    - Sí estoy de acuerdo
+    - sí, he construido un bot antes
+    - ¡sí tengo!
+    - sí lo es
+    - si estuvo bien
+    - sí, por supuesto
+    - sí, por favor
+    - sí, por favor
+    - ¡sí, por favor!
+    - si, por favor
+    - si señor
+    - Sí, eso es genial
+    - si eso es lo que quiero
+    - sí tu puedes
+    - sí'
+    - si, me encantaria
+    - Sí genial
+    - si, dame información, por favor
+    - sí lo soy
+    - sí.
+    - sí
+    - si
+    - yessoo
+    - síss
+    - síssss
+    - siyestyes
+    - si si si
+    - siz
+    - yop
+    - me hiciste una pregunta de sí o no, que respondí con un sí
+    - me tienes, acepto, si quieres que lo haga
+    - sir
+    - sis
+    - sí
+    - yyeeeh
+    - Está bien, genial
+    - OK..
+    - considerando
+    - Más o menos
+    - ¡suena bien!
+    - De Verdad
+    - claro
+    - Claro
+- intent: react_positive
+  examples: |
+    - frijoles frescos
+    - dulce
+    - Bien
+    - bien
+    - super :)
+    - ¡super!
+    - excelente
+    - :)
+    - :D
+    - JA JA
+    - Yo estoy feliz
+    - JAJAJA
+    - Jajaja
+    - Lol eso es gracioso
+    - Se ve bien
+    - GUAU
+    - Guau
+    - Eres genial
+    - Eres lindo.
+    - Eres agradable.
+    - eres realmente genial
+    - jajaja
+    - ja ja
+    - ja ja
+    - jaja
+    - jajaja
+    - contento
+    - Me estoy sintiendo feliz
+    - Yo estoy feliz
+    - hoy estoy feliz
+    - estoy muy contento con tu respuesta
+    - te quiero
+    - es genial
+    - jajaja
+    - te amo
+    - está bien Chatbot, eres genial
+    - consultame es impresionante
+    - una gran demostración
+    - eso es gracioso
+    - esa fue una gran interacción
+    - Es gracioso
+    - hoy fue un buen dia
+    - Guau
+    - ¡Eres un robot rudo!
+    - usted es maravilloso
+    - eres genial
+    - eres un hombre genial
+    - lo estás haciendo muy bien
+    - eres Graciosa
+    - eres genial
+    - Tú eres mi nuevo mejor amigo
+    - te ves muy bien: D
+    - Me gustas
+    - Te quiero
+    - eres realmente inteligente
+    - me gusta Rasa
+    - hèhè
+    - como tu
+    - eres muy inteligente
+    - Eso es genial.
+    - Entiendo
+    - eres bueno
+    - Gran información
+    - quiero decir que me gustó la explicación
+    - ¡Súper! Me encanta rasa
+- intent: goodbye
+  examples: |
+    - Adiós
+    - Adiós
+    - adios
+    - adios?
+    - adiós
+    - adiós .
+    - adiós: P
+    - adiós bot
+    - adiós
+    - adiós bot
+    - adiós por ahora
+    - adiós udo
+    - adiós, fue un placer hablar contigo
+    - ¡adiós!
+    - adiós
+    - te veo luego
+    - ciao
+    - cya
+    - despedida
+    - adiós
+    - ¡adiós consultame!
+    - buenas noches
+    - adiós
+    - adiós.
+    - buenas noches
+    - me tengo que ir
+    - chaoooo
+    - OK, Adios
+    - OK, Adios
+    - OK, Adios
+    - OK, Adios
+    - Nos vemos luego
+    - nos vemos
+    - nos vemos
+    - nos vemos . adiós
+    - Cuídate
+    - entonces adiós
+    - hablar contigo más tarde
+    - toodle-oo
+    - Cerrar esta charla
+    - adis
+    - Chao
+    - chao
+    - hasta luego
+    - Hasta Luego
+    - chau
+    - Chaolin
+    - hasta la vista
+    - vemos
+    - Vemos
+- intent: canthelp
+  examples: |
+    - creo que no puedes ayudarme
+    - ¿y eso es?
+    - ¿Y te llamas a ti mismo empresa de bots? pff
+    - ¿Obtienes algo?
+    - Salida
+    - salir ahora
+    - oye, prometiste contactarme, pero nadie lo hizo, ¡realmente necesito terminar ese robot de seguro de auto!
+    - hm no creo que puedas hacer lo que quiero
+    - supongo que no puedes ayudarme entonces
+    - ¿nada más?
+    - ok, supongo que no puedes ayudarme
+    - ok entonces no puedes ayudarme
+    - ok, pero eso no me ayuda
+    - parada
+    - deja de volver
+    - detener esta conversación
+    - eso fue una mierda, no estás ayudando
+    - eso no es lo que quiero
+    - esta conversación no es realmente útil
+    - esto no conduce a nada
+    - no puedes ayudarme
+    - no puedes ayudarme con lo que necesito
+    - no puedes ayudarme con lo que quiero
+    - no puedes ayudarme
+    - dejar
+    - eso no ayuda
+- intent: deny
+  examples: |
+    - No quiero seguir
+    - No quiero seguir contigo
+    - Yo no quiero decir eso
+    - Yo no quiero hablar
+    - Yo no te voy a dar mi email
+    - No te lo voy a dar a ti
+    - NEIN
+    - NO
+    - renuncio
+    - NO No quier esto
+    - Nah
+    - Nunca
+    - Olvidalo
+    - No
+    - No gracias
+    - No realmente.
+    - No, gracias
+    - No, deje asi
+    - No.
+    - Nopes
+    - No realmente
+    - absolutamente no
+    - declinar
+    - desistir
+    - definitivamente no
+    - denegar
+    - yo declino
+    - no me gusta esto
+    - no lo creo
+    - no quiero ninguno de esos
+    - no quiero
+    - no quiero darte a ti mi email
+    - no quiero
+    - no quiero aceptar
+    - supongo que significa - no
+    - me temo que no
+    - no estoy seguro
+    - n
+    - na
+    - nah
+    - nah estoy bien
+    - nah no para mi
+    - nah, yo estoy bien
+    - nehi
+    - nein
+    - nunca
+    - olvidalo
+    - no
+    - no :(
+    - no quiero
+    - no puedo
+    - no acepto
+    - no yo no quiero
+    - no yo no acepto
+    - no lo haria
+    - no ma'am
+    - no señor
+    - no lo siento
+    - no gracias
+    - no hay posibilidad
+    - no lo hiciste mal
+    - no!!!!
+    - no, lo odio
+    - no, gracias
+    - no. eres idiota
+    - non
+    - noooooooooo
+    - noooooooooooooooooooooooooooooooooooooooo
+    - nop
+    - nope
+    - nope!
+    - nope. estoy bien
+    - nö
+    - lo siento ahora no
+    - muy mal
+    - esto apesta
+    - No quiero decir el nombre de mi empresa.
+    - no para
+    - basta, no me importa !!!
+    - ninguno de ellos
+    - no estoy de acuerdo
+- intent: greet
+  examples: |
+    - Buen día
+    - Bonjour
+    - Buenos días
+    - Buenos dias
+    - Buen duelo
+    - Guten Morgen
+    - HOLA
+    - OYE
+    - Hola
+    - HOLA
+    - Hola chat
+    - hola
+    - hei
+    - Holaoooooo
+    - Hola
+    - Hola Bot
+    - Hola consultame
+    - Hola ia
+    - hola inteligencia
+    - ¡Hola!
+    - Oye
+    - Hola consúltame
+    - Oye bot
+    - heya
+    - Heylo
+    - Hola
+    - Hola asesor
+    - ¡Hola señortia!
+    - Hola bot
+    - Hola hombre
+    - Hola minenergia
+    - Hola ministerio
+    - Hola señor..
+    - Hola
+    - ¡Hola!
+    - Hola'
+    - Hola,
+    - Hola, bot
+    - Hieee
+    - Hieeeeeeeeeeeee
+    - Hola
+    - Dije, ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+    - Bueno, hola ;)
+    - ¿Qué pasa?
+    - Qué pasa
+    - ¿Qué pasa con mi bot?
+    - ¿Qué pasa?
+    - ayyyy que paso
+    - bonjour
+    - ey jefe
+    - buenas noches
+    - Buenos dias
+    - Buenos días
+    - saludar
+    - saludos
+    - hai
+    - hola
+    - hola consultame
+    - hola
+    - holaooo
+    - aureola
+    - halo consultame
+    - oye
+    - heelio
+    - hol
+    - hello
+    - Hola
+    - hola Consultame
+    - Hola todos
+    - Hola amigo
+    - Hola
+    - Hola hay alguien ahí
+    - hola soy yo de nuevo
+    - hola robot
+    - hola consultame
+    - hola corazón sudoroso
+    - hola dulce chico
+    - Hola
+    - Hola Mundo
+    - hola, mi nombre es [Charles Pfeffer] (name)
+    - ¿Hola?
+    - Hola]
+    - hola
+    - holaooo
+    - hola
+    - Oye
+    - hey bot
+    - ¡Ey bot!
+    - oye amigo
+    - hey hey
+    - hey hablemos
+    - oye consultame
+    - hola consultame
+    - hey allí
+    - Hola
+    - hola chico
+    - Hola..
+    - oye, hablemos
+    - ¡Oye, Consultame!
+    - heya
+    - heyho
+    - heyo
+    - hhola
+    - Hola
+    - Hola !
+    - Hola señor
+    - Hola de nuevo
+    - hola puedes hablar?
+    - Hola amigos
+    - Hola amigo
+    - Hola amigos
+    - hola hola
+    - hola soy [Sandra Hernandez] (name)
+    - hola soy [Amanda Anderson] (name)
+    - hola señora rasa
+    - ¡hola amigo!
+    - Hola consúltame
+    - Hola
+    - hola soy yo
+    - ¡Hola!
+    - Hola................................................ .........
+    - ¿Hola?
+    - hieee
+    - Hola yo
+    - hiihihi
+    - hola
+    - hola
+    - Hola
+    - Hola
+    - soy [Karen Mease] (nombre)
+    - jojojo
+    - jop
+    - konichiwa
+    - merhaba
+    - ola consultame
+    - consultame hola
+    - salut
+    - sorber
+    - que paso
+    - ¡Wasssup!
+    - Que pasa
+    - que esta apareciendo
+    - Qué pasa
+    - yo
+    - yoo
+    - ssup?
+    - helleo
+    - hl
+    - hey
+- intent: react_negative
+  examples: |
+    - Me siento mal
+    - Estoy triste
+    - estoy super triste
+    - Estoy triste
+    - estoy super triste
+    - Ahora estoy triste
+    - Esto es malo
+    - eres bastante malo
+    - malo
+    - chico malo
+    - bot malo
+    - broma de mierda
+    - la documentación de rasa es muy mala
+    - estoy enojado por ti
+    - me siento triste
+    - estoy triste
+    - estoy triste por eso
+    - Estoy muy triste
+    - me siento triste
+    - estoy triste
+    - Estoy triste
+    - consultame es malo
+    - triste
+    - muy triste
+    - muy triste :(
+    - super triste
+    - tú rompiste mi corazón
+    - muy muy triste
+    - eres malo
+    - eres un mal bot
+    - usted me hace triste
+    - Estás loco
+    - Usted es grosero
+    - los bots son malos
+    - ¡¡¡¡no me importa!!!!
+    - no me gustan los bots
+    - esta es una experiencia realmente frustrante
+    - eres bastante aburrido
+    - estoy tan preocupado
+    - me iré
+    - Aunque entiendo que aún estás en desarrollo, me siento un poco decepcionado.
+    - Seguramente no eres tan inteligente como pensé
+    - No me siento bien
+    - no es bueno
+    - Eso es tan grosero
+    - Desafortunadamente
+    - Esa herramienta aquí no es buena.
+    - aburrido
+- intent: thank
+  examples: |
+    - Bien. Gracias
+    - Muchas gracias
+    - Gracias
+    - Gracias Consultame
+    - Gracias Consúltame
+    - Muchas gracias
+    - ¡Gracias!
+    - Gracias
+    - Gracias bot
+    - Gracias por eso
+    - ¡Gracias!
+    - asombroso, gracias
+    - salud
+    - salud hermano
+    - genial, gracias
+    - Genial, gracias
+    - Genial, gracias
+    - agradecido
+    - muchas gracias
+    - OK gracias
+    - ok gracias consúltame
+    - ¡OK gracias!
+    - Perfecto, gracias
+    - Gracias
+    - gracias
+    - gracias de todos modos
+    - Gracias
+    - muchas gracias por todo
+    - muchas gracias
+    - gracias por el enlace del foro, lo comprobaré
+    - gracias por la ayuda
+    - gracias esta es una gran noticia
+    - gracias
+    - ¡Gracias!
+    - gracias
+    - gracias
+    - Gracias
+    - si gracias
+    - gracias por tu información
+    - gracias f
+    - arigato

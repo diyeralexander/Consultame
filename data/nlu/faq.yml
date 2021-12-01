@@ -1,0 +1,85 @@
+version: "2.0"
+nlu:
+- intent: faq/canales_atencion
+  examples: |
+    - Tienen canales de atención al ciudadano
+    - En dónde encuentro los canales de atención al ciudadano
+    - Qué son los canales de atención al ciudadano
+    - Quiero saber sobre los canales de atención al ciudadano
+    - Cuáles son los canales de atención al ciudadano
+    - Que es un canal de atencion al ciudadano
+    - Cuentame acerca de los canales de atencion al ciudadano
+    - Como puede encontrar un canal de atención al ciudadano
+- intent: faq/identidad_ministerio
+  examples: |
+    - como es Qué es el Ministerio de Minas y Energía
+    - como es Qué hace el Ministerio de Minas y Energía
+    - como es Información sobre el Ministerio de Minas y Energía
+    - Que es el ministerio de minas y energia
+    - Que hace el ministerio de minas y energia
+    - Que es el ministerio de minas y energía
+    - Que hace el ministerio de minas y energía
+    - A que se dedica el ministerio de minas y energia
+- intent: faq/plan_anticorrupcion
+  examples: |
+    - Qué es el plan anticorrupción y atención al ciudadano
+    - Cuál es el plan anticorrupción y atención al ciudadano
+    - Qué establece el plan anticorrupción y atención al ciudadano
+    - Dónde encuentro el plan anticorrupción y atención al ciudadano
+    - Para que es el plan anticorrupción y atención al ciudadano
+    - Qué hace el plan anticorrupción y atención al ciudadano
+    - Para que sirve el plan anticorrupción y atención al ciudadano
+    - Que es el plan anticorrupción
+    - Como descubren a los corruptos
+    - Como el ministerio pelea contra los corruptos
+    - Como es la lucha contra la corrupción en el ministerio de minas y energia
+- intent: faq/plan_participacion_ciudadana
+  examples: |
+    - Qué es el Plan Estratégico de Participación Ciudadana
+    - Para qué sirve el Plan Estratégico de Participación Ciudadana
+    - De qué trata el Plan Estratégico de Participación Ciudadana
+    - Para qué es el Plan Estratégico de Participación Ciudadana
+    - Cual es el Plan Estratégico de Participación Ciudadana
+    - Que es el plan de participación ciudadana
+    - Donde encuentro el plan de participación ciudadana
+    - Ayudame con el plan de participación ciudadana
+    - Uso del plan de participación ciudadana
+- intent: faq/vision_ministerio_minas
+  examples: |
+    - Cuál es la visión del Ministerio de Minas y Energía
+    - Cómo es la visión del Ministerio de Minas y Energía
+    - Cómo se vera el Ministerio de Minas y Energía en el futuro
+    - visión ministerio de minas y energia
+    - vision del ministerio de minas y energía
+- intent: faq/entidades_adscritas_ministerio_minas
+  examples: |
+    - Cuáles son las entidades adscritas al Ministerio de Minas y Energía
+    - Qué entidades se encuentran adscritas al Ministerio de Minas y Energía
+    - Que entidades estan adscritas al Ministerio de Minas y Energía
+    - Quien esta adscrito al ministerio de minas y energia
+    - Cuales son los adscritas al ministerio de minas y energia
+    - Entidades relacionadas con el ministerio de minas y energia
+- intent: faq/ministros_historico_ministerio_minas
+  examples: |
+    - Cuáles son los nombres de los Ministros desde que comenzó el Ministerio de Minas y Energía
+    - Cómo se llaman los Ministros desde que comenzó el Ministerio de Minas y Energía
+    - Cronología de los Ministros desde que comenzó el Ministerio de Minas y Energía
+    - Listado de los Ministros desde que comenzó el Ministerio de Minas y Energía
+    - Histórico de los Ministros desde que comenzó el Ministerio de Minas y Energía
+    - Cómo se llaman los ministros desde que comenzó el Ministerio de Minas y Energía
+    - Ministros en la historia del ministerio de minas y energia
+- intent: faq/objetivos_plan_participacion_ciudadana
+  examples: |
+    - Cuáles son los objetivos del Plan Estratégico Participación Ciudadana y Rendición de Cuentas
+    - Lista de los objetivos del Plan Estratégico Participación Ciudadana y Rendición de Cuentas
+    - Finalidad de los objetivos del Plan Estratégico Participación Ciudadana y Rendición de Cuentas
+    - Fin del plan de participación ciudadana
+    - Meta del plan de participación ciudadana
+    - Que objetivos tiene el plan de participación ciudadana
+- intent: faq/funciones_ministra_minas_energia
+  examples: |
+    - Cuáles son las funciones de la Ministra de Minas y Energía
+    - Explique las Funciones del Ministra de Minas y Energía
+    - Funcionalidad ministra de minas y energia
+    - Funciones de la ministra de minas y energia
+    - Que hace la ministra de minas y energia.

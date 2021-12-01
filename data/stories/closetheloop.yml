@@ -1,0 +1,234 @@
+version: "2.0"
+stories:
+- story: story number 1
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - action: utter_possibilities
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot  
+  - intent: thank  
+  - action: utter_noworries
+  - action: utter_anything_else  
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback  
+  - action: utter_anything_else
+
+- story: story number 4
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot  
+  - intent: thank  
+  - action: utter_noworries
+  - action: utter_anything_else
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - action: utter_possibilities
+
+- story: story number 5
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback  
+  - action: utter_anything_else
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - action: utter_possibilities
+  
+- story: story number 8
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities
+  
+- story: story number 9
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities
+  - intent: deny
+  - action: utter_nohelp
+  
+- story: story number 11
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: enter_data
+  - action: utter_thumbsup
+  - action: utter_anything_else
+  
+- story: story number 13
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot    
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: enter_data
+  - action: utter_thumbsup
+  - action: utter_anything_else
+  
+- story: story number 14, continue
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - intent: out_of_scope
+  - action: utter_out_of_scope  
+  - action: utter_ask_continue_register 
+  - intent: affirm
+  - action: utter_great
+  - action: user_register_form
+  - active_loop: null 
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: enter_data
+  - action: utter_thumbsup
+  - action: utter_anything_else
+ 
+- story: story number 15
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: greet
+  - action: action_greet_user
+  
+- story: story number 17
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: deny
+  - action: utter_nohelp
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - action: utter_possibilities
+  
+- story: story number 18
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: deny
+  - action: utter_nohelp
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities
+  - intent: deny
+  - action: utter_nohelp
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - action: utter_possibilities
+  - intent: enter_data
+    entities:
+    - number: 5
+  - action: utter_not_sure
+  - action: utter_possibilities
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities
+
+- story: Story number 19
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: greet
+  - action: action_greet_user
+  - intent: affirm
+  - action: utter_thumbsup
+  
+- story: Story number 20
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback  
+  - action: utter_anything_else  
+  - intent: affirm
+  - action: utter_what_help 
+  
+- story: Story number 21
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback  
+  - action: utter_anything_else  
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities

@@ -1,0 +1,319 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 10
+  carry_over_slots_to_new_session: false
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- faq:
+    use_entities: true
+- affirm:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- feedback:
+    use_entities: true
+- deny:
+    use_entities: true
+- enviar_pregunta:
+    use_entities: true
+- calificacion_encuesta:
+    use_entities: true
+- calificacion_chat_a:
+    use_entities: true
+- calificacion_chat_b:
+    use_entities: true
+- nlu_fallback:
+    use_entities: true
+- enter_data:
+    use_entities: []
+- calificacion:
+    use_entities: true
+- react_positive:
+    use_entities: true
+- react_negative:
+    use_entities: true
+- thank:
+    use_entities: true
+- restart:
+    use_entities: true
+- canthelp:
+    use_entities: true
+- trigger_response_selector:
+    use_entities: []
+entities:
+- email
+- name
+- pregunta
+- calificacion_value
+- category
+- feedback_value
+- llena_encuesta
+- respuesta_a_value
+- respuesta_b_value
+- language
+- retrieval_intent
+- number
+slots:
+  email:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  name:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  pregunta:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  calificacion:
+    type: rasa.shared.core.slots.AnySlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feedback_value:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+    values:
+    - '1'
+    - '2'
+    - '3'
+  llena_encuesta:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+    values:
+    - yes
+    - no
+  respuesta_a_value:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+    values:
+    - '1'
+    - '2'
+    - '3'
+  respuesta_b_value:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+    values:
+    - '1'
+    - '2'
+    - '3'
+  calificacion_value:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+    values:
+    - '1'
+    - '2'
+    - '3'
+  requested_slot:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  faq:
+    type: rasa.shared.core.slots.AnySlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  shown_privacy:
+    type: rasa.shared.core.slots.AnySlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  retrieval_intent:
+    type: rasa.shared.core.slots.AnySlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_how_can_I_help:
+  - text: Bienvenido. Soy consúltaME. Puedo resolver tus consultas acerca del ministerio de minas y energías.
+  utter_goodbye:
+  - text: Hasta Luego!
+  - text: Adios!
+  - text: Que estes muy bien!
+  - text: Hasta luego, fue un placer hablar contigo!
+  utter_ask_continue_register:
+  - text: Aún quieres enviar tu pregunta?
+  utter_greet_name:
+  - text: Hola, {name}!, soy Consúltame, como puedo ayudarte?
+  utter_greet_noname:
+  - text: Hola, mi nombre es Consúltame, dime en que puedo ayudarte?.
+  utter_greet:
+  - text: Hola, mi nombre es Consúltame, dime en que puedo ayudarte?.
+  utter_inform_privacypolicy:
+  - text: Al chatear conmigo aceptas la [politica de protección de datos](https://www.minenergia.gov.co/documents/10180/0/Pol%C3%ADtica++de+Protecci%C3%B3n+de+Datos+Personales+en+el+Ministerio+de+Minas.pdf)
+  utter_moreinformation:
+  - text: Para poder ayudarte, necesitamos unos datos tuyos para poder contactarte!
+  utter_fallback:
+  - buttons:
+    - payload: /enviar_pregunta
+      title: Enviar pregunta
+    - payload: /goodbye
+      title: Terminar conversación
+    text: No he podido entender tu pregunta, es posible enviarla a uno de nuestro colaboradores.
+  utter_default:
+  - text: Lo siento, no entendí eso 🤷. ¿Podrías reformular tu pregunta?
+  - text: No entendí, ¿podrías clarificar tu pregunta por favor?
+  - text: lo siento, pero no te entendí. ¿Podría reformular lo que acabas de decir?
+  - text: Me temo que no entendí lo que acabas de decir. ¿Podrías reformular tu pregunta?
+  - text: No entendí bien eso, ¿podrías reformular tu mensaje?
+  - text: ¿Podrías reformular tu mensaje? No lo entendí, lo siento.
+  utter_diligenciar_encuesta:
+  - buttons:
+    - payload: /affirm
+      title: ✔ Si
+    - payload: /deny
+      title: ✖ No
+    text: Queremos saber cómo ha sido tu experiencia para mejorar la calidad de nuestro servicio, ¿deseas contestar unas preguntas?
+  utter_ask_calificacion:
+  - buttons:
+    - payload: /calificacion{"calificacion_value":"1"}
+      title: 🙁 Malo
+    - payload: /calificacion{"calificacion_value":"2"}
+      title: 😑 Regular
+    - payload: /calificacion{"calificacion_value":"3"}
+      title: 😃 Bueno
+    text: Cómo te pareció el servicio ofrecido por consúltaME nuestro asesor virtual?
+  utter_calificacion_respuesta_b:
+  - buttons:
+    - payload: /calificacion_chat_b{"respuesta_b_value":"1"}
+      title: Regular
+    - payload: /calificacion_chat_b{"respuesta_b_value":"2"}
+      title: Bueno
+    - payload: /calificacion_chat_b{"respuesta_b_value":"3"}
+      title: Malo
+    text: Como calificas la respuesta obtenida por este medio?
+  utter_residence:
+  - text: Yo vivo dentro de esta aplicación todo el dia.
+  - text: Aqui mismo dentro de este app. Siempre para cuando me necesites.
+  utter_wrong_calificacion:
+  - text: Por favor ingresa una calificación valida.
+  utter_wrong_name:
+  - text: Por favor ingresa un nombre valido de al menos 3 caracteres.
+  utter_wrong_email:
+  - text: Por favor ingresa un correo electrónico valido.
+  utter_wrong_pregunta:
+  - text: Por favor ingresa una pregunta de al menos 10 caracteres.
+  utter_wrong_pregunta_max:
+  - text: Por favor ingresa una pregunta de menos de 500 caracteres.
+  utter_ask_name:
+  - text: Cual es tu nombre?
+  utter_ask_email:
+  - text: En que dirección de correo puedo contactarte?
+  utter_ask_pregunta:
+  - text: Escribe por favor tu pregunta
+  utter_confirm_questionrequest:
+  - text: Muchas gracias, estaremos en contacto muy pronto! ✉️
+  utter_confirm_feedbackrequest:
+  - text: Muchas gracias por tu evaluación!
+  utter_questionrequest_failed:
+  - text: No hemos podido guardar tus datos. Lo sentimos! Sin embago puedes contactarnos desde nuestro sitio! [website](https://www.minenergia.gov.co/en/canales-de-atencion-al-ciudadano) 🙂
+  utter_feedbackrequest_failed:
+  - text: No hemos podido guardar tu calificación. Lo sentimos! Sin embago puedes contactarnos desde nuestro sitio! [website](https://www.minenergia.gov.co/en/canales-de-atencion-al-ciudadano) 🙂
+  utter_ask_feedback:
+  - buttons:
+    - payload: '/feedback{{"feedback_value": "positive"}}'
+      title: 👍
+    - payload: '/feedback{{"feedback_value": "negative"}}'
+      title: 👎
+    text: How is this conversation going?
+  utter_great:
+  - text: Bien! 👍
+  - text: Eso esta bien! 🙌
+  - text: Increible! 🎉
+  - text: Bien, sigamos 🚀
+  utter_react_negative:
+  - text: 😕
+  - text: 😞
+  - text: 😥
+  - text: 😢
+  utter_react_positive:
+  - text: 😄
+  - text: 😊
+  - text: 👏
+  - text: 😍
+  utter_thumbsup:
+  - text: 👍
+  - text: Perfecto.
+  - text: Entendido.
+  utter_canthelp:
+  - text: Lo siento no puedo ayudarte. Si quieres saber mas del MME, revisa nuestra [pagina](https://www.minenergia.gov.co/en/).
+  utter_anything_else:
+  - text: ¿Hay algo más en lo que pueda ayudarte?
+  utter_what_help:
+  - text: Bien, como puedo ayudarte?
+  utter_noworries:
+  - text: No hay problema!
+  - text: Con mucho gusto!
+  - text: Soy feliz ayudandote.
+  utter_nohelp:
+  - text: Por ahora es todo lo que puedo responderte, si tienes alguna duda escribela por favor!
+  utter_possibilities:
+  - buttons:
+    - payload: /enviar_pregunta
+      title: Enviar pregunta
+    - payload: /goodbye
+      title: Terminar
+    - payload: /restart
+      title: Reiniciar
+    text: |
+      Puedes preguntarme acerca de:
+      - Temas relacionados con el ministerio de minas y energía
+      - Preguntas frecuentes
+      - Enviar una pregunta a nuestros colaboradores
+      - Terminar la conversación
+      - Reiniciar la conversación
+  utter_not_sure:
+  - text: Hmm, no estoy seguro de lo que quieres decir...
+  utter_can_do:
+  - text: Por supuesto!
+  - text: Claro que si!
+  utter_restart:
+  - text: Cargando... he sido reiniciado!
+  - text: Felicidades, me has reiniciado! 😉
+  utter_restart_with_button:
+  - buttons:
+    - payload: /restart
+      title: Reiniciar el chat
+    text: Presiona el boton de abajo si quieres empezar de nuevo la conversación.
+actions:
+- action_my_fallback
+- action_submit_user_register_form
+- validate_user_register_form
+- action_save_feedback
+- action_continue_feedback
+- action_set_faq_slot
+- action_send_question
+- action_greet_user
+- action_trigger_response_selector
+forms:
+  product_search_form:
+    required_slots: {}
+  user_register_form:
+    required_slots:
+      email:
+      - type: from_text
+      name:
+      - type: from_text
+      pregunta:
+      - type: from_text
+e2e_actions: []

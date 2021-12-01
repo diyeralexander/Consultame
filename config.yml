@@ -1,0 +1,42 @@
+language: es
+pipeline:
+- name: WhitespaceTokenizer
+  token_pattern: (?u)\b\w+\b
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+  OOV_token: oov
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+  epochs: 100
+  ranking_length: 5
+- name: EntitySynonymMapper
+  scale_loss: false
+  epochs: 100
+- name: ResponseSelector
+  retrieval_intent: out_of_scope
+  scale_loss: false
+  epochs: 100
+- name: ResponseSelector
+  retrieval_intent: faq
+  scale_loss: false
+  epochs: 100
+- name: FallbackClassifier
+  threshold: 0.7
+  ambiguity_threshold: 0.1
+policies:
+- name: RulePolicy
+  core_fallback_threshold: 0.3
+  core_fallback_action_name: "action_my_fallback"
+  enable_fallback_prediction: True
+- max_history: 4
+  name: AugmentedMemoizationPolicy
+- name: TEDPolicy
+  max_history: 20
+  epochs: 20
+  batch_size:
+  - 32
+  - 64

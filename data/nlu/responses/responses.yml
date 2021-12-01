@@ -1,0 +1,24 @@
+version: "2.0"
+responses:
+  utter_faq/canales_atencion:
+  - text: Ministerio de Minas y Energía. Lineamientos, políticas y documentos puestos a disposición para recibir sus aportes e inquietudes. Peticiones, quejas, reclamos y denuncias. Chats. Blogs. Foros de Consulta Ciudadana. Trámites y Servicios [Mas información](https://www.minenergia.gov.co/en/canales-de-atencion-al-ciudadano)
+  utter_out_of_scope/non_spanish:
+  - text: Solo entiendo el idioma Español, disculpame! 😔.
+  utter_out_of_scope/other:
+  - text: No puedo ayudarte con eso, lo siento 😔.
+  utter_faq/identidad_ministerio:
+  - text: El Ministerio de Minas y Energía es una entidad pública de carácter nacional superior nivel central, creado mediante Decreto 968 de 1940, cuya responsabilidad es la de los recursos naturales y seguros del país. La orientación en el uso y la regulación de los mismos, la garantía de su abastecimiento y la protección de los recursos naturales, el medio ambiente, el medio ambiente, el mantenimiento, la restauración y el desarrollo sostenible, el cumplimiento con los criterios de evaluación, el seguimiento y manejo ambiental señalados por la autoridad ambiental competente. [Mas información.](https://www.minminas.gov.co/en/ministerio1)
+  utter_faq/plan_anticorrupcion:
+  - text: El Plan Anticorrupción y Atención a Ciudadanía es un instrumento de tipo preventivo para el control de la corrupción, su función incluye cuatro componentes autónomos e independientes, aquellos que cuentan con un soporte normativo propio. La obligación para las entidades formulan un Plan Anticorrupción y Atención a la ciudadanía del Estado Anticorrupción, para el propósito de las acciones dirigidas a la corrupción, los mecanismos que facilitan su prevención, control y seguimiento.
+  utter_faq/plan_participacion_ciudadana:
+  - text: El Plan Estratégico de Participación Ciudadana es una herramienta que debe servir para establecer las pautas y directrices para el fomento de la participación, con la voluntad de conseguir un Ayuntamiento de calidad que busque la implicación de los ciudadanos en los asuntos y decisiones que les afecten. En el Ministerio de Minas y Energía, el Grupo de Participación y Servicio al Ciudadano de la Secretaria General es la dependencia encargada de ejecutar las estrategias necesarias,para que los ciudadanos y las partes interesadas reciban una atención oportuna y efectiva, cuando hacen uso de los mecanismos de protección ciudadana o buscan ejercer el control social a la gestión de la Entidad. [Mayor información](https://www.minenergia.gov.co/documents/10180/23879875/Plan+Estrat%C3%A9gico+de+Participaci%C3%B3n+Ciudadana+y+Rendici%C3%B3n+de+Cuentas+MinMinas+2017+2V.pdf/e1fe3214-1091-495f-b3fa-bd2d17f383d8)
+  utter_faq/vision_ministerio_minas:
+  - text: El Ministerio de Minas y Energía será reconocido por la formulación de políticas que garanticen el desarrollo y aprovechamiento eficiente de los recursos mineros y energéticos en Colombia, su explotación, abastecimiento y exportación de sus excedentes, trabajando con eficiencia, innovación, calidad en su gestión y promoción de la responsabilidad social y ambiental.
+  utter_faq/entidades_adscritas_ministerio_minas:
+  - text: 'Las entidades adscritas al ministerio son: Agencia Nacional de Hidrocarburos (ANH), Agencia Nacional de Minería(ANM), Comisión de Regulación de Energía y Gas (CREG), Unidad de Planeación Minero Energética (UPME), Instituto de Planeación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) y Servicio Geológico Colombiano.  Mayor información sobre las [entidades adscritas.](https://www.minminas.gov.co/en/entidades-adscritas-y-vinculadas1)'
+  utter_faq/ministros_historico_ministerio_minas:
+  - text: Los Ministros 1940 - 2016 son:[Ministerio de Minas y Energía 1973 - 2016](https://www.minminas.gov.co/en/ministros-de-la-entidad)[Ministerio de Minas y Petróleos 1940-1973](https://www.minminas.gov.co/en/ministros-de-la-entidad)"
+  utter_faq/objetivos_plan_participacion_ciudadana:
+  - text: Dar a conocer a los ciudadanos - clientes y partes interesadas del Ministerio de Minas y Energía nuestras políticas y lineamientos para la atención a los ciudadanos y divulgar los escenarios de atención y participación ciudadana establecidos por la entidad,con el fin de interactuar con ellos y facilitar el ejercicio del control social,su intervención en la toma de decisiones y la satisfacción de sus requerimientos de forma eficaz, eficiente y efectiva.
+  utter_faq/funciones_ministra_minas_energia:
+  - text: Artículo 5. Son funciones del Despacho del Ministro de Minas y Energía, además de las previstas en la Constitución Política, en el artículo 61 de la Ley 489 de 1998 y en las demás disposiciones legales. Consulta las [funciones del Ministro.](https://www.minenergia.gov.co/en/la-ministra)

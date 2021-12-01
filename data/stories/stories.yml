@@ -1,0 +1,178 @@
+version: "2.0"
+
+stories:
+
+- story: short greet and goodbye
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: thanks
+  steps:
+  - intent: thank
+  - action: utter_noworries
+  - action: utter_anything_else
+  
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: greet
+  steps:
+  - or:
+    - intent: greet
+    - intent: enter_data
+      entities:
+      - name: akela
+  - action: action_greet_user
+
+- story: question + survey
+  steps:
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback
+  - action: utter_anything_else
+
+- story: question + Deny survey
+  steps:
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: deny
+  - action: utter_thumbsup
+  - action: utter_anything_else
+  
+- story: send question + survey
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback
+  - action: utter_anything_else
+
+- story: send question + Deny survey
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: deny
+  - action: utter_thumbsup
+  - action: utter_anything_else
+    
+- story: send question, confirm, then faq
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback
+  - action: utter_anything_else
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  
+- story: faq, then send question, then confirm
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback
+  - action: utter_anything_else 
+
+- story: neither options
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: deny
+  - action: utter_nohelp
+  
+- story: neither --> send question
+  steps:
+  - intent: greet
+  - action: action_greet_user
+  - intent: deny
+  - action: utter_nohelp
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback
+  - action: utter_anything_else  
+  
+- story: anything else? - no
+  steps:
+  - action: utter_anything_else
+  - intent: deny
+  - action: utter_thumbsup
+  
+- story: anything else?
+  steps:
+  - action: utter_anything_else
+  - intent: enter_data
+  - action: utter_not_sure
+  - action: utter_possibilities
+  
+- story: positive reaction
+  steps:
+  - intent: react_positive
+  - action: utter_react_positive
+- story: negative reaction
+  steps:
+  - intent: react_negative
+  - action: utter_react_negative

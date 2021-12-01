@@ -1,0 +1,80 @@
+version: "2.0"
+stories:
+- story: faqs
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  
+- story: faq + continue
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  - intent: thank
+  - action: utter_noworries
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_what_help
+
+- story: faq + No continue
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  - intent: thank
+  - action: utter_noworries
+  - action: utter_anything_else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: faq + goodbye
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: more faqs
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  
+- story: just send question + feedback
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: affirm
+  - action: utter_ask_calificacion
+  - intent: calificacion
+  - action: action_save_feedback
+  - action: utter_anything_else
+
+- story: just send question + No feedback
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: action_set_faq_slot
+  - intent: enviar_pregunta
+  - action: utter_moreinformation
+  - action: user_register_form
+  - active_loop: user_register_form  
+  - active_loop: null
+  - action: action_submit_user_register_form
+  - action: utter_diligenciar_encuesta
+  - intent: deny
+  - action: utter_thumbsup
+  - action: utter_anything_else

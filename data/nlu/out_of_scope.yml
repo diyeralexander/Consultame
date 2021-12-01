@@ -1,0 +1,420 @@
+version: "2.0"
+nlu:
+- intent: out_of_scope/non_spanish
+  examples: |
+    - Wie fange ich mit Rasa an?
+    - hilf mir beim start
+    - tschüssikowski
+    - ¿what happen?
+    - ça va ?
+    - what is your name?
+    - wer bist Du?
+    - how do I start this chat
+    - come stai?
+    - how are you
+    - where are you from
+    - are you from?
+    - epdi iruka
+    - are you human
+    - kalhmera sara ti kaneis
+    - kannst du auch deutsch?
+    - kannst du dies auch auf deutsch?
+    - oui je besoine de l'aide
+    - what can you do?
+    - tu parles francais?
+    - tudo bom
+    - tu pagal
+    - kannst du mir helfen
+    - tu kaisi he
+    - こにちは
+    - 日本語分かる？
+    - chào
+    - 你好
+    - I'm speaking a non-english language.
+    - 呵呵
+    - 我该如何使用
+    - 你懂中文吗？
+    - 您好
+    - 你叫什么名字
+    - 你是谁
+    - 中文
+    - kya hindi me bat kar sakate ho
+    - Dumme sara
+    - αστεία λές
+    - chat open
+    - 卧槽
+- intent: out_of_scope/other
+  examples: |
+    - Te estoy haciendo una pregunta fuera de alcance.
+    - 4 + 2 =?
+    - Después de registrarme, veo que tengo un saldo disponible de 0.00000000. ¿Qué representa este equilibrio?
+    - ¿Estás listo?
+    - Pero eres un sitio en español :(
+    - ¿Puedo hacerte preguntas primero?
+    - Puedo morir
+    - ¿Puedo conseguir una hamburguesa?
+    - ¿YouTube puede hablar?
+    - Podrías devolverme la llamada ?
+    - ¿Me puede dar la contraseña de su centro de datos?
+    - ¿Puede darme la contraseña de su centro de datos?
+    - ¿Puedes hacer sándwiches?
+    - ¿Puedes enviarme un uber?
+    - ¿Tengo que aceptar?
+    - ¿Conoce a [Kevin Pelton] (name)?
+    - Encuentra la [pizzahut] más cercana (company)
+    - ¿Nos hemos visto antes?
+    - HomeBase se anuncia como una comunidad. ¿Existe alguna forma de interactuar con otros miembros de la comunidad?
+    - ¿Cuánto tiempo se tarda en configurar un chatbot?
+    - ¡Ya te dije! Soy un mierda
+    - soy usuario
+    - soy adicto a los opioides
+    - soy adicto a los opioides
+    - Estoy hambriento
+    - Estoy intentando construir uno, e investigué un poco antes, pero aún no he hecho trabajos prácticos.
+    - Apenas puedo ver este texto blanco sobre fondo gris claro ...
+    - Cambié de opinión
+    - lo he instalado
+    - Necesito un médico de cabecera en 94301
+    - Necesito un médico de cabecera en 94301
+    - ¡Necesito una novia!
+    - necesito comer pastel
+    - quiero comprar un avión
+    - Quiero casarme contigo
+    - quiero una computadora portátil nueva
+    - quiero reservar un hotel
+    - quiero cocina francesa
+    - Quiero pizza
+    - Quiero morirme
+    - quiero pedir pizza
+    - quiero usar tubería
+    - Voy a ver
+    - soy un mierda
+    - ¿Este chatbot es realmente inteligente?
+    - ¿Es este chatbot orientado a objetivos?
+    - ¿Hoy es sábado?
+    - Envíame la guía
+    - Hazme un sándwich
+    - NLW
+    - Bonito nombre
+    - ¿Ahora?
+    - Robot de pizza
+    - recarga
+    - SEL ME ALGO
+    - Probar no funciona
+    - El tiempo es bueno
+    - Hoy dia
+    - Pruébalo roto
+    - ¿Que día es hoy?
+    - ¿Que comiste ayer?
+    - ¿Qué prefieres?
+    - Cuál es la fecha de hoy
+    - ¿Cuáles son tus aficiones?
+    - ¿Qué te hace mejor que un humano?
+    - ¿Qué es 1 + 1?
+    - ¿Qué hace YouTube?
+    - ¿Cuál es tu sistema de backend?
+    - ¿Dónde estoy ahora mismo?
+    - ¿Dónde estoy?
+    - OMS ?
+    - Quiénes son tus clientes
+    - ¿Por qué no respondes?
+    - ¿Por qué mi puntaje de CONFIANZA se establece en 50 después de completar el proceso de registro?
+    - ¿No me preguntarás cómo estoy?
+    - Estás azul.
+    - [Kristin] (name), quiero casarme contigo
+    - un ratón domesticado llegará a su puerta en los próximos días
+    - Eres soltero
+    - ¿de nuevo?
+    - alexa, pide 5 toneladas de cloruro de sodio
+    - y haga ruidos de gallina en el teléfono
+    - ¿Vale la pena suscribirse al boletín?
+    - ¿eres facebook?
+    - eres tú, facebook?
+    - ¿Eres soltero?
+    - ¿eres dev?
+    - ¿Eres ruso?
+    - estás enfermo
+    - eres vegano
+    - mejor que tu
+    - reservar un billete
+    - pero te acabo de decir eso :(
+    - pero si rasa es de código abierto, ¿por qué tiene un equipo de ventas?
+    - compra uno por favor
+    - comprar comestibles
+    - llámame padre
+    - ¿podemos seguir charlando?
+    - puedes reservar la cena
+    - puedes animarme
+    - puedes cocinar la cena
+    - ¿me puedes dar una taza de café?
+    - ¿puedes ayudarme con los documentos?
+    - ¿puedes ayudarme con tus documentos?
+    - ¿puedes ayudarme con tus documentos?
+    - ¿Puedes aprender de nuestra conversación?
+    - ¿Puedes hablar de política?
+    - Entiendes ?
+    - no pueden ver
+    - chgfhgh
+    - chino ¿ok?
+    - más frío
+    - común, solo inténtalo
+    - conectarse a alexa
+    - cr
+    - servicio personalizado
+    - te rompí
+    - cena
+    - ¿Crees en Dios?
+    - ¿tienes un numero de telefono?
+    - ¿tienes tu foto?
+    - me conoces
+    - sabes ras
+    - ¿Mientes queso?
+    - te gusta el fútbol
+    - te gustan las peliculas
+    - ¿Vendes robots aspiradores?
+    - ¿quieres casarte conmigo?
+    - documentos
+    - doctor
+    - todo
+    - ejemplo de un chatbot
+    - genocidio
+    - consígueme un compañero de club
+    - dame una amiga
+    - Dame comida
+    - regresa
+    - ¿Google?
+    - genial, me gustaría comprar una casa
+    - espera déjame encontrarlo
+    - ¿Alguna vez has visto a [Keith Reilly] (name)?
+    - ayuda con [Alma Abrams] (name)
+    - ayuda con mi vida
+    - oye, pequeña mamá, déjalas susurrar en tu oído
+    - oye, te contacté hace un par de días pero no obtuve respuesta, ¿alguna noticia?
+    - cómo
+    - ¿Qué tal Nueva York?
+    - ¿Cómo están los gatos de [Alicia Jackson] (name)?
+    - como son los niños
+    - ¿cómo puedo conseguirlos?
+    - ¿cómo puedo probar esto?
+    - ¿por qué dices ok?
+    - como aprendiste
+    - que bueno es consultame
+    - cómo se compara con alexa
+    - ¿Cuánto tiempo llevas conectado?
+    - ¿Cuánto tiempo se lanzará la próxima versión?
+    - cuantas líneas de códigos
+    - ¿Cuánto es 10 + 89?
+    - cuanto es 10 + 89
+    - como conseguir empleo
+    - como ir a newyork?
+    - Estoy hambriento
+    - tengo hambre, ¿qué debo hacer?
+    - no soy un desarrollador pero necesito esto para negocios
+    - soy qq
+    - no puedo atender _su_ solicitud
+    - no me importa como estas
+    - Espero que estes mejor
+    - Necesito ayuda de inmediato para implementar el mejor bot que puedas imaginar.
+    - estoy buscando trabajo
+    - ya te dije
+    - quiero festejar
+    - quiero un helado que no gotee
+    - quiero cafe
+    - quiero comida
+    - quiero una buena flycam
+    - ¡Quiero más de ti en mi vida!
+    - Quiero pizza
+    - ¡¡Quiero pizza!!
+    - quiero reservar un hotel
+    - quiero comprar un roomba para mi nieto
+    - Quiero comer
+    - quiero encontrar nuevos amigos
+    - quiero averiguar qué se puede construir con rasa
+    - Quiero volar
+    - quiero almorzar
+    - quiero saber la situación actual en Pakistán
+    - quiero pedir una pizza
+    - quiero ver a sus clientes felices
+    - domesticaré un ratón para ti
+    - ¿[John Lewis] (name) todavía está casado contigo?
+    - ¿Es un páramo lleno de partes de robots rotas?
+    - es permitido
+    - ¿Rasa es un estudio?
+    - ¿Rasa es bueno?
+    - ¿es de tu incumbencia?
+    - ¿El boletín no es solo spam?
+    - es una pena
+    - tengo hambre
+    - licencia
+    - ljljl
+    - comida
+    - ¿¿comida??
+    - aprendizaje automático
+    - envíame los pasos por correo
+    - ¿Mascota significa?
+    - más
+    - montaña
+    - mi nombre k
+    - no, espera, vuelve. Quiero un helado goteando pero un cono que lo atrape para que puedas beber el helado más tarde.
+    - ofreceme el almuerzo
+    - ¡Dios mío, otra vez no!
+    - oh, espera, te di la dirección de correo electrónico de mi trabajo, ¿puedo cambiarla?
+    - ok uno entonces
+    - ¿En qué sistema basado en nlp está construyendo?
+    - ¿sólo eso?
+    - buen orden
+    - ordenar pizza
+    - personal o laboral?
+    - Pizza
+    - por favor ayuda con mi helado, está goteando
+    - por favor hjave lunchj
+    - Por favor, date prisa, tengo un plazo de dos semanas para entregar el bot. Es para una empresa muy grande.
+    - por favor toca música
+    - temas rasa
+    - ¿De Verdad? eres tan susceptible?
+    - actualizar
+    - región con no. de registros
+    - recuerda mi nombre
+    - búsqueda en wikipedia
+    - mierda
+    - muéstrame una foto de un pollo
+    - bot tonto
+    - Cantame una canción
+    - Entonces, ¿estoy ayudando ahora mismo a entrenarte?
+    - algo más
+    - alguien llame a la policía creo que el bot murió
+    - lo siento, no puedo reformular
+    - sudo hazme un sándwich
+    - Cuéntame sobre ti
+    - cuéntame más sobre la siguiente mejor acción
+    - eso no suena a broma
+    - ¡ese enlace no funciona!
+    - el que es mejor que tu
+    - te engañó
+    - apaga mi estufa
+    - umm
+    - espera un poco, sigo leyendo
+    - ¿Qué pasa con el clima?
+    - ¿Qué son los asistentes de IA contextuales y en qué se diferencian de los chatbots?
+    - ¿Qué estás haciendo ahora?
+    - ¿Cuáles son sus usos para las universidades?
+    - ¿Qué comiste en el almuerzo?
+    - ¿Qué piensas oye de siri?
+    - ¿Qué opinas de Siri?
+    - ¿Qué opinas de [Stanley Ramirez] (name)?
+    - que piensas de alexa
+    - que siente tu alma mi amigo
+    - que haciendo
+    - ¿Qué otra cosa?
+    - qué películas te gustan
+    - ¿Qué hago después de cd starter-pack-rasa-stack?
+    - ¿Qué es un discurso?
+    - que es una mascota
+    - que es duolingo
+    - ¿Cuál es la diferencia entre bot y mascota?
+    - ¿Qué es la evolución?
+    - que es google rcs
+    - ¿Qué es el aprendizaje automático?
+    - ¿Qué es bueno?
+    - ¿Cuál es la capital de Delhi?
+    - cual es la capital de la india
+    - ¿Cuál es el precio actual de la gasolina?
+    - Cuál es el día ?
+    - ¿Cuál es el caso de uso real en el que podemos usar este?
+    - ¿Cuál es su dirección?
+    - cual es tu propósito
+    - ¿Qué significa lnu?
+    - ¿Cuáles son las últimas noticias?
+    - ¿lo que comiste hoy?
+    - ¿Qué es 5 + 5?
+    - ¿Qué es un boletín de noticias?
+    - que es gingerale
+    - ¿Qué está haciendo tu esposa este fin de semana?
+    - ¿qué?
+    - que es eso
+    - cual es el signo
+    - ¿Cuándo viene el próximo tren?
+    - ¿Dónde obtengo los archivos de instalación para mac?
+    - ¿Dónde está Oslo?
+    - donde esta mexico?
+    - ¿donde es la fiesta?
+    - ¿De qué ciudad estás hablando?
+    - qué correo electrónico
+    - ¿A qué correo electrónico debo enviar?
+    - qué archivo se crea primero mientras se desarrolla el bot de chat
+    - ¿Cuál es el asincronismo LNU?
+    - qué tipo
+    - ¿quiénes son los ingenieros de rasa?
+    - ¿Quienes son?
+    - quién es [Sharon Zeches] (nombre)
+    - ¿Quién es el director general de samsung bangalore?
+    - ¿quién es el presidente de la india?
+    - ¿Quién es tu robot favorito?
+    - quien dejo salir al perro
+    - quien fue hitler
+    - ¿Quién responderá a mi correo electrónico?
+    - ¿Quién es Bill Gates?
+    - ¿Qué piensas de gdpr?
+    - ¿Por qué necesitas eso?
+    - ¿Por qué se llama rasa?
+    - me matarás
+    - ¿Me matarás?
+    - el invierno ya se va
+    - ¿Con que me recomiendas?
+    - quieres agua
+    - sí, mi perro bebía un par de litros de agua al día e intentaba beber en la piscina
+    - ya tienes eso
+    - puedes aprender a hacer un café
+    - ¿Tiene hijos?
+    - tienes vacante de trabajo
+    - te encierras cariño
+    - deberías aprender a contar
+    - lo sabrás por la única rosa roja que lleva entre sus dientes
+    - eres una mujer
+    - Estoy aprendiendo Python
+    - LLAME A LA POLICÍA
+    - tertyryutyi
+    - wsdrcftvgybhnj
+    - ¿Por qué el cielo es azul?
+    - ¿Qué clase de pájaro es usted?
+    - contextua
+    - contextual
+    - háblame de voulette
+    - voulette voulette
+    - ¿Tienes una demostración?
+    - Carros
+    - por favor voulette
+    - Pregunta fuera de alcance.
+    - necesito dinero
+    - ¡No, necesito dinero en efectivo, dinero! Lo tienes ?
+    - los Beatles
+    - hola quiero ir palghar
+    - quiero ir palghar
+    - tu nombre de país
+    - tu chica
+    - gsaf
+    - experto en rasa
+    - quiero jugar a la pelota
+    - vuelo ponerse al día
+    - Cómo te gusta tu café
+    - ¿Puedes obtener análisis sobre con quién estoy chateando cuando uso Rasa?
+    - coronavirus
+    - ¿has oído hablar de corona?
+    - donde escribo comando
+    - dónde escribir comandos
+    - Besame
+    - tienes que
+    - ¿Qué tipo de bot?
+    - sfasd
+    - asdkjasdhjkasd
+    - j bhbhj
+    - eshdtjfjfyk
+    - drhdtjfjfyj
+    - reiniciar sudo
+    - asdfgasd
+    - asdfgasdas
+    - hmmmmm
+    - blablabla
+    - blabla
+    - asd
+    - qwe
