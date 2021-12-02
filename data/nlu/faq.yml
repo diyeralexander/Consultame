@@ -89,4 +89,881 @@ nlu:
     - Explique las Funciones del Ministra de Minas y Energía
     - Funcionalidad ministra de minas y energia
     - Funciones de la ministra de minas y energia
-    - Que hace la ministra de minas y energia.    
+    - Que hace la ministra de minas y energia.
+- intent: faq/estacion_de_servicio
+  examples: |
+    - Donde encuentro los requisitos para registrarme como estacion de servicio
+    - Como obtengo el registro como estacion de servicio automotriz publica
+    - Quiero tener una estacion de servicio y no se los requisitos
+    - Como registro mi estacion de servicio automotriz publica
+- intent: faq/registro_comercializador_industrial
+  examples: |
+    - Como puedo registrarme como Comercializador Industrial
+    - Requisitos para el registro de Comercializador Industrial
+    - Donde estan los pasos para registro de Comercializador Industrial
+    - Cuales son los requisitos  para registrarme como Comercializador Industrial
+- intent: faq/significado_combustibles
+  examples: |
+    - Que es un Agente de la cadena de Combustibles
+    - Que se conoce como Agente de la cadena de Combustibles
+    - Agente de la cadena de combustible y su Funcion
+    - Que es un  Agente de la cadena de combustible
+- intent: faq/significado_sicom
+  examples: |
+    - Que es el Sicom
+    - A Que se refiere la palabra SICOM
+    - Definicion de la palabra SICOM
+    - Traduccion de SICOM
+    - Que significa SICOM
+- intent: faq/gran_consumidor
+  examples: |
+    - Donde encuentro los requisitos para registrarme como Gran consumidor
+    - Cuales son los requisitos para el registro de Gran Consumidor
+    - Pasos a seguir para el registro de Gran Consumidor
+    - Que debo hacer para registrarme como Gran Consumidor
+- intent: faq/servicio_fluvial
+  examples: |
+    - Pasos a seguir para registrarme como estacion de servicio fluvial
+    - Que debo hacer para colocar el nombre de estacion de servicio Fluvial
+    - Si quiero registrarme como estacion de servicio fluvial Que debo realizar
+    - Donde encuentro los requisitos para registrarme como estacion de servicio fluvial
+- intent: faq/servicio_maritima
+  examples: |
+    - Que se debe hacer para registrarme como una estacion de servicio maritima
+    - Que necesito para registrarme como una estacion de servicio maritima
+    - Pasos a seguir para registrame como una estacion de servicio maritima
+    - Donde encuentro los requisitos para registrarme como estacion de servicio maritima
+- intent: faq/responsabilidad_vehiculos
+  examples: |
+    - Cuales son las clausulas de una poliza de seguro de responsabilidad civil para vehiculos
+    - Si quiero obtener una clausula de poliza de responsabilidad civil para vehiculos que se debe tener en cuenta
+    - Donde puedo encontrar  las clausulas de  una poliza de responsabilidad civil para vehiculos
+    - Que piden las clausulas de poliza de responsabilidad civil para vehiculos
+- intent: faq/agentes_cadena
+  examples: |
+    - Donde encuentro los montos asegurados de las polizas para los agentes de la cadena
+    - Quiero saber los montos asegurados de las polizas para los agentes de cadena
+    - Cuales son  los montos asegurados de las polizas para los agentes de la cadena
+    - Montos asegurados de las polizas para los agentes de la cadena Como los puedo encontrar
+- intent: faq/operador_estacion_servicio
+  examples: |
+    - Que documentos se necesito para un cambio de Operador de una estacion de servicio
+    - documentacion necesaria para un cambio de operador de una estacion de servicio
+    - Cuales documentos son necesarios para  cambio de operador
+    - Si quisiera realizar un cambio de operador de una estacion de servicio que necesito
+- intent: faq/razon_social_estacion_servicio
+  examples: |
+    - Que documentos son para realizar un cambio de razon Social de una estacion de servicio
+    - Cuales documentos son necesarios para realizar un cambio de razon social de una estacion de servicio
+    - Que se necesita para realizar un cambio de razon social de una estacion de servicio
+    - Donde encuentro los documentos que se requieren para un cambio de razon social de una estacion de servicio
+- intent: faq/nomenclatura_estacion_servicio
+  examples: |
+    - Que documentos se necesitan para una actualizacion de nomenclatura de una estacion de servicio
+    - actualizacion de nomenclatura de una estacion de servicio
+    - Tengo mal la direccion en Sicom y no se como actualizarla
+    - actualizar direccion sicom
+    - Que documentacion debo radicar para corregir la direccion
+    - Como modifico la direccion en Sicom
+- intent: faq/combustibles_sicom
+  examples: |
+    - Quiero ser importador de combustibles y no se los requisitos
+    - Quiero ser importador de combustibles
+    - Donde puedo consultar los requisitos para poder importar combustibles
+    - Como puedo obtener el permiso para importar combustibles
+    - permiso para importar combustibles
+    - Donde encuentro los requisitos para registrarme como Importador de Combustibles ante Sicom
+- intent: faq/agente_refinador
+  examples: |
+    - Que requisitos necesito para registrarme como Agente Refinador
+    - registrarme como Agente Refinador
+    - Que debo hacer para registrarme como refinador
+    - Como puedo obtener el registro como refinador
+    - Ante quien tramito mi codigo de refinador
+    - Que es un agente Refinador
+    - Que se entiende un agente refinador
+    - quienes pueden ser un agente refinador
+    - A Que hace referencia un agente refinador
+- intent: faq/almacenador_combustible
+  examples: |
+    - Que requisitos necesito para ser autorizado como Agente Almacenador de Combustible
+    - Agente Almacenador de Combustible
+    - Que hago para obtener informacion sobre los agentes almacenadores
+    - Necesito los requisitos para ser almacenador
+    - Quiero mi registro como almacenador y desconozco los requisitos
+- intent: faq/transporte_combustible
+  examples: |
+    - Quien autoriza el transporte de combustible  menor a 250 galones
+    - Como tramito el permiso para transportar combustibles en pequeñas cantidades
+    - Ante quien tramito el permiso para transportar combustible en cantidades menores
+    - Necesito transportar combustible en un municipio
+    - transportar combustible
+- intent: faq/vincular_vehiculo_comercial_industrial
+  examples: |
+    - Que documentos se necesitan para vincular un vehiculo a un Comercializador Industrial
+    - Quiero vincular mi vehiculo a un comercializador y no se como
+    - Que documentos necesito para vincular el vehiculo al comercializador
+    - Necesito informacion de vinculacion de vehiculos
+    - vinculacion de vehiculos
+- intent: faq/desvincular_vehiculo_comercial_industrial
+  examples: |
+    - Que debo hacer para desvincular un vehiculo a un Comercializador Industrial
+    - Quiero saber como desvincular mi vehiculo de un comercializador
+    - Como desvinculo el vehiculo
+    - informacion para desvincular de un comercializador
+    - desvinculacion de vehiculos
+- intent: faq/cambio_mayorista
+  examples: |
+    - Como puedo realizar un cambio de Mayorista
+    - Como puedo reportar un cambio de bandera
+    - Ante quien tramito un cambio de mayorista
+    - A quien le solicito autorizacion de un cambio de mayorista
+- intent: faq/sobre_tasa_gasolina
+  examples: |
+    - Necesito informacion sobre la sobretasa de gasolina
+    - Que resolucion me orienta con la sobretasa a la gasolina
+    - Que resolucion me orienta sobre la sobretasa a la gasolina
+    - A quien le solicito autorizacion de un cambio de mayorista
+    - Sobre tasa de la gasolina
+- intent: faq/operador_sicom
+  examples: |
+    - Puedo actualizar documentos en Sicom
+    - Sicom actualiza documentos
+    - Necesito actualizar unos documentos y no se si puedo hacerlo en Sicom
+    - Que documentos se pueden actualizar directamente con el operador Sicom
+- intent: faq/actualizar_estacion_servicio
+  examples: |
+    - Que documentos debe actualizar ante el Ministerio de Minas la estacion de servicio
+    - Necesito actualizar unos documentos y no se si el Ministerio me los actualiza
+    - Como actualizo documentos ante el Ministerio de Minas
+    - Si quiero actualizar documentos de mi EDS Como debo hacerlo
+- intent: faq/guia_transporte
+  examples: |
+    - Que es una guia de transporte
+    - Necesito informacion sobre la guia de y transporte
+    - Que norma habla sobre la guia de transporte
+    - Que regulacion aplica  la guia de transporte
+- intent: faq/subsidio_GLP
+  examples: |
+    - Donde estan los requisitos para identificar  los  beneficiarios del subsidio de gas
+    - Necesito el subsidio de gas
+    - subsidio de gas
+    - Como acceder al subsidio de gas
+- intent: faq/electro_combustible
+  examples: |
+    - Quien puede utilizar electro combustible
+    - Que son los electro combustibles
+    - Ante quien se puede tramitar  un cupo de electro combustible
+    - Que es electro combustible
+- intent: faq/combustibles_electrificadoras
+  examples: |
+    - Que es el IPSE
+    - informacion sobre el Instituto de promocion de Soluciones
+    - Ante quien puedo averiguar sobre un cupo de electro combustible
+    - Quien autoriza los cupos de electro combustible para las electrificadoras
+- intent: faq/zona_frontera_cupo
+  examples: |
+    - Como saber si puedo saber cupo en la zona de frontera
+    - Requisitos para ceder el cupo en la zona de fonrtera
+    - Puedo ceder todo el cupo en la zona de frontera
+    - Cuales son los requisitos para que una estacion de Zona de Frontera pueda ceder cupo
+- intent: faq/planta_almacenamiento
+  examples: |
+    - Necesito informacion sobre permisos para construir plantas de almacenamiento de combustibles
+    - Que requisitos se deben cumplir para construir una planta de almacenamiento
+    - Que norma me orienta sobre los permisos para construir una planta
+    - Necesito mas informacion sobre permisos para construccion de una planta
+    - planta de almacenamiento
+- intent: faq/trafico_estupefacientes
+  examples: |
+    - Que es el certificado de carencia
+    - Donde obtengo el certificado de carencia
+    - Cuanto vale el certificado de carencia
+    - Como debo solicitar el certificado de carencia por trafico de estupefacientes
+    - estupefacientes
+- intent: faq/certificacion_sector_hidrocarburos
+  examples: |
+    - informacion sobre la certificacion de dedicacion exclusiva
+    - Que norma reglamenta la certificacion de dedicacion exclusiva
+    - Quiero renovar el certificado de dedicacion exclusiva
+    - Que es la certificacion de dedicacion exclusiva del sector de hidrocarburos
+- intent: faq/sancion_agente_cadena
+  examples: |
+    - Que sanciones puede tener un agente de la cadena
+    - Necesito informacion sobre sanciones a los agentes de la cadena
+    - Que norma puedo consultar para revisar las sanciones a los agentes de cadena
+    - Sanciones de un agente de cadena
+- intent: faq/cancelacion_codigo_sicom
+  examples: |
+    - Me pueden cancelar el codigo Sicom
+    - por que me cancelan el codigo sicom
+    - Donde puedo consultar sobre cancelacion de un codigo
+    - cancelacion codigo Sicom
+    - Cuales son las causales para la cancelacion  de un codigo sicom
+- intent: faq/cierre_establecimiento_comercial
+  examples: |
+    - Cual es el procedimiento  de la orden de cierre de un establecimiento comercial
+    - Donde consulto la normativa aplicable al cierre de un establecimiento comercial
+    - Necesito mas informacion sobre faltas disciplinarias relacionadas con combustibles
+    - Como conozco el procedimiento de cierre de establecimiento
+    - Cierre de establecimiento comercial
+- intent: faq/usuario_menores_ingresos
+  examples: |
+    - Que es  la conexion de Usuarios de Menores Ingresos
+    - Necesito informacion sobre tarifas de usuarios de menores ingresos
+    - Donde estan los requisitos para conectar a usuarios de estratos 1 y 2
+    - Para que existe la figura de usuarios de menores ingresos
+    - conexion de Usuarios de Menores Ingresosl
+- intent: faq/quienes_agente_cadena
+  examples: |
+    - Quienes son los agentes de la cadena
+    - Que son los agentes de la cadena
+    - Definicion de los agentes de la cadena
+    - Como puedo saber si soy agente de la cadena
+    - agentes de cadena
+- intent: faq/balance_volumetrico
+  examples: |
+    - Que es el balance volumetrico
+    - A que refiere un balance volumetrico
+    - Definicion de un balance volumetrico
+    - Como se conoce un balance volumetrico
+    - balance volumetrico
+- intent: faq/codigo_autorizacion
+  examples: |
+    - Que es un codigo de autorizacion
+    - Definicion de codigo de autorizacion
+    - Que se conoce como codigo de autorizacion
+    - Que es el codigo de autorizacion
+    - codigo autorizacion
+- intent: faq/que_es_codigo_sicom
+  examples: |
+    - Que es un codigo SICOM
+    - Definicion de codigo SICOM
+    - A que  se refiere un codigo SICOM
+    - codigo SICOM
+- intent: faq/orden_de_pedido
+  examples: |
+    - Que es una orden de pedido
+    - Como se conoce una orden de pedido
+    - Como se pide una orden de pedido
+    - Definicion de orden de pedido
+- intent: faq/alarmas_sicom
+  examples: |
+    - Como funcionan las alarmas en SICOM
+    - Funcionalidad de las alarmas en SICOM
+    - Para Que sirven las alarmas en SICOM
+    - Puedo saber por que hay alarmas en SICOM
+    - alarmas Sicom
+- intent: faq/supervision_codigo_sicom
+  examples: |
+    - Que es la suspension del codigo SICOM
+    - Por que hay suspension de codigo SICOM
+    - En que consiste la suspension de codigo SICOM
+    - Puedo saber el motivo de la suspension del codigo SICOM
+- intent: faq/transaccion_plataforma_sicom
+  examples: |
+    - Es  obligacion realizar las transacciones por la plataforma SICOM
+    - Que obligaciones tiene la plataforma SICOM
+    - Si no se realizan transacciones en la plataforma SICOM  pasa algo
+    - Puedo saber el motivo de la suspension del codigo SICOM
+- intent: faq/ampliacion_estacion_servicio
+  examples: |
+    - Cual es el procedimiento para la ampliacion de estaciones de servicio
+    - Procedimiento que se debe seguir para la  ampliacion de estaciones de servicio
+    - Que se debe realizar para una ampliacion de estaciones de servicio
+    - Si deseo hacer una ampliacion de estaciones de servicio Que debo hacer
+    - Ampliacion de estacion de servicio
+- intent: faq/fe_cuota_fomento
+  examples: |
+    - Definicion de Fondo Especial Cuota de Fomento
+    - Que es el Fondo Especial Cuota de Fomento
+    - A que se dedica el Fondo Especial Cuota de Fomento
+    - cual es el objetivo del Fondo Especial Cuota de Fomento
+- intent: faq/restriccion_gas_natural
+  examples: |
+    - Que es Insalvable restriccion en la Oferta de Gas Natural
+    - Como se conoce una Insalvable restriccion en la Oferta de Gas Natural o situacion de Grave Emergencia No Transitoria
+    - Que es un situacion de Grave Emergencia No Transitoria
+- intent: faq/productor_gas_natural
+  examples: |
+    - quien es un productor de gas natural
+    - Que es un productor de gas natural
+    - Que se conoce como productor de gas natural
+    - Como puedo saber si soy productor de gas natural
+    - que es un productor de gas natural
+- intent: faq/poblacion_gas_natural
+  examples: |
+    - Cuales son las medidas para mitigar los efectos sobre la poblacion en temas de gas natural
+    - Los productores de gas natural deben declarar informacion
+    - Que condiciones debe tener un productor de gas natural para declarar
+    - Que Obligaciones debe declarar un productor de gas natural
+- intent: faq/gas_natural_declarar
+  examples: |
+    - Los productores de gas natural deben declarar informacion
+    - Tiene obligacion los productores de gas natural a declarar informacion
+    - Que condiciones debe tener un productor de gas natural para declarar
+    - Que Obligaciones debe declarar un productor de gas natural
+- intent: faq/conforma_cno
+  examples: |
+    - Como se conforma el Consejo Nacional de Operaciones CNO
+    - Quienes conforman el Consejo Nacional de Operaciones
+    - De Que manera esta conformado el CNO
+    - El Consejo Nacional de Operaciones tiene integrantes del sector publico
+- intent: faq/que_cno - Como se conforma el Consejo Nacional de Operaciones CNO - Quienes conforman el Consejo Nacional de Operaciones - De Que manera esta conformado el CNO - El Consejo Nacional de Operaciones tiene integrantes del sector publico
+  examples: |
+    - Como se conforma el Consejo Nacional de Operaciones CNO
+    - Quienes conforman el Consejo Nacional de Operaciones
+    - De Que manera esta conformado el CNO
+    - El Consejo Nacional de Operaciones tiene
+- intent: faq/propietario_fondo_cuota_fomento
+  examples: |
+    - Quien el propietario de los recursos del fondo de cuota de fomento
+    - A quienes corresponden los recursos del fondo de cuota de manejo
+    - Quienes son los dueños del fondo de cuota de fomento
+    - Los recursos del fondo de la cuota de fomento son publicos
+- intent: faq/recaudo_cuota_fomento
+  examples: |
+    - Como se factura en la cuota de fomento
+    - Que se necesita para el recaudo de la cuota de fomento
+    - Cual es el proceso de recaudo de la cuota de fomento
+    - Como se realiza el recaudo de la cuota de fomento
+- intent: faq/que_gncv
+  examples: |
+    - Que es el GNCV
+    - A que se refiere las siglas GNCV
+    - Significado de GNCV
+    - Que se conoce como Gas Natural Comprimido para uso vehicular
+- intent: faq/regulacion_GNCV
+  examples: |
+    - Cual es el Ministerio competente en cuanto a la regulacion de GNCV en Colombia
+    - Que entidad es la  competente y regula el GNCV
+    - En Colombia hay algun ministerio que le competa la regulacion de GNCV
+    - Quien responde por la regulacion de GNCV
+- intent: faq/incentivos_GNCV
+  examples: |
+    - Cuales son los incentivos para el uso de GNCV
+    - Que incentivos hay para el uso de GNCV
+    - Cual ley esta estipulada para los incentivos de GNCV
+    - Donde encuentro los incentivos de GNCV
+- intent: faq/obligaciones_GNCV
+  examples: |
+    - Que obligaciones tiene la estacion de GNCV y los Talleres de conversion
+    - Las estaciones de servicio de GNCV tiene alguna obligacion
+    - Los talleres de conversion tiene alguna obligacion
+    - Donde puedo encontrar las obligaciones que necesita una estacion de servicio GNCV
+- intent: faq/funciones_operacion_GNCV
+  examples: |
+    - cual es la Funcion que cumple el Organismo de inspeccion en Cuanto a la operacion de GNCV
+    - Que decreto rige el Organismo de inspeccion en cuanto a la operacion de GNCV
+    - Cual es la relacion del organismo de inspeccion y el GNCV
+    - Que funciones cumple el Organismo de inspeccion en cuanto a la operacion de GNCV
+- intent: faq/reglamentos_tecnicos_GNCV
+  examples: |
+    - Quien ejerce el control del cumplimiento de los reglamentos tecnicos de GNCV
+    - Cual es el control del cumplimiento de los reglamentos tecnicos de GNCV
+    - Como se le llama al que tiene el control del cumplimientos de los reglamentos  tecnicos de GNCV
+    - cual es la entidad que vigila y controla los reglamentos del GNCV
+- intent: faq/estacion_precios_GNCV
+  examples: |
+    - Es una obligacion que las estaciones publiquen los precios mensuales del GNCV
+    - Segun las obligaciones  de GNCV deben publicar los precios mensuales
+    - Cada cuanto se deberan publicar los precios de GNCV
+    - Si no se publican los precios de GNCV hay algun problema
+- intent: faq/sancion_incumplimiento_GNCV
+  examples: |
+    - Que sanciones son aplicables por incumplimiento de la normatividad de GNCV
+    - Cuales son las sanciones por el incumplimiento de la normativa vigente a los talleres y estaciones de servicio de GNCV
+    - Donde encuentro las sanciones por incumplimiento en las estaciones de servicio  de GNCV
+    - Que pasa si se incumple la normativa de los agentes de GNCV
+- intent: faq/tema_energia_electrica
+  examples: |
+    - Que es una area especial en temas relacionados con Energia electrica
+    - A Que se le llama area especial Segun la Energia electrica
+    - Significado de un  area especial en temas relacionados con  Energia electrica
+    - Existe un area especial en Energia electrica
+- intent: faq/definicion_foes
+  examples: |
+    - Que es el FOES
+    - Definicion de FOES
+    - A que se le conoce como FOES
+    - A que se refiere las siglas FOES
+- intent: faq/que_es_sistema_alumbrado_publico
+  examples: |
+    - Que es el sistema de alumbrado publico
+    - Que significa el sistema de Alumbrado Publico
+    - A que se le conoce como sistema de alumbrado publico
+    - Para que sirve el sistema de alumbrado publico
+- intent: faq/definicion_sui
+  examples: |
+    - Cual es el significado de SUI
+    - En que se basa el SUI
+    - Que articulo  define el SUI
+- intent: faq/definicion_subsidio
+  examples: |
+    - Que es un subsidio
+    - A que refiere un subsidio
+    - En que se basa un subsidio
+    - Segun el Decreto 1073 de 2015  que significa un subsidio
+- intent: faq/quienes_usuarios_menores_ingresos
+  examples: |
+    - quienes son los usuarios de menores ingresos
+    - Quienes son los usuarios  que se benefician de las cosas del gobierno
+    - Que se entiende por usuarios de menores ingresos
+    - Definicion de usuarios de menores ingresos
+- intent: faq/zr_interconectada
+  examples: |
+    - Que se conoce como Zonas Rurales Interconectadas
+    - A que se le llama Zonas Rurales Interconectadas
+    - Que son las zonas rurales Interconectadas
+    - Que significa las Zonas Rurales Interconectadas
+- intent: faq/pago_subsidio_energia
+  examples: |
+    - En que consisten  los giros por pagos de subsidios de Energia
+    - Para que sirven los subsidios de Energia
+    - Que funciones cumplen los  giros por pagos de subsidios de Energia
+    - Que son los  giros por pagos de subsidios de Energia
+- intent: faq/resitribucion_ingresos_energia
+  examples: |
+    - En que consiste el Fondo de redistribucion de ingresos de Energia
+    - Que son los  Fondo de redistribucion de ingresos de Energia
+    - A que se le llama Fondo de redistribucion de ingresos de Energia
+    - A que se le conoce como el Fondo de redistribucion de ingresos de Energia
+- intent: faq/usuarios_no_regulados_energia
+  examples: |
+    - Quienes son usuarios no regulados del servicio de Energia
+    - Que son los  Fondo de redistribucion de ingresos de Energia
+    - A que se le llama Fondo de redistribucion de ingresos de Energia
+    - A que se le conoce como el Fondo de redistribucion de ingresos de Energia
+- intent: faq/definicion_FAER
+  examples: |
+    - Que es el fondo FAER
+    - Definicion de las siglas FAER
+    - A que se refiere el fondo FAER
+    - De que trata el fondo FAER
+- intent: faq/expansaion_energia
+  examples: |
+    - Que debe contener el plan de expansion de Energia
+    - Que significa el plan expansion de Energia
+    - De Que trata el plan  expansion de Energia
+    - Segun el plan de expansion de Energia cual es la diferencia de kW para los proyectos
+- intent: faq/definicion_fondo_FAZNI
+  examples: |
+    - En Que consiste el fondo FAZNI
+    - Para que sirve el fondo FAZNI
+    - Que es el fondo FAZNI
+    - A que se le llama el fondo FAZN
+- intent: faq/definicion_PRONE
+  examples: |
+    - Que es el PRONE
+    - En que consiste el PRONE
+    - A que se le llama el PRONE
+    - Definicion de PRONE
+- intent: faq/funcion_tecnico_prone
+  examples: |
+    - Cuales son las funciones del consejo nacional de tecnicos electricistas CONTE
+    - En Que se basa  las funciones del consejo nacional de tecnicos electricistas CONTE
+    - A Que se refiere las funciones del consejo nacional de tecnicos electricistas CONTE
+    - Segun el decreto 1073 de 2015 , Que indican las funciones de CONTE    I
+- intent: faq/comercializador_minerales
+  examples: |
+    - A quien se puede denominar comercializador de minerales
+    - Quien son los comercializadores de minerales
+    - Que certificacion necesita sin comercializador de minerales
+    - Que son los comercializadores de minerales
+- intent: faq/certificado_mineral
+  examples: |
+    - Que es un certificado de origen de minerales
+    - Que se conoce como Certificado de origen de minerales
+    - En que se basa un certificado de origen de minerales
+    - Para que sirve un certificado de origen
+- intent: faq/definicion_barequeo
+  examples: |
+    - En Que consiste el Barequeo
+    - A quien  se le llama Barequero
+    - Que es barequeo
+    - De Que trata un Barequeo
+    - quienes realizan  el barequeo
+- intent: faq/definicion_chatarrero
+  examples: |
+    - Que actividades realiza un chatarrero
+    - Que es un chatarrero
+    - A que se dedica un Chatarrero
+    - Que recolecta un Chatarrero
+- intent: faq/definicion_RUCOM
+  examples: |
+    - Que significa RUCOM
+    - Definicion de RUCOM
+    - A que se refieren las siglas de RUCOM
+    - Para que sirve un RUCOM
+- intent: faq/guia_transporte_despacho
+  examples: |
+    - Es una obligacion registrar la guia unica de transporte en los despachos
+    - Si no se registra una guia de transporte que puede suceder
+    - En Cuanto  tiempo se debe registrar una guia de transporte
+    - Donde se registra una guia de transporte
+- intent: faq/orden_agente_por_dia
+  examples: |
+    - Cuantas ordenes de pedido puede hacer un agente en un dia
+    - En un dia se puede realizar mas de una orden de pedido
+    - Si hay estaciones de servicio cercanas puedo realizar varias ordenes de pedido
+    - Es prohibido realizar varias ordenes de pedido en un mismo dias
+- intent: faq/cerrar_orden_pedido
+  examples: |
+    - Cuando debo cerrar una orden de pedido
+    - quien cierra la orden de pedido
+    - En Que momento se da el cierre en una orden de pedido
+    - quien finaliza la orden de pedido
+- intent: faq/combustibles_liquidos_derivados
+  examples: |
+    - A que se le conoce como  combustibles liquidos derivados del petroleo
+    - clasificacion de los combustibles liquidos derivados del petroleo
+    - Definicion de combustibles liquidos derivados del petroleo
+    - Que son combustibles liquidos derivados del petroleo
+- intent: faq/combustibles_oxigenados
+  examples: |
+    - Que son combustibles oxigenados
+    - Que se entiende por combustibles oxigenados
+    - A que se le llama  combustibles oxigenados
+    - Definicion de combustibles oxigenados
+- intent: faq/definicion_comercializador_industrial
+  examples: |
+    - Que es un comercializador industrial
+    - Para que sirve un comercializador industrial
+    - quienes comercializan un comercializador industrial
+    - Que vehiculos se pueden utilizar para un comercializador industrial
+- intent: faq/definicion_alcohol_carburante
+  examples: |
+    - Que es Alcohol Carburante
+    - Que se entiende por Alcohol Carburante
+    - Definicion de alcohol carburante
+    - Es un combustible el alcohol carburante
+- intent: faq/definicion_agente_almacenador
+  examples: |
+    - Que es un agente Almacenador
+    - Definicion de un agente almacenador
+    - Que se conoce como un agente almacenador
+    - Actividad que realiza un agente almacenador
+- intent: faq/definicion_distribudor_mayorista
+  examples: |
+    - Que es un distribuidor Mayorista
+    - Definicion de un distribuidor mayorista
+    - Que hace un distribuidor mayorista
+    - Quien es un  distribuido mayorista
+- intent: faq/definicion_distribudor_minorista
+  examples: |
+    - Definicion de un distribuidor minorista
+    - Que hace un distribuidor minorista
+    - Quien es un  distribuido minorista
+    - Que es un distribuidor Minorista
+- intent: faq/definicion_ebullicion_desodorante
+  examples: |
+    - Que es ebullicion desodorante
+    - En cuales combustibles se presenta la ebullicion desodorante
+    - Que se entiende por ebullicion desodorante
+    - Como se refleja una ebullicion desodorante
+- intent: faq/definicion_estacion_servicio
+  examples: |
+    - Que es una estacion de servicio y que tipos de estaciones existen
+    - Para que son las estaciones de servicio
+    - Cuantas tipos de estaciones de servicios hay
+    - Que se entiende por estacion de servicio
+- intent: faq/definicion_estacion_servicio_aviacion
+  examples: |
+    - Que es una estacion de servicio de aviacion
+    - Para que sirve una estacion de servicio de aviacion
+    - A que se le conoce como estacion de servicio de aviacion
+    - Definicion de estacion de servicio de aviacion
+- intent: faq/definicion_servicio_automotriz
+  examples: |
+    - Que es una estacion de servicio automotriz
+    - Para que sirve una estacion de servicio automotriz
+    - A que se le conoce como estacion de servicio automotriz
+    - Definicion de estacion de servicio automotriz
+- intent: faq/definicion_servicio_fluvial
+  examples: |
+    - Que es una estacion de servicio Fluvial
+    - Para que sirve una estacion de servicio Fluvial
+    - A que se le conoce como estacion de servicio Fluvial
+    - Definicion de estacion de servicio Fluvial
+- intent: faq/definicion_servicio_maritima
+  examples: |
+    - Que es una estacion de servicio maritima
+    - Para que sirve una estacion de servicio maritima
+    - A que se le conoce como estacion de servicio maritima
+    - Definicion de estacion de servicio maritima
+- intent: faq/definicion_servicio_publica
+  examples: |
+    - Que se conoce como estacion de servicio publica
+    - Para que sirve una estacion de servicio publica
+    - A que se le conoce como estacion de servicio publica
+    - Definicion de estacion de servicio publica
+- intent: faq/definicion_evaluacion_conformidad
+  examples: |
+    - Que es evaluacion de la Conformidad
+    - A que se refiere la evaluacion de la Conformidad
+    - AQue define una evaluacion de la Conformidad
+    - Significado de una evaluacion de la Conformidad
+- intent: faq/definicion_gasolina_motor
+  examples: |
+    - Que es Gasolina Motor
+    - Como esta compuesta la Gasolina Motor
+    - Componentes de la gasolina motor
+    - Propiedades establecidas de la gasolina motor
+- intent: faq/definicion_gran_consumidor
+  examples: |
+    - Que es un Gran Consumidor
+    - Cual es el promedio del consumo de galones para entenderse por un gran consumidor
+    - Que se entiende por gran consumidor
+    - Definicion de gran consumidor
+- intent: faq/definicion_consumidor_instalacion_fija
+  examples: |
+    - Que es un Gran Consumidor con instalacion Fija
+    - Que permite hacer el gran consumidor  con instalacion Fija
+    - Que se entiende por Gran consumidor  con instalacion Fija
+    - Que combustibles puede despachar un gran consumidor  con instalacion Fija
+- intent: faq/definicion_consumidor_no_intermediario
+  examples: |
+    - Que es un Gran Consumidor No Intermediario
+    - Que se entiende por Gran Consumidor No Intermediario
+    - Si tengo consumo propicio de ACPM puedo ser un  Gran Consumidor No Intermediario
+    - Definicion de un Gran Consumidor No Intermediario
+- intent: faq/definicion_consumidor_instalacion_temporal
+  examples: |
+    - Que permite hacer el gran consumidor  con instalacion Temporal
+    - Que se entiende por Gran consumidor  con instalacion Temporal
+    - Que combustibles puede despachar un gran consumidor  con   instalacion Temporal
+    - Que es un Gran Consumidor con instalacion Temporal
+- intent: faq/definicion_gran_consumidor_sin_instalacion
+  examples: |
+    - Que se conoce Como un Gran Consumidor Sin instalacion
+    - Definicion de Gran Consumidor Sin instalacion
+    - Que transportes utilizan  un  Gran Consumidor Sin instalacion
+    - Si tengo un consumo propio me puedo declarar un  Gran Consumidor Sin instalacion
+- intent: faq/definicion_surtidor
+  examples: |
+    - Definicion de un surtidor
+    - A quienes se les llama surtidor
+    - En que se basa un surtidor
+    - Que es un Surtidor
+- intent: faq/definicion_liquido_imflamable
+  examples: |
+    - Que es un liquido Inflamable
+    - cual es el punto de inflamacion inferior  para un liquido inflamable
+    - Que se entiende por liquido inflamable
+    - Clases de liquidos inflamables
+- intent: faq/definicion_marcacion_combustibles
+  examples: |
+    - Que es Marcacion de Combustibles
+    - Afecta en algo una marcacion de combustibles
+    - Que se conoce como marcacion de combustibles
+    - Definicion de Marcacion de Combustibles
+- intent: faq/definicion_para_marcacion_combustibles
+  examples: |
+    - Para que se hace marcacion de los Combustibles
+    - Como funciona una marcacion de los Combustibles
+    - Como es la  aplicacion de  marcacion de los Combustibles
+    - A fin de se hace marcacion de los Combustibles
+- intent: faq/definicion_petroleo_crudo
+  examples: |
+    - Que es petroleo Crudo
+    - Definicion de petroleo Crudo
+    - Significado de petroleo Crudo
+    - Que se conoce como petroleo Crudo
+- intent: faq/definicion_plan_aastecimiento
+  examples: |
+    - Que es un Plan de Abastecimiento
+    - Que se entiende por plan de abastecimiento
+    - Definicion de un plan de abastecimiento
+    - Para Que sirve un plan de abastecimiento
+- intent: faq/punto_inflamacion
+  examples: |
+    - A que se le conoce Como Punto de inflamacion
+    - Que es un  Punto de inflamacion
+    - Definicion de  Punto de inflamacion
+    - Como se llama la temperatura minima de una concentracion
+- intent: faq/tanque_atmosferico
+  examples: |
+    - Que se entiende un Tanque Atmosferico
+    - quienes pueden ser un ataque Atmosferico
+    - A Que hace referencia un Tanque Atmosferico
+    - Que es un Tanque Atmosferico
+- intent: faq/definicion_transportador
+  examples: |
+    - A quien se le denomina Transportador
+    - Que es un Transportador
+    - quienes son los transportadores
+    - A Que se le conoce como Transportador
+- intent: faq/definicion_API
+  examples: |
+    - cual es el significado de la sigla API
+    - Que es la sigla API
+    - Que se entiende por las siglas API
+    - De Que se encarga API
+- intent: faq/clasificacion_estacion_servicio
+  examples: |
+    - Como se clasifican las estaciones de servicio
+    - Tipo de clases de las estacion de servicios
+    - En cuantas clases se clasifica las estaciones de servicios
+    - Cual es la clasificaciones de las estaciones de servicio
+- intent: faq/calibracion_unidad_medida
+  examples: |
+    - Es obligatorio el proceso de calibracion de las unidades de medida
+    - De quien es responsabilidad tener calibradas las unidades de medida
+    - Quien da la certificacion para la calibracion de las unidades de medida
+    - El proceso de calibracion de las unidades de medida es obligatorio
+- intent: faq/inspeccion_calibracion_unidad_medida
+  examples: |
+    - cual es el procedimiento que debe seguir la autoridad que realice la inspeccion de la calibracion de las unidades de medida
+    - Pasos a seguir para la calibracion de las unidades de medida
+    - Cual es el decreto que cobija el procedimiento de calibracion de las unidades de medida
+    - Cuantos pasos se requieren para un procedimiento  calibracion de las unidades de medida
+- intent: faq/construccion_estacion_servicio
+  examples: |
+    - Que entidad  autoriza el uso del suelo para construccion de una estacion de servicio
+    - Cuales son las entidades competentes para la construccion de suelo una estacion de servicio
+    - Quienes autorizan el uso del suelo para construccion de una estacion de servicio
+    - Como puedo pedir autorizacion de usos del suela para una EDS
+- intent: faq/banio_estacion_servicio
+  examples: |
+    - Es obligatorio la construccion de baños en una estacion de servicio
+    - Que tan importante es la construccion de baños en una estacion de servicio
+    - Pueden existir  estaciones de servicios sin baños
+    - Donde se pueden ubicar los baños en una estacion de servicio
+- intent: faq/material_estacion_servicio
+  examples: |
+    - Que Material se debe usar al construir estaciones de servicio
+    - Que material se  necesita para  construir estaciones de servicio
+    - Se puede usar materiales incombustibles para la construccion de estaciones de servicio
+    - Cuales son los materiales que se deben  utilizar para construir  una estaciones de servicio
+- intent: faq/delimitacion_estacion_servicio
+  examples: |
+    - Como es la delimitacion de las areas en una estacion de servicio
+    - Como es la sedacion de estaciones de servicios
+    - En donde se separan las estaciones de servicios
+    - Las estaciones de servicio tiene areas delimitadas
+- intent: faq/vivir_estacion_servicio
+  examples: |
+    - Se puede vivir dentro de una estacion de servicio
+    - Necesito informacion sobre regulacion de una vivienda dentro de una estacion de servicio
+    - Puedo construir una vivienda en la estacion de servicio
+    - Decreto donde indican que no se puede vivir dentro de una  estacion de servicio
+- intent: faq/contingencia_estacion_servicio
+  examples: |
+    - Cuales son las recomendaciones a tener en cuenta para el plan de contingencia de una estacion de servicio
+    - Donde encuentro las recomendaciones del plan de contingencia de una estacion de servicio
+    - Para que es el plan de contingencia en una estacion de servicio
+    - Que se necesita para  un plan de contingencia de una estacion de servicio
+- intent: faq/prohibicion_tanque_almacenamiento
+  examples: |
+    - Cuales son las prohibiciones para enterrar tanques de almacenamiento
+    - Puedo enterrar un  tanque de almacenamiento
+    - A cuanto deben de estar los tanques de almacenamiento
+    - Donde no pueden estar los tanques de almacenamiento
+- intent: faq/registrar_estacion_servicio
+  examples: |
+    - Es obligacion registrar la estacion de servicio para poder operar
+    - Si  una  estacion de servicio  quiere operar tiene algun problema
+    - Que puede pasar si una  estacion de servicio  empieza a operar antes  de  obtener los permisos
+    - Para una  estacion de servicio  es obligatorio registrarla
+- intent: faq/calibracion_surtidor_estacion
+  examples: |
+    - Como se realizara la calibracion de los surtidores en la estacion
+    - Que se necesita para la calibracion de los surtidores en la estacion
+    - Quien acredita la calibracion de los surtidores en la estacion
+    - Cual es la manera para la calibracion de los surtidores en la estacion
+- intent: faq/venta_agente_refinador
+  examples: |
+    - A que agente le puede vender el agente Refinador
+    - A quienes se les puede vender el agente refinador
+    - Cuales combustibles pueden  acceder a un agente refinador
+    - Cuando debe consumir un  consumidor para poder acceder a un agente refinador
+- intent: faq/importador_cadena_req
+  examples: |
+    - Como funciona la figura de Importador en la cadena y requisitos para registrarse 
+    - Cuales son los requisitos que debe tener un importador en la cadena
+    - Para que sirve un importador de la cadena
+    - Cuales son los documentos que debe tener un importador de la cadena
+- intent: faq/combustible_ingreso_pais_importador
+  examples: |
+    - Es requisito certificar el combustible que ingresa al pais el Agente Importador 
+    - Con que debe contar un agente importador al ingresar al territorio nacional
+    - A donde se debe presentar el certificado de un agente importador
+    - A quien se le debe presentar el permiso para poder ingresar un agente importador
+- intent: faq/contrato_mayorista
+  examples: |
+    - Que debo tener en cuenta en el Contrato con el Mayorista 
+    - Requisitos para un contrato con el mayorista
+    - Que debo incluir en un contrato con el mayorista
+    - Cuales son las clausulas que se deben tener en cuenta para un contrato con el  mayorista
+- intent: faq/vehiculo_transporte_liquido_petroleo
+  examples: |
+    - Que tipo de vehiculos pueden transportar combustible liquido derivado del petroleo 
+    - Cuales son los vehiculos pueden transportar combustible liquido derivado del petroleo
+    - Quisiera saber que debo hacer para transportar  vehiculos de combustible liquido derivado del petroleo
+    - Como son los vehiculos que transportan combustibles liquidos derivados del petroleo
+- intent: faq/financiera_comercializador_registro
+  examples: |
+    - cual es la capacidad financiera que debe demostrar un comercializador industrial para su proceso de registro ante el Ministerio de Minas 
+    - Cuanto debo demostrar financieramente ante el ministerio de  minas y Energia
+    - Por cuanto debo acreditar activos siendo un comercializador industrial
+    - Cuanta es la capacidad financiera que  debe demostrar un comercializador industrial
+- intent: faq/empresas_comercializador_industrial
+  examples: |
+    - Que tipo de empresas puede atender el Comercializador Industrial 
+    - A cuales empresas puede atender el comercializador industrial
+    - Donde puedo encontrar quienes atienden el Comercializador Industrial
+    - Cuales son los clientes del comercializador industrial
+- intent: faq/vehiculo_prestar_servicio_comercializador
+  examples: |
+    - Cuales son las condiciones que debe cumplir un vehiculo para prestar su servicio a un Comercializador Industrial 
+    - Pasos que  debe cumplir un vehiculo para prestar su servicio a un Comercializador Industrial
+    - Donde encuentro las condiciones para un vehiculo para prestar su servicio a un Comercializador Industrial
+    - Que  debe hacer un vehiculo para prestar el servicio a un Comercializador Industrial
+- intent: faq/estacion_automotriz_venta_estacion_servicio
+  examples: |
+    - Pueden las estaciones automotrices vender combustible a otras estaciones de servicio 
+    - Cuales son  las limitaciones que tiene una estacion    para vender combustibles
+    - Hay algun caso especial donde no se pueda vender combustibles en las estaciones automotrices
+    - Segun las estaciones automotrices pueden vender combustible a otras estaciones
+- intent: faq/tecnico_ubicacion_estacion_servicio
+  examples: |
+    - En que casos es necesario solicitar el concepto tecnico de ubicacion de una estacion de servicio 
+    - Cuando se debe solicitar un concepto tecnico de ubicacion para una estacion de servicio
+    - A quien se le debe solicitar un concepto tecnico  de una estacion de servicio
+    - Si se construye debo solicitar un concepto tecnico de ubicacion de una estacion de servicio
+- intent: faq/estacion_servicio_colores_mayorista
+  examples: |
+    - Es obligacion de la estacion de servicio mostrar los colores de marca de su mayorista 
+    - Es competencia de la estacion de servicio  exhibir la marca del distribuidor mayorista
+    - Que puede pasar si la estacion de servicio  no  exhibe la marca del distribuidor mayorista
+    - Que se debe exhibir en una estacion de servicio
+- intent: faq/corregir_dictamen_inspeccion
+  examples: |
+    - Como puedo corregir un error en un dictamen de inspeccion 
+    - A donde envio una correccion de un dictamen de  inspeccion
+    - Donde puedo realizar una correccion de un dictamen de inspeccion
+    - Que debo enviar si tengo mal un dictamen de inspeccion
+- intent: faq/precios_actuales_combustibles
+  examples: |
+    - Donde puedo consultar los precios actuales de los combustibles 
+    - Cuales son los precios de los combustibles
+    - En que parte se encuentra el precio de los combustibles actualmente
+    - Como puedo encontrar los precios de los combustibles
+- intent: faq/precios_historico_combustibles
+  examples: |
+    - Donde puedo consultar el historico de precios de los combustibles en Colombia 
+    - Cual es el historico de precios de los combustibles en Colombia
+    - En que parte se encuentra el historico de precios de los combustibles en Colombia
+    - Como puedo encontrar el historico de precios de los combustibles en Colombia
+- intent: faq/abastecimiento_frontera
+  examples: |
+    - Donde puedo consultar los Planes de Abastecimiento de zona de Frontera 
+    - Cual son las resoluciones de asignacion de volumenes maximos
+    - En que parte se encuentra las resoluciones de asignacion de volumenes maximos
+    - Como puedo encontrarlos las resoluciones de asignacion de volumenes maximos
+- intent: faq/resolucion_max_volumen
+  examples: |
+    - Donde puedo consultar las resoluciones de asignacion de volumenes maximos 
+    - Cual son las resoluciones de asignacion de volumenes maximos
+    - En que parte se encuentra las resoluciones de asignacion de volumenes maximos
+    - Como puedo encontrarlos las resoluciones de asignacion de volumenes maximos    
