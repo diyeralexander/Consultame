@@ -22,6 +22,10 @@ responses:
   - text: Dar a conocer a los ciudadanos - clientes y partes interesadas del Ministerio de Minas y Energía nuestras políticas y lineamientos para la atención a los ciudadanos y divulgar los escenarios de atención y participación ciudadana establecidos por la entidad,con el fin de interactuar con ellos y facilitar el ejercicio del control social,su intervención en la toma de decisiones y la satisfacción de sus requerimientos de forma eficaz, eficiente y efectiva.
   utter_faq/funciones_ministra_minas_energia:
   - text: Artículo 5. Son funciones del Despacho del Ministro de Minas y Energía, además de las previstas en la Constitución Política, en el artículo 61 de la Ley 489 de 1998 y en las demás disposiciones legales. Consulta las [funciones del Ministro.](https://www.minenergia.gov.co/en/la-ministra)
+  utter_faq/registro_comercializador_industrial:
+  - text: |
+      Copia de los estatutos sociales, estados financieros y composicion accionaria, segun el caso. Para el efecto debera acreditar activos por valor minimo de mil quinientas  unidades de salario minimo legal mensual vigente.  
+      Certificado de existencia y representacion legal -para personas juridicas- o registro mercantil -para personas naturales-, expedido con antelacion no superior a tres (3) meses por la respectiva camara de Comercio, en el que conste que la actividad a desarrollar dentro de la distribucion Minorista de Combustibles liquidos Derivados del petroleo es la de Comercializador Industrial. 
   utter_faq/significado_combustibles:
   - text: |
       Los agentes de la cadena de distribucion de combustibles liquidos derivados del petroleo regulado por presente decreto, enunciado en el articulo 61 de la Ley 812 de 2003, prestaran el servicio en forma regular, adecuada y eficiente, de acuerdo con las caracteristicas propias de servicio publico.?[entidades adscritas.]
