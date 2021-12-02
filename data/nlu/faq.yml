@@ -966,4 +966,1143 @@ nlu:
     - Donde puedo consultar las resoluciones de asignacion de volumenes maximos 
     - Cual son las resoluciones de asignacion de volumenes maximos
     - En que parte se encuentra las resoluciones de asignacion de volumenes maximos
-    - Como puedo encontrarlos las resoluciones de asignacion de volumenes maximos    
+    - Como puedo encontrarlos las resoluciones de asignacion de volumenes maximos
+- intent: faq/definicion_cumplido
+  examples: |
+    - Que es un Cumplido   
+    - A que se le llama un cumplido                                                                        
+    - Definicion de un cumplido                                                               
+    - Para que sirve un cumplido
+- intent: faq/tarifa_fija_transporte_crudo
+  examples: |
+    - Quien fija las tarifas de transporte de crudo por Oleoductos en Colombia   
+    - Cada cuanto se fijan las  tarifas de transporte de crudo por Oleoductos en Colombia                                                                         
+    - Que metodologia se realiza para las tarifas del transporte de crudo por Oleoductos en Colombia                                                               
+    -  A quien le corresponde  fijar las tarifas de transporte de crudo por Oleoductos en Colombia
+- intent: faq/impuesto_transporte
+  examples: |
+    - Que es el impuesto al Transporte y Como se liquida   
+    - Cada cuanto se liquida un  impuesto al Transporte                                                                         
+    - Que se entiende por impuesto de transporte                                                               
+    - A que se le conoce como impuesto de trabajo
+- intent: faq/regula_regalias
+  examples: |
+    - Que norma regula el funcionamiento del sistema general de regalias   
+    - Cual es la norma que regula el funcionamiento del sistema general de regalias                                                                         
+    - De que habla la norma 141                                                               
+    - En que se basa la norma del sistema general de regalias
+- intent: faq/programa_reconversion_socio_laboral
+  examples: |
+    - Cual es la finalidad del Programa de Reconversion Socio laboral   
+    - Para que sirve el Programa de Reconversion Socio laboral                                                                          
+    - Que se le conoce al Programa de Reconversion Socio laboral                                                                
+    - Que busca el Programa de Reconversion Socio laboral
+- intent: faq/beneficiario_subsidio_GLP
+  examples: |
+    - Donde puedo consultar si soy beneficiario del subsidio de GLP   
+    - Como se si soy beneficiaria o no del subsidio de GLP                                                                          
+    - Donde debo consultar  para saber si soy beneficiario del subsidio de GLP                                                                
+    - Como ingreso al enlace que puede uno validar si es o no beneficiario del subsidio
+- intent: faq/denuncio_corrupcion
+  examples: |
+    - Donde puedo denunciar un hecho de corrupcion del Sector de Minas y Energia   
+    - Si quiero denunciar un acto de corrupcion por donde lo puedo realizar                                                                          
+    - Como puedo den ciar un acto de corrupcion del ministerio de minas y Energia                                                               
+    - A quien se le puede escribir una acto de corrupcion del sector de minas y Energia
+- intent: faq/radicar_minminas
+  examples: |
+    - Como puedo radicar un tramite ante el Ministerio de Minas y Energia   
+    - Porque medio virtual se puede radicar un tramite para el ministerio de minas                                                                          
+    - Cual es el correo del Ministerio de minas y Energia                                                               
+    - Si no puedo ir hasta el ministerio de minas , porque medio puedo radicar un tramite 
+- intent: faq/normatividad_minminas
+  examples: |
+    - Como participo en la elaboracion de la normatividad del Ministerio   
+    - Que debo hacer para participar en la normatividad del Ministerio                                                                          
+    - La elaboracion de la normatividad del Ministerio es publica
+- intent: faq/derecho_peticion_info_general
+  examples: |
+    - Que es un derecho de peticion de informacion general   
+    - Que se conoce como un Derecho de peticion de informacion general                                                                           
+    - Cuanto se demoran en contestar un derecho peticion de informacion general
+    - Cual es la Definicion de un derecho de peticion de informacion general
+- intent: faq/derecho_peticion_interes_particular
+  examples: |
+    - Que es un derecho de peticion de interes particular   
+    - Que se conoce como un Derecho de peticion de interes particular                                                                            
+    - Cuanto se demoran en contestar un derecho peticion de interes particular 
+    - Cual es la Definicion de un derecho de peticion de interes particular
+- intent: faq/derecho_peticion_tiempo_respuesta
+  examples: |
+    - En Cuanto tiempo me contesta un derecho de peticion de consulta   
+    - Cuanto se demora en contestar un  derecho de peticion de consulta                                                                            
+    - Cual es el tiempo para que contesten un  derecho de peticion de consulta  
+    - Quien puede realizar un derecho  de peticion de consulta
+- intent: faq/definicion_queja
+  examples: |
+    - Que es una queja   
+    - Definicion de Queja                                                                             
+    - Que se conoce como Queja   
+    - Para que sirve una Queja
+- intent: faq/definicion_reclamo
+  examples: |
+    - Definicion de Reclamo       
+    - Que es un reclamo                                                                             
+    - Que se conoce como Reclamo    
+    - Para que sirve una Reclamo
+- intent: faq/empresas_servicio_dosimetria
+  examples: |
+    - Como puedo saber que empresas prestan el servicio de Dosimetria Personal en Colombia       
+    - Donde puedo encontrar las empresas que prestan el servicio de Dosimetria Personal en Colombia                                                                             
+    - Como se presenta las empresas que prestan el servicio de Dosimetria Personal en Colombia    
+    - Cuales son las empresas que prestan el servicio de Dosimetria Personal en Colombia
+- intent: faq/autoriza_fuentes_radioactivas
+  examples: |
+    - Quien autoriza en Colombia la utilizacion de fuentes radioactivas       
+    - Quienes podran  autoriza en Colombia la utilizacion de fuentes radioactivas                                                                             
+    - Donde puedo conseguir la autorizacion para una realizar la actividad de fuentes radiactivas    
+    - Que debe tener la persona que sea realizar la actividad de fuentes radiactivas
+- intent: faq/requisitos_licencia_dosimetria
+  examples: |
+    - Donde puedo validar los requisitos para obtener la licencia para prestar los servicios de dosimetria personal       
+    - En donde puedo encontrar los requisitos para obtener la licencia para prestar los servicios de dosimetria personal                                                                               
+    - Quienes puede realizar la actividad de  servicios de dosimetria personal    
+    - Que resolucion acobija los  servicios de dosimetria personal
+- intent: faq/registro_vehiculo_sicom
+  examples: |
+    - Como puedo registrar mi vehiculo en el Sicom      
+    - Donde puedo registrar un vehiculo en el Sicom                                                                               
+    - Cuales estaciones pueden registrar un vehiculo en el Sicom    
+    - Donde realizo la solicitud para registra el vehiculo en el Sicom
+- intent: faq/corregir_cierre_orden_sicom
+  examples: |
+    - Como puedo corregir el cierre de una orden de pedido en el Sicom      
+    - Por donde puedo  corregir un cierre de una orden de pedido en el Sicom                                                                                   
+    - Puedo ajustar fechas de un cierre de una orden de pedido en el Sicom    
+    - En donde puedo realizar un cierre de una orden de pedido en el Sicom   
+- intent: faq/documentos_solicitud_vehiculo_comercializador_industrial
+  examples: |
+    - Que documentos debo radicar para solicitar la vinculacion de mi vehiculo a un Comercializador Industrial      
+    - Que se debe hacer para solicitar la vinculacion de mi vehiculo a un Comercializador Industrial                                                                                     
+    - Que debo radicar para la vinculacion de mi vehiculo a un Comercializador Industrial    
+    - Como es el proceso de vinculacion de vehiculo a comercializador industrial
+- intent: faq/act_poliza_vehiculo_sicom
+  examples: |
+    - Como puedo actualizar la poliza de mi vehiculo en el Sicom      
+    - Porque medios puedo realizar la actualizacion de vehiculos en el Sicom                                                                                      
+    - No se como crear casos en sicom como me puede  comunicar     
+    - Solo se puede actualizar por medio presencial o hay otra alternativa  para  un vehiculo en el Sicom
+- intent: faq/solicitar_renovacion_ley_frontera
+  examples: |
+    - Como puedo solicitar la renovacion de la ley de frontera      
+    - Donde puedo solicitar una  renovacion de la ley de frontera                                                                                      
+    - Como se solicita una renovacion de la ley de frontera     
+    - Que documentos debo tener para una  renovacion de la ley de frontera
+- intent: faq/registro_sicom_GNCV
+  examples: |
+    - Como puedo registrarme ante el Sicom GNCV      
+    - Cuales son los pasos  para registrarme en Sicom GNCV                                                                                      
+    - Como solicito una registro nuevo ante Sicom GNCV      
+    - Cual es el link para registrarme en Sicom GNCV
+- intent: faq/registro_estacion_servicio_GNCV
+  examples: |
+    - Como puedo registrar mi estacion de servicio en GNCV      
+    - Como debo registrar una estacion de servicio en GNCV                                                                                      
+    - Paso a paso para registrar una  estacion de servicio en GNCV        
+    - Como hago para registrar estacion de servicio en GNCV 
+- intent: faq/documentps_estacion_servicio_GNCV_sicom
+  examples: |
+    - Que documentos debe cargar una estacion de servicio de GNCV al Sicom      
+    - Cuales documentos debe cargar una estacion de servicio en GNCV al Sicom                                                                                      
+    - Tipo de documentacion que debe cargar una estacion de servicio en GNCV al Sicom        
+    - documentacion reglamentada que debe cargar una estacion de servicio en GNCV al Sicom
+- intent: faq/documentos_estacion_servicio_GNCV_sicom
+  examples: |
+    - Que documentos debe cargar una estacion de servicio de GNCV al Sicom      
+    - Cuales documentos debe cargar una estacion de servicio en GNCV al Sicom                                                                                      
+    - Tipo de documentacion que debe cargar una estacion de servicio en GNCV al Sicom        
+    - documentacion reglamentada que debe cargar una estacion de servicio en GNCV al Sicom
+- intent: faq/codigos_sicom_GNCV
+  examples: |
+    - Puedo tener varios codigos en Sicom GNCV      
+    - Cuantos  codigos en Sicom GNCV puede tener                                                                                      
+    - Que debo tener para poder tener varios codigos en Sicom GNCV        
+    - Por Que puedo tener varios codigos Sicom en GNCV 
+- intent: faq/actualizacion_GNCV_documentos
+  examples: |
+    - A Donde envio los documentos de GNCV para actualizarlos      
+    - Quien debe cargar los documentos de GNCV                                                                                      
+    - En que formato se deberan cargar los documentos de GNCV        
+    - En que parte envio los documentos de GNCV para revision
+- intent: faq/equipos_GNCV_regula
+  examples: |
+    - Que tipo de equipos de GNCV regula el Ministerio de Minas y Energia      
+    - Cuantos tipos de equipos regula el MME                                                                                        
+    - Cuales son los tipos de equipos regula el Ministerio de Minas y Energia         
+    - Quien regula los equipos de GNCV
+- intent: faq/condena_cilindro_sicom
+  examples: |
+    - Quien puede condenar un cilindro en el sistema Sicom GNCV      
+    - Que es un cilindro en el sistema Sicom GNCV                                                                                        
+    - A que se refiere un cilindro en el sistema Sicom GNCV         
+    - Cuando se procede a la destruccion de un cilindro en el sistema Sicom GNCV
+- intent: faq/autorizacion_compra_combustible_nacional
+  examples: |
+    - Como solicito autorizacion de compra de combustible a precio nacional      
+    - Por donde puedo consultar la autorizacion de compra de combustible a precio nacional                                                                                        
+    - Cuales son las normas para aquellos que esten ubicados en el pacifico Nariñense sobre una autorizacion de compra de combustible a precio nacional         
+    - cual es el proceso para que me autoricen comprar combustible a precio nacional
+- intent: faq/comprar_combustible_nacional
+  examples: |
+    - Cuando puedo comprar combustible a precio nacional      
+    - Cual es la condicion para comprar combustible a precio nacional                                                                                                    
+    - Cual es la cantidad de galones  para poder comprar combustible a precio nacional                 
+    - Que debo hacer para comprar un combustible a precio nacional     
+- intent: faq/cuando_comprar_combustible_nacional_con_saldo
+  examples: |
+    - Como puedo comprar combustible a precio nacional si todavia tengo un saldo de subsidiado      
+    - Si tengo saldo subsidiado puedo comprar combustible a precio nacional                                                                                           
+    - Pasos para no tener el saldo subsidiado y poder comprar el combustible a precio nacional           
+    - Que debo hacer para comprar el combustible a precio nacional si tengo saldo subsidiado
+- intent: faq/como_ceder_cupo
+  examples: |
+    - Como puedo hacer una cesion de cupo      
+    - Pasos para realizar una cesion de cupo                                                                                            
+    - Donde encuentro los pasos para realizar una cesion de cupo            
+    - Como se realiza una cesion de cupo
+- intent: faq/actu_certificado_conformidad_estacion_servicio
+  examples: |
+    - Como puedo actualizar el certificado de conformidad de la estacion de servicio      
+    - Por donde puedo actualizar un certificado de conformidad de una estacion de servicio                                                                                            
+    - Cual es la condicion para no poder actualizar un certificado de conformidad de la  estacion de servicio            
+    - Cual es el medio para poder actualizar un certificado de conformidad  estacion de servicio
+- intent: faq/cambio_organismo_Certificador
+  examples: |
+    - Como notifico que hice un cambio de Organismo Certificador      
+    - Pasos para notificar un cambio de organismo certificador        
+    - Como puedo evidenciar un cambio de organismo certificador           
+    - A quien le debo reportar un cambio de organismo certificador
+- intent: faq/actu_poliza_contractual_estacion_servicio
+  examples: |
+    - Como puedo actualizar la poliza de responsabilidad civil Extra Contractual de la estacion de servicio de Combustible      
+    - Como debo hacer una actualizacion de la poliza de responsabilidad civil Extra Contractual de la estacion de servicio de Combustible                                                                                              
+    - Donde debo  notificar para actualizar la poliza de responsabilidad civil Extra Contractual de la estacion de servicio de Combustible            
+    - cual es el proceso para actualizar poliza RCE para la estacion de servicio
+- intent: faq/organismos_acreditados_retie
+  examples: |
+    - Como puedo saber Cuales son los organismos acreditados en Colombia para certificar productos objeto del RETIE y para inspeccionar instalaciones electricas      
+    - Como busco Cuales son los organismos acreditados en Colombia para certificar productos objeto del RETIE                                                                                              
+    - En Donde consulto Cuales son los organismos acreditados en Colombia para certificar productos objeto del RETIE             
+    - Que es la ONAC 
+- intent: faq/concepto_norma_tecnica_retie
+  examples: |
+    - Como puedo solicitar un concepto de equivalencia de norma o reglamento tecnico con RETIE      
+    - Donde puedo solicitar un concepto de equivalencia de norma o reglamento tecnico con RETIE                                                                                              
+    - cual es el link para solicitar un concepto de equivalencia de norma o reglamento tecnico con RETIE             
+    - cual es el proceso para solicitar un concepto tecnico RETIE
+- intent: faq/demostrar_conformidad_producto
+  examples: |
+    - Como puedo demostrar la conformidad de un producto      
+    - Por medio de quien puedo demostrar un certificado de conformidad de un producto                                                                                              
+    - Debo demostrar la conformidad de objetos utilizados para instalaciones electricos             
+    - cual es el proceso para demostrar la conformidad de mi producto
+- intent: faq/definicion_retie
+  examples: |
+    - Que es el RETIE      
+    - Que se define el RETIE                                                                                              
+    - Definicion del RETIE              
+    - Significado del RETIE 
+- intent: faq/definicion_instalacion_retie
+  examples: |
+    - Como se demuestra la conformidad de una instalacion frente a RETIE      
+    - Como determino una conformidad de una instalacion frente a RETIE                                                                                               
+    - Que se debe realizar para una conformidad de una instalacion frente a RETIE              
+    - Donde encuentro informacion para saber como se demuestra conformidad de una instalacion frente a RETIE
+- intent: faq/definicion_instalacion_retie_competencias
+  examples: |
+    - Como se si puedo realizar una instalacion de acuerdo a mis competencias      
+    - Que debo hacer realizar una instalacion de acuerdo a mis competencias                                                                                                
+    - Donde puedo encontrar la informacion para realizar una instalacion de acuerdo a mis competencias               
+    - Que competencias se deben tener para realizar una instalacion
+- intent: faq/definicion_declaracion_cumplimiento
+  examples: |
+    - Que es la declaracion de cumplimiento      
+    - Que se entiende por  declaracion de cumplimiento                                                                                                
+    - Por Que se llama declaracion de cumplimiento               
+    - Que se adquiere cuando  se suscribe una declaracion de cumplimiento
+- intent: faq/instalaciones_necesarias_dictamen
+  examples: |
+    - Como puedo saber que instalaciones necesitan un Dictamen de inspeccion      
+    - Donde consulto que instalaciones necesitan un Dictamen de inspeccion                                                                                                
+    - Como encuentro las instalaciones que necesitan un Dictamen de inspeccion               
+    - Cuales son las instalaciones que requieren  un dictamen de inspeccion
+- intent: faq/formato_declaracion_retie
+  examples: |
+    - Donde encuentro el formato de declaracion de cumplimiento RETIE      
+    - Como puedo saber el formato de declaracion de cumplimiento RETIE                                                                                                
+    - Link para conocer el formato de declaracion de cumplimiento RETIE               
+    - Como puedo encontrar el formato de declaracion de cumplimiento RETIE
+- intent: faq/requisitos_costos_tecnico_electricista
+  examples: |
+    - Donde encuentro los requisitos y los costos  para obtener mi tarjeta profesional de tecnico electricista      
+    - Como puedo saber  los requisitos y los costos  para obtener mi tarjeta profesional de tecnico electricista                                                                                                 
+    - Link para conocer los requisitos y los costos  para obtener mi tarjeta profesional de tecnico electricista               
+    - Como puedo encontrar  los requisitos y los costos  para obtener mi tarjeta profesional de tecnico electricista 
+- intent: faq/info_clases_matriculas_electricistas
+  examples: |
+    - Donde encuentro la informacion de las clases de matriculas profesionales para electricistas      
+    - Como puedo encontrar la informacion de las clases de matriculas profesionales para electricistas                                                                                                  
+    - Link para encontrar la informacion de las clases de matriculas profesionales para electricistas                 
+    - Como puedo encontrar la informacion de las clases de matriculas profesionales para electricistas
+- intent: faq/denuncio_electricista
+  examples: |
+    - Donde puedo denunciar un tecnico electricista      
+    - Se puede denunciar  a un tecnico electricista                                                                                                  
+    - cual es el formulario de quejas y reclamos de los tecnicos electricistas                 
+    - cual es el conducto regular para denunciar a un tecnico electricista
+- intent: faq/lista_agendes_registrados
+  examples: |
+    - Donde puedo ver el listado de agentes de la cadena registrados      
+    - Como puedo ver el listado de agentes de la cadena registrados                                                                                                  
+    - Link para ver el listado de agentes de la cadena registrados                  
+    - Como puedo ver el listado de agentes de la cadena registrados
+- intent: faq/precios_venta_combustibles
+  examples: |
+    - Donde puedo consultar los precios de venta de los combustibles      
+    - Como puedo consultar los precios de venta de los combustibles                                                                                                 
+    - Link para  consultar los precios de venta de los combustibles                   
+    - Como puedo  consultar los precios de venta de los combustibles
+- intent: faq/estadisticas_venta_combustible_colombia
+  examples: |
+    - Donde encuentro estadisticas de ventas de combustible en Colombia      
+    - Como puedo encontrar estadisticas de ventas de combustible en Colombia                                                                                                 
+    - Link para encontrar estadisticas de ventas de combustible en Colombia                   
+    - Como puedo encontrar estadisticas de ventas de combustible en Colombia
+- intent: faq/organismos_certificadores_estacion_servicio
+  examples: |
+    - Como puedo saber que Organismos certificadores pueden certificar la estacion de servicio      
+    - Donde puedo saber que Organismos certificadores pueden certificar la estacion de servicio                                                                                                 
+    - Link para saber que Organismos certificadores pueden certificar la estacion de servicio                   
+    - Como puedo saber que Organismos certificadores pueden certificar la estacion de servicio
+- intent: faq/queja_organismo_certificador
+  examples: |
+    - A donde puedo colocar una queja sobre un Organismo certificador      
+    - Como puedo colocar una queja sobre un Organismo certificador                                                                                                   
+    - Link para colocar una queja sobre un Organismo certificador                   
+    - Que debo hacer para colocar una queja sobre un Organismo certificador
+- intent: faq/queda_mal_servicio_energia
+  examples: |
+    - Como puedo colocar una queja por mala prestacion del servicio de Energia      
+    - Donde puedo colocar una queja por mala prestacion del servicio de Energia                                                                                                   
+    - Link para colocar una queja por mala prestacion del servicio de Energia                   
+    - Que debo hacer para colocar una queja por mala prestacion del servicio de Energia
+- intent: faq/cambio_mayorista_compras_anterior_proveedor
+  examples: |
+    - Que puedo hacer si realice un cambio de Mayorista y no puedo declarar las compras que tengo con el anterior proveedor      
+    - Como puedo declarar compras hechas con un distribuidor diferente                                                                                                   
+    - Donde puedo indagar para poner las compras que hice con un mayorista                   
+    - Si realizo cambio de mayorista  y no puedo declarar las compras que tengo con el anterior proveedor que debo hacer
+- intent: faq/construccion_normatividad_minminas
+  examples: |
+    - Como puedo participar en la construccion de la normatividad del sector de Minas y Energia      
+    - Que debo hacer para participar en la construccion de la normatividad del sector de minas y Energia                                                                                                   
+    - Por Donde puedo ingresar para la Participacion de la construccion de la normativa del sector de minas y Energias                   
+    - Que debo hacer para participar en la construccion de la normativa del sector de minas y Energia
+- intent: faq/concepto_alcaldia_permiso_construccion_estacion
+  examples: |
+    - El Ministerio de Minas Y Energia emite algun concepto para que la Alcaldia me otorgue el permiso de construccion de la estacion      
+    - cual es el proceso para obtener la aprobacion de la construccion de mi estacion de servicio                                                                                                   
+    - cual es el papel del Ministerio de Minas y Energia en el proceso de obtener el permiso de construccion de la EDS                   
+    - Por que el Ministerio de Minas no me expide el permiso de construccion de la EDS
+- intent: faq/control_galones_finales_entrega
+  examples: |
+    - El Control de los 20 mil galones para clientes finales a, aplica para cada cliente o cada punto de entrega      
+    - Si soy comercializador industrial debo vender maximo 20mil galones por cliente o por punto                                                                                                   
+    - Mis clientes pueden tener un consumo de 20 mil por punto                   
+    - Los clientes de los comercializadores industriales pueden tener consumos superiores a 20mil galones por mes 
+- intent: faq/combustible_max_evaporacion
+  examples: |
+    - cual es el maximo de combustible que puedo declarar como evaporacion      
+    - Hay algun tope en el informe de declaracion para el espacio de evaporacion                                                                                                   
+    - La perdida por evaporacion se debe  reportar en el informe mensual                   
+    - Por Que hay una cantidad maxima de perdida por evaporacion en el informe mensual
+- intent: faq/encargado_proceso_marcacion_combustibles
+  examples: |
+    - Como es el proceso de marcacion de combustibles      
+    - Hay algun empresa responsable de controlar la marcacion de combustibles                                                                                                   
+    - Por Que es necesario que una empresa controle el procedimiento de marcador de combustibles                   
+    - Quien es el encargado del proceso de Marcacion de Combustibles en Colombia
+- intent: faq/tercerizar_proceso_marcacion
+  examples: |
+    - Se puede tercerizar el proceso de Marcacion de los Combustibles      
+    - Puede una empresa ajena al sector administrar el proceso de marcacion de combustibles
+    - Como se hace el proceso de tercerizacion  de marcacion de combustibles
+    - Varias empresas pueden administrar el proceso de marcacion de combustibles   
+- intent: faq/proceso_marcacion_obligatoria
+  examples: |
+    - En Colombia es obligatorio marcar los Combustibles      
+    - Es importante marcar los combustibles que se comercializan en el pais                                                                                                   
+    - Por Que debo marcar los combustibles que vendo                   
+    - cual es la norma establecida para la marcacion de combustibles 
+- intent: faq/donde_ejecutar_marcacion_combustible
+  examples: |
+    - Donde se debe ejecutar el proceso de Marcacion del Combustible      
+    - cual es el momento en el que se debe hacer el proceso de marcacion                                                                                                   
+    - En Que situacion se debe hacer el proceso de marcacion                   
+    - cual es el lugar adecuado para la marcacion de combustibles
+- intent: faq/distribuidor_mayor_marcacion_combustible
+  examples: |
+    - Los Distribuidores Mayoristas tienen alguna responsabilidad en el proceso de Marcacion de los Combustible      
+    - cual es el agente de la cadena encargado del proceso de marcacion de combustibles                                                                                                   
+    - Que tipo de compromiso tienen los mayoristas con la marcacion de combustible                   
+    - Por Que los mayoristas tienen Participacion  en la marcacion de combustibles liquidos
+- intent: faq/ordenes_realizan_estacion_servicio
+  examples: |
+    - Que tipo de ordenes puede realizar una estacion de servicio      
+    - Hay clasificacion de orden de pedido para una EDS                                                                                                   
+    - Cuales son las ordenes de pedido que puedo hace en SICOM                   
+    - Que es una orden de pedido simple
+- intent: faq/ordenes_realizan_estacion_servicio_aviacion
+  examples: |
+    - Que tipo de Ordenes puede realizar la estacion de servicio de aviacion      
+    - Puedo hacer diferentes tipos de orden de pedido si soy estacion de servicio de aviacion                                                                                                   
+    - Cuales son las ordenes de pedido que permite hacer el sistema a la EDS de aviacion                   
+    - cuantas opciones tengo al hacer orden de pedido EDS de avicacion
+- intent: faq/info_agentes_almacenadores_sicom
+  examples: |
+    - Que informacion deben declarar los agentes Almacenadores en el sistema Sicom      
+    - Es importante declarar con el informe mensual en Sicom                                                                                                   
+    - Por Que los almacenadores deben hacer el reporte mensual de los combustibles distrbuidos                   
+    - Cuales datos se deben tener en cuenta para declarar informacion en Sicom
+- intent: faq/tipos_agentes_mezcla_combustibles
+  examples: |
+    - Que tipo de agentes de la cadena pueden realizar mezclas de combustibles      
+    - Se pueden realizar mezclas de combustibles                                                                                                   
+    - Como puedo tener autorizacion para realizar mezclas de combustibles                   
+    - Cuales datos se deben tener en cuenta para declarar informacion en Sicom 
+- intent: faq/agente_orden_pedido_anticipado_individual
+  examples: |
+    - Que tipo de agentes de la cadena pueden hacer Ordenes de pedido Anticipadas Individuales      
+    - Por Que se pueden hacer ordenes de pedido anticipadas individuales                                                                                                   
+    - Como puede hacer una estacion de servicio una orden anticipada individual                   
+    - Cuales son los agentes que puedne hacer ordenes de pedido anticipadas individuales en Sicom
+- intent: faq/solicitar_codigo_industrial_sin_vehiculo
+  examples: |
+    - Es posible que pueda solicitar el codigo como Comercializador Industrial sin tener vehiculos de propiedad      
+    - Necesito tener vehiculos propios para ser un comercializador industrial                                                                                                   
+    - Por Que debo tener un vehiculo propio para ser comercializador industrial                   
+    - El vehiculo es un requisito par aser comercializador industrial
+- intent: faq/quien_cliente_comercializador
+  examples: |
+    - Quienes pueden ser clientes del Comercializador Industrial      
+    - Como conozco los requisitos para ser cliente de un comercializador industrial                                                                                                   
+    - Puedo ser cliente de un comercializador industrial                   
+    - Por Que debo tener clientes si soy comercializador industrial     
+- intent: faq/comercializador_puede_vehiculo_varios_proveedores
+  examples: |
+    - Puedo tener varios proveedores mayoristas      
+    - Por Que solo puedo tener un mayorista si soy comercializador industrial                                                                                                   
+    - Como puedo saber si tengo mas de un mayorista                   
+    - El Comercializador Industrial puede tener vinculo con varios Proveedores
+- intent: faq/estacion_venta_otra_estacion
+  examples: |
+    - Puede una estacion de servicio vender combustible a otra estacion de servicio o a un Comercializador Industrial      
+    - Mi estacion de servicio puede vender combustible a la estacion que este cerca                                                                                                   
+    - Puedo poner venta de combustible a las estaciones que no tengan combustible                   
+    - Si quiero vender combustible de forma libre a otras empresas desde mi estacion de servicio Cuales son los requisitos
+- intent: faq/casos_comercializa_varios_proveedores
+  examples: |
+    - En Que casos se permite a un comercializador industrial tener dos proveedores      
+    - Puedo pedir permiso para tener dos proveedores mayoristas                                                                                                   
+    - Soy comercializador y necesito saber el proceso para tener dos mayoristas                   
+    - Si quiero hacer contrato con dos mayoristas puedo pedir permiso al Ministerio de minas y Energia
+- intent: faq/cliente_final_compra_varios_comercializadores
+  examples: |
+    - cual es el proceso para pedir a dos comercializadores industriales combustibles      
+    - Puedo pedir permiso para que dos comercializadores me vendan combustible                                                                                                   
+    - Por Que no puedo tener dos comercializadores industriales si soy cliente                   
+    - Un cliente final de un Comercializador puede comprar combustible a mas de un comercializador
+- intent: faq/comercializador_vende_directo_vehiculos
+  examples: |
+    - El comercializador puede vender combustible directamente a los vehiculos      
+    - Soy comercializador industrial y quiero vender combustible a vehiculos, Como pido autorizacion                                                                                                   
+    - Un comercializador industrial puede vender combustible a otras estaciones de servicio                   
+    - El ministerio de Minas y Energia me autoriza a venderle a otros comercializadores industriales que son iguales a mi
+- intent: faq/obligacion_consumidor_final_comercializador
+  examples: |
+    - Cuales son las obligaciones de los consumidores finales de un Comercializador Industrial      
+    - Como puedo revisar las responsabilidad que tengo como cliente del comercializador industrial                                                                                                   
+    - Que tipo de compromisos con el MME tengo si soy  cliente del comercializador industrial                   
+    - Tengo obligaciones con el MME si soy consumidor final 
+- intent: faq/tipo_gran_consumidor
+  examples: |
+    - Como se Que tipo de Gran Consumidor debo ser      
+    - Cuales son los tipos de gran consumidor                                                                                                   
+    - Por Que el agente de la cadena que es gran consumidor tiene distinciones                   
+    - Puedo saber Que tipo de gran consumidor soy
+- intent: faq/autorizacion_mover_combustible_grandes_consumidores
+  examples: |
+    - Como solicitar la autorizacion para mover combustible utilizado por Grandes Consumidores fuera de la instalacion      
+    - El Ministerio de Minas y Energia me da permiso para mover combustible si soy gran consumidor                                                                                                   
+    - Por Que el agente de la cadena que es gran consumidor tiene distinciones                   
+    - Puedo saber Que tipo de gran consumidor soy 
+- intent: faq/comprar_combustible_grand_consumidor_sin_instalacion
+  examples: |
+    - A quien le puede comprar combustible el Gran Consumidor sin instalacion      
+    - Como puedo comprar combustible si soy gran consumidor sin instalacionr                                                                                                   
+    - El proceso de compra de combustible es diferente para el gran consumidor sin instalacion                   
+    - cual es el tipo de empresa que me puede vender comsbutible su soy gran consumidor sin instalacion
+- intent: faq/empresa_transporte_gran_consumidor
+  examples: |
+    - Una empresa de Transporte puede ser gran Consumidor de Combustible      
+    - Quiero ser gran consumidor y mi empresa es de transporte Cuales son los requisitos                                                                                                   
+    - Por Que no puedo ser gran consumidor                   
+    - Cuales son las excepciones a la hora de pedir permiso para ser gran consumidor
+- intent: faq/actualizar_poliza_estacion
+  examples: |
+    - Como actualizo la poliza de Responsabilidad Civil de la estacion      
+    - cual es el proceso con el MME para actualizar la poliza de responsabilidad civil de mi estacion de servicio                                                                                                   
+    - El Ministerio de Minas debe autorizarme la actualizacion de la poliza de mi estacion                    
+    - Cuando debo hacer la actualizacion de la poliza de responsabilidad de mi estacion de servicio
+- intent: faq/certificado_suspendido_estacion
+  examples: |
+    - Que debo hacer si me suspendieron el certificado de conformidad de la estacion, y quiero levantar el bloqueo en Sicom      
+    - cual es el proceso para el desbloqueo de la estacion Cuando se trata del certificado de conformidad                                                                                                   
+    - Como hago para que sicom me desbloquee por el certificado de conformidad                    
+    - El certificado de conformidad se debe presentar al MME para levantar el bloqueo
+- intent: faq/error_dictamen_cargado
+  examples: |
+    - Que puedo hacer si cometi un error en el cargue de un dictamen de inspeccion en el aplicativo DIIE      
+    - Como puedo hacer para corregir la documentacion que subi al aplicativo DIIE                                                                                                   
+    - Se pueden borrar los documentos que se suben al DIIE                    
+    - Puedo cambiar los documentos que ya subi al DIIE
+- intent: faq/corregir_informacion_operador_plataforma_GNCV
+  examples: |
+    - Como se puede corregir la informacion del Operador de la estacion de servicio en la plataforma de GNCV      
+    - Puedo corregir informacion ingresada de mi empresa al sicom GNCV                                                                                                   
+    - Si me equivoque con algun dato en el sicom GNCV puedo corregirlo en la misma plataforma                    
+    - Quiero corregir la informacion de sicom GNCV cual es el proceso
+- intent: faq/obligacion_cargue_informacion_cilindros_reguladores_GNCV
+  examples: |
+    - Quien tiene la obligacion de cargar la informacion de los Cilindros y reguladores al sistema GNCV      
+    - cual es la empresa que tiene el deber de cargar en el sistema de sicom los cilindros                                                                                                   
+    - La informacion de los cilindros debe ser cargada por Que tipo de agente de la cadena de GNCV                    
+    - Por Que deben ingresar la informacion al sicom de los cilindros de GNCV
+- intent: faq/eliminar_descargue_inventario_equipos
+  examples: |
+    - Como se puede hacer la eliminacion descargue de un equipo en el inventario de un Comercializador de equipos      
+    - Puedo deshacer una desinstalacion de equipo GNCV en el Sicom                                                                                                    
+    - El sistema me permite deshacer una instalacion GNCV                    
+    - Los equipos se pueden desinstalar en el sistema si no se han instalado en el vehiculo
+- intent: faq/riesgos_revision_anual_vehiculo
+  examples: |
+    - Que sucede si no hago la revision anual del vehiculo     
+    - Debo hacer la revision anual de mi vehiculo en GNCV                                                                                                    
+    - Por Que es importante la revision anual en GNCV                    
+    - El vehiculo se puede ver afectado si no reporto la revision anual al taller
+- intent: faq/consultar_convocatorias_transmision_gas
+  examples: |
+    - Donde puedo consultar las convocatorias de transmision, de gas natural y subastas de largo plazo     
+    - La informacion de las convocatorias de gas estan en Internet                                                                                                    
+    - El Ministerio de minas y Energia publica la informacion de las convocatorias de transmision de gas natural                    
+    - La pagina web del MME esta actualizada con informacion de convocatorias de gas natural
+- intent: faq/requisitos_informacion_proyecto_zona_ZNI
+  examples: |
+    - Donde se pueden consultar los requisitos y la informacion para presentar un proyecto de zonas no interconectadas ZNI     
+    - Como presento los proyectos para Zona no interconectadas                                                                                                    
+    - cual es el proceso para presentar mi proyecto de zona no interconectada                    
+    - Puedo conocer el paso a paso para radicar proyecto de zona no interconectada
+- intent: faq/info_area_reserva_especial
+  examples: |
+    - Donde puedo  encontrar informacion de las areas de reserva especial declaradas     
+    - La informacion de las areas de reserva declaradas la maneja el Ministerio de Minas y Energia                                                                                                    
+    - El MME tiene publicada informacion de las areas de reserva declaradas                    
+    - Las areas de reserva especial declaradas tiene relacion con el Ministerio de Minas y Energia 
+- intent: faq/info_produccion_pozos
+  examples: |
+    - Donde puedo encontrar informacion sobre el estado de produccion de pozos petroleros en el pais
+    - Necesito informacion de los pozos petroleros explorados
+    - Como consigo informacion de la exploracion de pozos petroleros
+    - En Que pagina web encuentro informacion de la exploracion y produccion de pozos petroleros 
+- intent: faq/permiso_exportar_esmeraldas_joyas
+  examples: |
+    - cual es el proceso para exportar piedras preciosas     
+    - El Ministerio de Minas y Energia tiene informacion del paso a paso para exportar piedras preciosas                                                                                                    
+    - Si quiero exportar piedras preciosas Como pido autorizacion                    
+    - Que permisos necesito para exportar esmeraldas joyeria y piedras preciosas
+- intent: faq/realizar_cesion_cupo
+  examples: |
+    - cual es el procedimiento para realizar una cesion de cupo     
+    - Como puedo hacer cesion de cupo                                                                                                    
+    - El Ministerio de Minas y Energia me autoriza la cesion de cupo                   
+    - cual es el proceso para ceder el cupo
+- intent: faq/declarar_sicom_producto_diesel
+  examples: |
+    - Como puedo declarar en Sicom el producto Suprime diesel, si no aparece configurado     
+    - Puedo declarar un producto que no me aparece en el informe mensual                                                                                                    
+    - Debo pedir a sicom que me configure un producto para declarar la informacion                   
+    - Por Que no me aparece el producto para declarar la informacion
+- intent: faq/certificacion_minminas_licitacion_combustible
+  examples: |
+    - Me solicitan una certificacion del Ministerio de Minas y Energia para poder participar en una licitacion para proveer combustibles a una Alcaldia, Como la obtengo     
+    - El MME me expide certificaciones para trabajar con entidades estatales                                                                                                    
+    - Si mis clientes me piden certificacion de actividad Sicom, el ministerio de minas y Energia me expide el documento                   
+    - Como hago para que el MME me expida una certificacion como agente de la cadena liquidos
+- intent: faq/documento_equivalente_cumple_requisito_transporte
+  examples: |
+    - Que documento es el equivalente para poder cumplir el requisito del registro nacional de transporte     
+    - El registro nacional de transporte es un requisito para ser comercializador industrial                                                                                                    
+    - Para Que me piden el registro nacional de transporte para obtener codigo sicom como comercializador industrial                   
+    - Es necesario el registro nacional de transporte para ser comercializador industrial
+- intent: faq/porcentaje_declaracion_sicom_bioacem
+  examples: |
+    - cual es el porcentaje que  debo declarar en Sicom del Bioacem     
+    - Puedo declarar el biodiesel sin porcentaje de mezcla                                                                                                    
+    - Si no me aparece el porcentaje de mezcla del bioacem Que debo hacer                   
+    - Neceisto declarar el Bioacem pero no me aparece el porcentaje 
+- intent: faq/obtener_cupo_zona_frontera
+  examples: |
+    - Como se obtengo el cupo de zona de frontera     
+    - Como se realiza la asignacion de cupo                                                                                                    
+    - Cuales son los meses en Que se asigna el cupo para las estaciones de servicio                   
+    - Neceisto saber Cuando me asignan cupo
+- intent: faq/vehiculos_transportar_combustible_liquido_petroleo
+  examples: |
+    - Que tipo de vehiculos pueden transportar combustibles liquidos derivados del petroleo     
+    - Puedo transportar combustible liquido en un carro particular                                                                                                    
+    - Debe ser un carrotanque el Que me transporte el combustible                   
+    - Por Que no puedo transportar en mi carro particular el combustible 
+- intent: faq/vehiculos_transportar_combustible_liquido_petroleo
+  examples: |
+    - Que tipo de vehiculos pueden transportar combustibles liquidos derivados del petroleo     
+    - Puedo transportar combustible liquido en un carro particular                                                                                                    
+    - Debe ser un carrotanque el Que me transporte el combustible                   
+    - Por Que no puedo transportar en mi carro particular el combustible
+- intent: faq/gran_consumidor_vende_combustible_sobrante
+  examples: |
+    - Un Gran Consumidor autorizado puede vender el combustible sobrante de su actividad     
+    - Si me sobra combustible puedo venderlo                                                                                                    
+    - Soy gran consumidor pero quiero vender el combustible que me sobro, cual es el proceso                   
+    - Por Que no puedo vender combustible si ya no lo necesito para mi actividad este mes
+- intent: faq/requisitos_solicitar_cambios_representantes_legal_estacion
+  examples: |
+    - Que requisitos necesito para solicitar el cambio de representante legal de la estacion de servicio     
+    - cual es el proceso para cambiar de representante legal                                                                                                    
+    - Puedo cambiar el representante legal de mi EDS                   
+    - Como hago si el representante legal de mi EDS cambio
+- intent: faq/consultar_proceso_contratacion_minminas
+  examples: |
+    - Donde puedo consultar los procesos de contratacion que esta adelantando el Ministerio de Minas     
+    - Puedo saber si el Ministerio de Minas y Energia esta contratando personal                                                                                                    
+    - Cuales son las vacanates laborales que tene el MME en el momento                   
+    - Necesito saber las convocatorias del MME
+- intent: faq/consultar_proceso_contratacion_minminas
+  examples: |
+    - Donde puedo consultar los procesos de contratacion que esta adelantando el Ministerio de Minas     
+    - Puedo saber si el Ministerio de Minas y Energia esta contratando personal                                                                                                    
+    - Cuales son las vacanates laborales que tene el MME en el momento                   
+    - Necesito saber las convocatorias del MME
+- intent: faq/hoja_vida_vacantes_minminas
+  examples: |
+    - Como puedo postular mi hoja de vida para vacantes en el Ministerio de Minas    
+    - Quiero enviar mi hoja de vida al Ministerio de Minas y Energia Como hago el proceso                                                                                                    
+    - Necesito enviar mi hoja de vida al Ministerio de Minas y Energia                   
+    - Como hago llegar mi hoja de vida al MME
+- intent: faq/definicion_EITI
+  examples: |
+    - Que es EITI Colombia    
+    - Como puedo conocer la informacion de las gestiones realizadas por el MME en el sector de hidrocarburos                                                                                                    
+    - El MME maneja de caracter publico informes de gestion de los sectores                   
+    - Necesito tener mas detalles de la gestion del MME en cada sector
+- intent: faq/info_estadistica_proyecto_pine
+  examples: |
+    - Donde encuentro informacion relacionada con las estadisticas de los proyectos PINE(Proyectos de interes nacional    
+    - Puedo saber por internet las estadisticas de los proyectos de interes social y estrategico PINE                                                                                                    
+    - El MME publica informacion en la web de los proyectos de interes social PINE                   
+    - Puedo encontrar informacion detallada de los PINE
+- intent: faq/empresas_inciativa_eiti
+  examples: |
+    - Donde puedo ver las empresas que hacen parte de la iniciativa EITI en Colombia    
+    - Como ciudadano puedo conocer las empresas que pertenecen a la EITI                                                                                                    
+    - Por internet puedo saber que empresas hacen parte de la iniciativa EITI                   
+    - Por Que pagina web puedo saber cuales son las empresas EITI
+- intent: faq/declaratoria_publica_dupis
+  examples: |
+    - Que es la Declaratoria de Utilidad publica e interes Social DUPIS    
+    - Que significa DUPIS                                                                                                    
+    - Como hago para conocer a que hace referencia DUPIS                  
+    - Necesito informacion de las declaratorias de utilidad publica
+- intent: faq/definicion_medidor_inteligente
+  examples: |
+    - Que son los medidores inteligentes    
+    - Cuales son los medidores de Energia                                                                                                    
+    - Cuales son los dispositivos que miden el uso de la Energia electrica                  
+    - La Energia electica se puede medir
+- intent: faq/vida_util_medidor__inteligente
+  examples: |
+    - Cual es la vida util de los medidores inteligentes    
+    - Cuanto duran los medidores de Energia                                                                                                    
+    - En Cuanto tiempo se dañan los medidores de Energia                  
+    - Puedo conocer los años que duran los medidores de Energia
+- intent: faq/diferencia_lectura_consumo_medidores
+  examples: |
+    - cual es la diferencia entre la lectura del consumo como un medidor inteligente y uno convencional    
+    - Es mejor un medidor convencional o inteligente de Energia electrica                                                                                                    
+    - Como hago para saber cual es el mejor medidor de Energia electrica                  
+    - La empresa de Energia me dice la diferencia de los medidores
+- intent: faq/definicion_plan_caribe
+  examples: |
+    - Que es Plan 5 Caribe    
+    - Existe algun plan de mejoramiento para el servicio de Energia electrica en el caribe colombiano                                                                                                    
+    - Que se esta haciendo para mejorar el servicio de Energia electrica en el caribe                  
+    - El MME tiene alguna iniciativa para mejorar el servicio de Energia electrica en el caribe colombiano
+- intent: faq/plan_expansion_transmision_actual
+  examples: |
+    - Donde puedo encontrar el plan de  expansion, generacion transmision  actual    
+    - Puedo encontrar mas detalles del plan de expansion                                                                                                    
+    - En la pagina web del MME hay mas informacion del plan de expansion actual                  
+    - Necesito informacion del plan de expansion vigente
+- intent: faq/politica_derechos_humanos_sector_minero_energetico
+  examples: |
+    - Donde puedo consultar la  politica de Derechos Humanos del Sector Minero energetico    
+    - Por internet puedo encontrar la politica de derechos humanos del sector minero energetico                                                                                                    
+    - El MME tiene informacion de las normas de derechos humanos del sector minero energetico                  
+    - Necesito informacion de las politicas de derechos humanos del sector minero
+- intent: faq/estructura_precios_combustible
+  examples: |
+    - Donde puedo encontrar la estructura de precios de combustible    
+    - Hay estructura de precios para la venta de combustible liquido                                                                                                    
+    - Como hago para encontrar informacion de la estructura de precios del combustible                  
+    - En la pagina web del MME hay informacion de la estructura de precios del combustible
+- intent: faq/precios_todos_combustibles
+  examples: |
+    - Donde puedo consultar los precios de todos los combustibles    
+    - Como hago para saber cuales son los precios vigentes para la venta de combustible liquido                                                                                                    
+    - Por internet puedo encontrar los precios actuales de la venta de combustible                  
+    - cual es la pagina web para revisar los precios actuales del combustible liquido
+- intent: faq/consultar_estado_vehiculos_GNCV
+  examples: |
+    - Como se puede consultar el estado de un vehiculo convertido a GNCV    
+    - Como puedo revisar las caracteristicas de un vehiculo convertido a GNCV                                                                                                    
+    - Si quiero verificar las condiciones de un vehiculo GNCV debo ingresar a sicom                  
+    - cual es la pagina web para verificar las condiciones de los vehiculos de GNCV
+- intent: faq/normativia_obliga_empresas_registarse_sicom_GNCV
+  examples: |
+    - Cual es la normativa que obliga a las empresas que participan en la cadena de GNCV deben registrarse en Sicom    
+    - Por Que es obligatorio el registro en la plataforma sicom GNCV                                                                                                    
+    - Todos los agentes de la cadena GNCV tienen por obligacion que realizar el registro en la plataforma                  
+    - cual es la resolucion que habla del registro en la plataforma sicom GNCV
+- intent: faq/info_programa_subsidio_gas_cilindro
+  examples: |
+    - Donde encuentro informacion sobre el programa de subsidio de gas en cilindro    
+    - cual es la normativa del funcionamiento de los subsidios de gas cilindros                                                                                                    
+    - Como puedo conocer el reglamento con el que se otorgan los subisidios de gas para comprar cilindros                  
+    - cual es la resolucion que rige el programa de subsidios GLP
+- intent: faq/equivalencia_subsidio_estrato_uno
+  examples: |
+    - A cuanto equivale el subsidio de gas para estrato 1    
+    - cual es el porcentaje de descuento del subsidio para comprar cilindros en GLP                                                                                                    
+    - Como puedo verificar el porcentaje del subisidio GLP                  
+    - cual es el descuento del subsidio en GLP
+- intent: faq/beneficiarios_programa_subsidios_GLP
+  examples: |
+    - Que entidad selecciona los beneficiarios del programa de subsidios de GLP en pipetas  
+    - quien elige a los beneficiarios del subsidio de gas                                                                                                    
+    - Que empresa selecciona a los beneficiarios del programa de subsidios GLP                  
+    - cual es el nombre de la entidad que escoge a los beneficiarios de los subsidios de GLP
+- intent: faq/inscribirme_subsidio_GLP_cilindro
+  examples: |
+    - Como puedo inscribirme para acceder al subsidio de GLP en Cilindro  
+    - cual es el proceso para tener el subsidio de Gas                                                                                                    
+    - Como hago para recibir el subsidio de gas                  
+    - Como puedo tener el subsidio de gas
+- intent: faq/cuantas_correcciones_dictamen_diie
+  examples: |
+    - cuantas veces se puede actualizar la informacion cargada en el aplicativo DIIE  
+    - Puedo cargar dos veces informacion en el DIIE                                                                                                    
+    - Como actualizo la informacion que subi al DIIE                  
+    - Como hago para corregir informacion en el DIIE
+- intent: faq/definicion_retie
+  examples: |
+    - Que significa RETIE  
+    - Que significan las siglas RETIE                                                                                                    
+    - Que son los reglamentos tecnicos en el sector energetico                  
+    - Por Que RETIE
+- intent: faq/objeto_retie
+  examples: |
+    - cual es el objeto del RETIE 
+    - Que entidad es la encargada de crear el RETIE                                                                                                    
+    - cual es la entidad publica que elaboro el reglamento tecnico                  
+    - Que empresa se dedico a establecer el RETIE
+- intent: faq/expidio_retie
+  examples: |
+    - Quien expidio el RETIE 
+    - Que entidad es la encargada de crear el RETIE                                                                                                    
+    - cual es la entidad publica que elaboro el reglamento tecnico                  
+    - Que empresa se dedico a establecer el RETIE
+- intent: faq/entidad_encargada_revisar_retie
+  examples: |
+    - Quien es la Entidad encargada de interpretar, revisar y actualizar el RETIE 
+    - El reglamento tecnico RETIE  se actualiza                                                                                                     
+    - Que ente realiza la revision o control de la aplicacion del RETIE                  
+    - Como realizan el control o auditoria del RETIE
+- intent: faq/campo_aplicacion_retie
+  examples: |
+    - Cual es el campo de aplicacion del RETIE 
+    - En que situacion se usa el RETIE                                                                                                     
+    - Como se aplica el RETIE                  
+    - En que escenario se debe aplicar RETIE
+- intent: faq/reglamento_tecnico_instalacion_retie
+  examples: |
+    - cual es el Reglamento tecnico de Instalaciones electricas   RETIE vigente 
+    - cual es la ultima version del RETIE                                                                                                     
+    - Como puedo saber cual es la normativa vigente del RETIE                  
+    - Necesito la ultima version del RETIE
+- intent: faq/conformado_retie
+  examples: |
+    - Como esta conformado el RETIE 
+    - cual es la estructura textual del RETIE                                                                                                     
+    - Cuantos capitulos tiene el RETIE                  
+    - Como esta formado el anexo general del RETIE 
+- intent: faq/excepcion_retie
+  examples: |
+    - Que es una excepcion en el RETIE 
+    - Mi equipo puede estar excento del RETIE                                                                                                 
+    - Por Que hay excepciones de RETIE                 
+    - Todos los equipos necesitan el RETIE
+- intent: faq/exclusion_retie
+  examples: |
+    - Que es una exclusion en el RETIE 
+    - Mi equipo esta excluido de RETIE                                                                                                 
+    - Por Que esta excluido mi equipo del RETIE                 
+    - Puedo estar excluido del RETIE
+- intent: faq/fundacion_conte
+  examples: |
+    - Cual es la Funcion del Consejo Nacional De tecnicos Electricistas CONTE 
+    - Para Que existe el CONTE                                                                                                 
+    - cual es el objetivo del consejo nacional de tecnicos electricistas                 
+    - Por Que se organizo el Consejo Nacional de tecnicos electricistas
+- intent: faq/productos_cumplimiento_retie
+  examples: |
+    - A Que productos les aplica el cumplimiento del RETIE 
+    - Cuales son los equipos que deben tener RETIE                                                                                                 
+    - Como puedo saber si me aplica o no el RETIE                 
+    - Como encuentro informacion de la aplicabilidad del RETIE
+- intent: faq/producto_equipo_instalacion_especial
+  examples: |
+    - Que es un producto para equipos o instalaciones especiales 
+    - Por Que se les llama equipos o instalaciones especiales                                                                                                 
+    - Como se clasifican los equipos especiales                 
+    - A Que hace referencia equipo o instalacion especial
+- intent: faq/retie_sistema_deteccion_incendios
+  examples: |
+    - Como aplica el RETIE para un sistema de deteccion de incendios  
+    - Si mi equipo hace parte de la detencion de incendios necesita el RETIE                                                                                                 
+    - Los equipos de detencion de incendios estan exceptos del RETIE                 
+    - Debe tener RETIE si hace parte de la clasificacion de equipos especiales
+- intent: faq/requisitos_retie_particulares
+  examples: |
+    - Cuales son los requisitos particulares del RETIE  
+    - Ademas del RETIE los equipos deben cumplir otros requisitos                                                                                                 
+    - Como puedo saber si mi equipo cumple con los requisitos                 
+    - Los requisitos establecidos del RETIE son los unics que se necesitan para la aprobacion del MME
+- intent: faq/aplica_certificado_producto_retie
+  examples: |
+    - Como aplica el certificado de conformidad de producto en RETIE  
+    - Los equipos que requieren el RETIE tambien necesitan certificado de conformidad                                                                                                 
+    - Por Que se requiere el certificado de conformidad                 
+    - El certificado de conformidad tambien lo deben tener los equipos en el sector energetico  
+- intent: faq/demostrar_conformidad_unidad_funcional
+  examples: |
+    - Como demostrar conformidad de  Unidad Funcional   
+    - Los importadores tambien deben tener certificado de conformidad de sus equipos                                                                                                 
+    - Cuales son los productos que al importarse deben contar con certificado de conformidad                  
+    - Por Que es importante que el importador tenga los certificados de conformidad de los equipos 
+- intent: faq/requisitos_cumplir_desmostracion_productos_retie
+  examples: |
+    - Que requisitos debe cumplir la demostracion de la conformidad de los productos objeto del RETIE   
+    - Cuales son las caracteristicas que deben tener los certificados de conformidad para ser validos                                                                                                 
+    - Como se puede cumplir la conformidad de los equipos                  
+    - cual es el paso a paso para cumplir conformidad de os equipos
+- intent: faq/jerarquia_realizacion_ensayo_conformidad
+  examples: |
+    - cual es la jerarquizacion de la realizacion de ensayos en laboratorios para demostrar la conformidad   
+    - Los ensayos de laboratorio deben hacer revision con algun orden en especifico                                                                                                
+    - Las pruebas de los equipos deben tener alguna prelacion para cumplir las conformidades                  
+    - Se deben seguir pasos para cumplir con las conformidades de los equipos
+- intent: faq/instalaciones_aplica_cumplimiento_retie
+  examples: |
+    - A Que instalaciones les aplica el cumplimiento del RETIE   
+    - Como se clasifican las instalaciones que deben tener RETIE                                                                                                 
+    - Que tipo de instalaciones electricas deben cumplir con RETIE                
+    - Necesito saber si a mi instalacion se le debe aplicar RETIE
+- intent: faq/requisitos_instalacion_uso_final
+  examples: |
+    - En Donde se encuentran los requisitos para instalaciones de uso final  
+    - Como se distribuyen las instalaciones de uso final                                                                                                 
+    - Cuales son los tipos de instalaciones               
+    - Necesito saber a Que grupo pertenece mi instalacion electrica
+- intent: faq/NTC_actualizacion_obligatorio_cumplimiento
+  examples: |
+    - Actualmente la NTC 2050 Primera actualizacion es de obligatorio cumplimiento  
+    - La norma tecnica 2050 es obligatoria                                                                                                 
+    - Por Que es obligatoria la NTC 2050               
+    - Es necesario cumplir con la norma NTC 2050
+- intent: faq/instalacion_asistencia_medica
+  examples: |
+    - Que es una instalacion de asistencia Medica  
+    - Hay instalaciones catalogadas como Medicas                                                                                                 
+    - Las instalaciones de asistencia Medicas son diferentes0               
+    - Una instalacion electrica de asistencia Medica  tiene diferentes caracteristicas  
+- intent: faq/instalacion_especial
+  examples: |
+    - Que es una instalacion especial  
+    - Por Que se llama instalacion especial                                                                                                 
+    - Por Que se nombran las instalaciones especiales               
+    - Como reconozco una instalacion electrica especial
+- intent: faq/demostar_instalacion_medio_calentamiento_agua
+  examples: |
+    - Como demostrar que la instalacion cuenta con un medio para el calentamiento de agua  
+    - cual es el proceso establecido para demostrar la conformidad de una instalacion para ducha                                                                                                 
+    - Por Que debe tener una instalacion diferente la ducha del baño               
+    - Como se da cumplimiento a las conformidades de una instalacion de ducha
+- intent: faq/uso_empalmes_instalacion_electrica_retie
+  examples: |
+    - Es permitido el uso de empalmes para instalaciones electricas bajo el alcance del RETIE  
+    - Puedo hacer empalmes de acuerdo  con la normativa del MME para instalaciones                                                                                                 
+    - Como hago para hacer empalmes en las instalaciones electricas               
+    - Es permitido un empalme para dar conformidad a la instalacion electrica
+- intent: faq/requisito_cuarto_bomba
+  examples: |
+    - Que requisitos cumplen los cuartos de bombas  
+    - Las instalaciones en los cuartos de bombas tienen alguna clasificacion                                                                                                 
+    - Por Que los tableros en los cuartos de bombas deben tener ciertos criterios de instalacion               
+    - Como se da cumplimientos al reglamento tecnico en un cuarto de bombas
+- intent: faq/denunciar_incumplimiento_riesgo_electrico
+  examples: |
+    - Donde deuniciar el  incumplimiento con el Reglamento de riesgo electrico  
+    - Como denuncio una falta a los reglamentos de Energia                                                                                                 
+    - cual es el proceso para denunciar irregularidades en el cumplimiento de los reglamentos tecnicos               
+    - Que debo hacer  si veo que no se estan cumpliendo los reglamentos tecnicos de instalacion
+- intent: faq/clasifica_instalacion_sistema_solar
+  examples: |
+    - Como se clasifica una instalacion de sistemas solares fotovoltaicos  
+    - cual es la categoria de una instalacion de sistemas solares fotovoltaicos                                                                                                 
+    - Como puedo saber la clasificacion de una instalacion de sistemas solares               
+    - Por Que se hace referencia a las instalaciones de sistemas solares fotovoltaicos y su categoria 
+- intent: faq/desviacion_requisito_retie
+  examples: |
+    - En Que casos es posible tener desviaciones a algun requisito del RETIE  
+    - Como puedo evitar algun requisito del RETIE                                                                                                 
+    - Todos los requisitos son necesarios para dar cumplimiento al RETIE               
+    - Puedo hacer alguna desviacion en el reglamento tecnico RETIE
+- intent: faq/responsabilidad_certificado_Retie
+  examples: |
+    - Cuales son las responsabilidades para certificar el RETIE 
+    - Cuales son los profesionales que tienen responsabilidad para manejar los trabajos del sector electrico                                                                                                 
+    - quienes son los encargados de manipular el mantenimiento de las redes electricas o instalaciones               
+    - Que tipo de personas u oficios puedes intervenir una instalacion
+- intent: faq/declaracion_cumplimiento_instalacion_electrica
+  examples: |
+    - Que es la declaracion de cumplimiento de una instalacion electrica 
+    - cual es el documento necesario para el proceso de certificacion                                                                                                 
+    - Como puedo saber que significa una declaracion de cumplimiento               
+    - Necesito informacion de la declaracion de cumplimiento
+- intent: faq/inspeccion_fines_certificacion
+  examples: |
+    - Que es la inspeccion con fines de certificacion 
+    - cual es el objetivo de la inspeccion de certificacion                                                                                                 
+    - Por Que se debe hacer una inspeccion de certificacion               
+    - Que tipo de requisitos tiene una inspeccion de certificacion
+- intent: faq/certificacion_plena_definicion
+  examples: |
+    - Que es certificacion plena 
+    - Necesito saber si mi instalacion requiere una certificacion adicional                                                                                                 
+    - Por Que se deben hacer certificaciones plenas               
+    - Las instalaciones deben tener mas de una certificacion
+- intent: faq/construccion_proyecto_vigencia_evaluacion
+  examples: |
+    - Que debo hacer si la construccion de mi proyecto se realizo bajo la vigencia de la resolucion 181294 de 2008, sin embargo, hasta este momento se va a realizar la evaluacion de la conformidad 
+    - Que proceso debo seguir para hacer la evaluacion de mi instalacion                                                                                                 
+    - Debo acudir a un organismo de certificacion para evaluar mi instalacion               
+    - cual es el paso a paso para evaluar la instalacion de mi propiedad
+- intent: faq/minminas_certifica_competencias_expedida_conformidad_acreditada
+  examples: |
+    - El Ministerio de Minas y Energia acepta o avala los certificados de competencias expedidos por los Organismos de evaluacion de la Conformidad acreditados 
+    - La ONAC es la unica entidad que tiene informacion validada de empresas certificadoras                                                                                                 
+    - La empresa certificadora debe estar inscrita en la ONAC               
+    - Por Que el Ministerio de Minas solo acepta entidades acreditadas por la ONAC
+- intent: faq/certificacion_ensayo_extranjero
+  examples: |
+    - Como se certifican los ensayos extranjeros 
+    - La evaluacion para las conformidades puede ser extranjero                                                                                                 
+    - EL informe de evaluacion para conformidad del RETIE puede ser expedido por una empresa extranjera               
+    - El proceso de evaluacion de RETIE puede incluir informes creados por empresas fuera del pais
+- intent: faq/demostrar_conformidad_retie_certificado_exterior
+  examples: |
+    - Se puede demostrar la conformidad con el RETIE mediante certificados de conformidad de productos expedidos en el exterior 
+    - Los certificados de conformidad son validos asi se expidan en el extranjero                                                                                                 
+    - Me aceptan el certificado de conformidad si esta generado en el exterior del pais              
+    - Los documentos para la validacion de conformidades pueden estar expedidos fuera del pais 
+- intent: faq/solicitud_concepto_reglamento_retie
+  examples: |
+    - Que se requiere para la solicitud del concepto de equivalencia de norma o reglamento tecnico con el RETIE 
+    - cual es el paso a paso para tener el concepto de equivalencia                                                                                                 
+    - Como hago si necesito el concepto de equivalencia              
+    - Como puedo pedir el certificado o concepto de homologacion
+- intent: faq/matriz_equivalencia_necesaria
+  examples: |
+    - Que es una matriz de equivalencia y por Que es necesaria 
+    - Como hago una matriz de equivalencia                                                                                                 
+    - Por Que debo hacer la matriz de equivalencia              
+    - Necesito informacion de la matriz de equivalencia del RETIE
+- intent: faq/productos_aplica_reconocimiento_norma
+  examples: |
+    - Cuales son los productos a los que se les aplica el reconocimiento de norma  
+    - Que debo hacer para obtener el reconocimiento en el reglamento RETIE                                                                                                 
+    - Como es el proceso para obtener el reconomiento del RETIE              
+    - Por Que es necesario cumplir con los requisitos RETIE
+- intent: faq/laboratorios_intervienen_conformidad_retie
+  examples: |
+    - Los laboratorios y organismos que intervienen en el proceso de demostracion de la conformidad con el RETIE requieren estar acreditados  
+    - Las empresas que realizan el proceso de revision de los equipos deben estar acreditados por la ONAC                                                                                                 
+    - La ONAC debe ser la autoridad que verifique a las empresas que trabajan en el proceso de certificacion              
+    - Por Que las empresas como laboratorios deben estar certificadas 
+- intent: faq/tipo_agente_orden_anticipada
+  examples: |
+    - Que tipo de agente puede realizar ordenes de pedido anticipadas individuales  
+    - Puedo hacer ordenes de pedido anticipadas individuales                                                                                                 
+    - Como puedo saber si tengo permiso para hacer ordenes de pedido anticipadas individuales              
+    - El sistema me permite hacer ordenes de pedido anticipadas individuales
+- intent: faq/cierres_parciales_pedido_anticipado_individual
+  examples: |
+    - Cuantos cierres parciales puede tener una orden de pedido anticipada individual  
+    - Existe algun tope para hacer cierres parciales                                                                                                 
+    - Una orden de pedido puede tener un maximo de cierres parciales              
+    - Por Que puedo hacer cierres parciales
+- intent: faq/cierres_totales_pedido_anticipado
+  examples: |
+    - Cuantos cierres totales puede tener una orden de pedido anticipada individual  
+    - Puedo hacer mas de un cierre total                                                                                                 
+    - Por Que solo puedo hacer un cierre total en una orden de pedido              
+    - Necesito cerras dos veces una orden de pedido
+- intent: faq/cerrar_orden_pedido_sicom
+  examples: |
+    - Quien debe cerrar la orden de pedido en la plataforma Sicom  
+    - Puedo cerrar la orden de pedido que realice en Sicom                                                                                                 
+    - El proveedor de combustible puede cerrar la orden en el sistema              
+    - El sicom me permite cerrar la orden que no se ha despachado
+- intent: faq/despacho_orden_pedido
+  examples: |
+    - Que puedo hacer para que me despachen  la orden de pedido  
+    - Puedo tener prioridad en el despacho del combustible                                                                                                 
+    - Por Que se demora el pedido de combustible que realice              
+    - Sicom me puede agilizar el despacho del combustible
+- intent: faq/registro_conductor_orden_pedido
+  examples: |
+    - Como puedo registrar un conductor de confianza en la orden de pedido  
+    - cual es el paso a paso para crear a un conductor en el sicom                                                                                                 
+    - El sistema me permite la creacion del conductor asignado a mi orden de pedido              
+    - Puedo registrar al conductor por primera vez en el sistema
+- intent: faq/eliminar_orden_mal_creada
+  examples: |
+    - Como eliminar una orden de pedido mal creada  
+    - cual es el proceso para eliminar una orden de pedido                                                                                                
+    - El sistema me permite corregir una orden de pedido             
+    - Puedo eliminar una orden de pedido en el sicom
+- intent: faq/info_resolucion_CREG
+  examples: |
+    - Donde encuentro informacion sobre la implementacion de la resolucion CREG 060 –2020  
+    - Necesito informacion adicional de la resolucion 060 CREG                                                                                               
+    - Por internet puedo tener informacion de la resolucion 060 de la CREG             
+    - En la pagina web del MME puedo encontrar informacion de la resolucion de la CREG 060 2020
+- intent: faq/excedentes_exportacion_hidrocarburos
+  examples: |
+    - Que son los excedentes de exportacion de Hidrocarburos  
+    - El crudo extraido que sobra del proceso es tratado de forma diferente                                                                                              
+    - Que se hace con los excedentes del crudo extraido             
+    - El proceso de extracion de crudo tiene excedentes
+- intent: faq/lineas_conexion_hidrocarburos
+  examples: |
+    - Que son las lineas de conexion de Hidrocarburos  
+    - Como es el proceso de transporte de hidrocarburos                                                                                             
+    - Existe algun concepto usado en el transporte de hidrocarburos             
+    - Como conectan las tuberias en el transporte de hidrocarburos
+- intent: faq/diesel_marino
+  examples: |
+    - Que es Diesel Marino  
+    - cual es el tipo de diesel usado en las barcazas                                                                                             
+    - Como se compone el diesel marino             
+    - cual es la mezcla del diesel marino
+- intent: faq/tipos_motoresusan_diesel_marino
+  examples: |
+    - Que tipo de motores pueden utilizar el Diesel Marino  
+    - cual es el tipo de motor que puede usar diesel marino                                                                                             
+    - El diesel marino puede ser usado en cualquier motor             
+    - Para Que sirve el diesel marino
+- intent: faq/agente_puede_vender_diesel_marino
+  examples: |
+    - Que  agente puede vender Diesel Marino  
+    - Se entrega a distribuidores mayoristas o estaciones de servicio maritimas por bote o buque tanque.                                                                                             
+    - Mi estacion de servicio puede vender diesel marino             
+    - Debo pedir autorizacion para vender diesel marino
+- intent: faq/definicion_jet_a
+  examples: |
+    - Que es el Jet A-1  
+    - cual es el nombre del combustible para aviones o avionetas                                                                                             
+    - El combustible para los aviones tiene algun nombre              
+    - Como puedo saber el nombre del combustible y la composicion para los motores de aviones o avionetas
+- intent: faq/definicion_nafta_virgen
+  examples: |
+    - Que es Nafta virgen  
+    - cual es el componente quimico del crudo                                                                                             
+    - Puedo conocer el nombre de algun componente del crudo              
+    - Como es el proceso de la obtencion de crudo
+- intent: faq/definicion_extra_b
+  examples: |
+    - Que es el diesel Extra B2 o B0  
+    - cual es el nombre de la mezcla de biodiesel                                                                                             
+    - Por Que se le dice biodiesel B2              
+    - Por Que se llama biodiesel B0
+- intent: faq/definicion_high_sulphur_diesel
+  examples: |
+    - Que es High sulphur diesel  
+    - Necesito mas informacion del tipo de diesel High sulphur                                                                                             
+    - Como es el proceso en el que se obtiene el diesel high              
+    - Por Que se genera el diesel High
+- intent: faq/etapas_desarrollo_estacion_servicio
+  examples: |
+    - Cuales son las principales etapas de desarrollo de una estacion de servicio  
+    - cual es el proceso de una estacion de servicio nueva                                                                                             
+    - Como puedo saber el orden para tener una estacion de servicio              
+    - Como se desarrolla un proyecto de estacion de servicio
+- intent: faq/controlar_combustible_recibido
+  examples: |
+    - Como controlar la cantidad de combustible recibido  
+    - Es obligatorio llevar un control de las ventas de combustible                                                                                             
+    - Debo reportar las ventas totales de mi estacion de servicio              
+    - Por Que es importante controlar las ventas de combustible
+- intent: faq/acciones_remediacion_estacion_servicio
+  examples: |
+    - Que son acciones de remediacion en las estaciones de servicio  
+    - Se debe hacer mantenimiento a la estacion de servicio                                                                                             
+    - Que debo hacer si hay residuos toxicos de combustible              
+    - cual es el paso a paso para arreglar escapes o daños a mi EDS
+- intent: faq/accion_emergencia_incendio_estacion
+  examples: |
+    - Que acciones de emergencia debo realizar ante un incendio en una estacion de servicio 
+    - cual es el protocolo establecido Cuando se incendia una EDS                                                                                             
+    - Que necesito para atender una emergencia de incendio en una EDS             
+    - Por Que es importante conocer el manejo que se le da a una emergencia como un incendio
+- intent: faq/consultar_estado_acreditacion
+  examples: |
+    - Donde puedo consultar el estado de una acreditacion 
+    - Puedo revisar por internet el estado de acreditacion                                                                                             
+    - cual es el link para revisar el estado de acreditacion             
+    - Puedo validar el estado de acreditacion 
+- intent: faq/pagina_consultar_directorio_acreditado
+  examples: |
+    - Cual es la pagina web para  consultar el directorio de acreditados 
+    - Puedo ver el directorio de acreditados por internet                                                                                             
+    - Las empresas autorizadas por la ONAC estan publicadas en la pagina web             
+    - Puedo revisar a las empresas acreditadas por la ONAC
