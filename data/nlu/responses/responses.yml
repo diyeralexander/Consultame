@@ -22,15 +22,6 @@ responses:
   - text: Dar a conocer a los ciudadanos - clientes y partes interesadas del Ministerio de Minas y Energía nuestras políticas y lineamientos para la atención a los ciudadanos y divulgar los escenarios de atención y participación ciudadana establecidos por la entidad,con el fin de interactuar con ellos y facilitar el ejercicio del control social,su intervención en la toma de decisiones y la satisfacción de sus requerimientos de forma eficaz, eficiente y efectiva.
   utter_faq/funciones_ministra_minas_energia:
   - text: Artículo 5. Son funciones del Despacho del Ministro de Minas y Energía, además de las previstas en la Constitución Política, en el artículo 61 de la Ley 489 de 1998 y en las demás disposiciones legales. Consulta las [funciones del Ministro.](https://www.minenergia.gov.co/en/la-ministra)
-  utter_faq/estacion_de_servicio:
-  - text: |
-      Los requisitos estan contenidos en el decreto 1073 de 2015 a partir de la hoja 68 Copia de los estatutos sociales, estados financieros al momento de su constitucion y composicion accionaria de la empresa, segun el caso. Certificado de existencia y representacion legal para personas juridicas o registro mercantil para personas naturales, expedidos con una antelacion no superior a tres meses por la respectiva Camara de Comercio, en el que conste que la actividad a desarrollar dentro de la distribucion minorista de combustibles liquidos derivados del petroleo es a traves de una estacion de servicio de aviacion. 
-      Autorizaciones y permisos ambientales correspondientes, expedidos para la respectiva estacion de servicio por las autoridades competentes si estas asi lo requieren.  
-      Poliza de seguro de responsabilidad civil extracontractual, expedida en los terminos establecidos en el presente decreto, en la cual debe aparecer expresamente determinada y ubicada la estacion de servicio sobre la cual versa la solicitud, acompa?ada del clausulado general con sus correspondientes anexos, asi como copia del recibo de pago, en los montos establecidos.  
-      Certificado de conformidad expedido por un organismo de certificacion acreditado, sobre el cumplimiento de los requisitos contemplados en el reglamento tecnico expedido por las autoridades competentes, de la estacion de servicio sobre la cual versa la solicitud que se tramita. 
-      Copia de las demas licencias requeridas para la operacion incluyendo los permisos la Aeronautica Civil. 
-      Adjuntar Registro unico Tributario "RUT", en cumplimiento articulo 555-2 del Estatuto Tributario, reglamentado a traves del Decreto 2788 del 31 agosto 2004, o las normas que lo modifiquen, adicionen o deroguen.  
-      [entidades adscritas.](https://www.minEnergia.gov.co/documents/10180//23517//36452-Decreto-1073-26May2015.pdf )
   utter_faq/registro_comercializador_industrial:
   - text: |
       Copia de los estatutos sociales, estados financieros y composicion accionaria, segun el caso. Para el efecto debera acreditar activos por valor minimo de mil quinientas  unidades de salario minimo legal mensual vigente.  
