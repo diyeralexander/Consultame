@@ -1,6 +1,6 @@
 version: "2.0"
 responses:
-  utter_faq/canales_atencion:
+  utter_faq/estacion_de_servicio:
   - text: Ministerio de Minas y Energía. Lineamientos, políticas y documentos puestos a disposición para recibir sus aportes e inquietudes. Peticiones, quejas, reclamos y denuncias. Chats. Blogs. Foros de Consulta Ciudadana. Trámites y Servicios [Mas información](https://www.minenergia.gov.co/en/canales-de-atencion-al-ciudadano)
   utter_out_of_scope/non_spanish:
   - text: Solo entiendo el idioma Español, disculpame! 😔.
