@@ -165,7 +165,7 @@ nlu:
     - Donde puedo consultar los requisitos para poder importar combustibles
     - Como puedo obtener el permiso para importar combustibles
     - permiso para importar combustibles
-    - Donde encuentro los requisitos para registrarme como Importador de Combustibles ante Sicom 
+    - Donde encuentro los requisitos para registrarme como Importador de Combustibles ante Sicom   
 - intent: faq/agente_refinador
   examples: |
     - Que requisitos necesito para registrarme como Agente Refinador
@@ -201,23 +201,3 @@ nlu:
     - Como desvinculo el vehiculo
     - informacion para desvincular de un comercializador
     - desvinculacion de vehiculos
-- intent: faq/cambio_mayorista
-  examples: |
-    - Como puedo realizar un cambio de Mayorista
-    - Como puedo reportar un cambio de bandera
-    - Ante quien tramito un cambio de mayorista
-    - A quien le solicito autorizacion de un cambio de mayorista   
-- intent: faq/sobre_tasa_gasolina
-  examples: |
-    - Necesito informacion sobre la sobretasa de gasolina
-    - Que resolucion me orienta con la sobretasa a la gasolina
-    - Que resolucion me orienta sobre la sobretasa a la gasolina
-    - A quien le solicito autorizacion de un cambio de mayorista     
-    - Sobre tasa de la gasolina
-- intent: faq/operador_sicom
-  examples: |
-    - Puedo actualizar documentos en Sicom
-    - Sicom actualiza documentos
-    - Necesito actualizar unos documentos y no se si puedo hacerlo en Sicom
-    - Que documentos se pueden actualizar directamente con el operador Sicom      
-    
