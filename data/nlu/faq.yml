@@ -101,3 +101,35 @@ nlu:
     - Que se conoce como Agente de la cadena de Combustibles
     - Agente de la cadena de combustible y su Funcion
     - Que es un  Agente de la cadena de combustible
+- intent: faq/plan_participacion_ciudadana_uno
+  examples: |
+    - Qué es el Plan Estratégico de Participación Ciudadana
+    - Para qué sirve el Plan Estratégico de Participación Ciudadana
+    - De qué trata el Plan Estratégico de Participación Ciudadana
+    - Para qué es el Plan Estratégico de Participación Ciudadana
+    - Cual es el Plan Estratégico de Participación Ciudadana
+    - Que es el plan de participación ciudadana
+    - Donde encuentro el plan de participación ciudadana
+    - Ayudame con el plan de participación ciudadana
+    - Uso del plan de participación ciudadana
+- intent: faq/plan_participacion_ciudadana_dos
+  examples: |
+    - Qué es el Plan Estratégico de Participación Ciudadana
+    - Para qué sirve el Plan Estratégico de Participación Ciudadana
+    - De qué trata el Plan Estratégico de Participación Ciudadana
+    - Para qué es el Plan Estratégico de Participación Ciudadana
+    - Cual es el Plan Estratégico de Participación Ciudadana
+    - Que es el plan de participación ciudadana
+    - Donde encuentro el plan de participación ciudadana
+    - Ayudame con el plan de participación ciudadana
+    - Uso del plan de participación ciudadana
+- intent: faq/identidad_ministerio_uno
+  examples: |
+    - como es Qué es el Ministerio de Minas y Energía
+    - como es Qué hace el Ministerio de Minas y Energía
+    - como es Información sobre el Ministerio de Minas y Energía
+    - Que es el ministerio de minas y energia
+    - Que hace el ministerio de minas y energia
+    - Que es el ministerio de minas y energía
+    - Que hace el ministerio de minas y energía
+    - A que se dedica el ministerio de minas y energia    
