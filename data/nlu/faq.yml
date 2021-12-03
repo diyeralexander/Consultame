@@ -172,4 +172,25 @@ nlu:
     - registrarme como Agente Refinador        
     - Que debo hacer para registrarme como refinador
     - Como puedo obtener el registro como refinador
-    - Ante quien tramito mi codigo de refinador     
+    - Ante quien tramito mi codigo de refinador
+- intent: faq/almacenador_combustible
+  examples: |
+    - Que requisitos necesito para ser autorizado como Agente Almacenador de Combustible
+    - Agente Almacenador de Combustible        
+    - Que hago para obtener informacion sobre los agentes almacenadores
+    - Necesito los requisitos para ser almacenador
+    - Quiero mi registro como almacenador y desconozco los requisitos   
+- intent: faq/transporte_combustible
+  examples: |
+    - Quien autoriza el transporte de combustible  menor a 250 galones
+    - Como tramito el permiso para transportar combustibles en pequeñas cantidades        
+    - Ante quien tramito el permiso para transportar combustible en cantidades menores
+    - Necesito transportar combustible en un municipio
+    - transportar combustible
+- intent: faq/vincular_vehiculo_comercial_industrial
+  examples: |
+    - Que documentos se necesitan para vincular un vehiculo a un Comercializador Industrial
+    - Quiero vincular mi vehiculo a un comercializador y no se como        
+    - Que documentos necesito para vincular el vehiculo al comercializador
+    - Necesito informacion de vinculacion de vehiculos
+    - vinculacion de vehiculos       
