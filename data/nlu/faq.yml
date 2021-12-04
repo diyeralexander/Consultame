@@ -166,11 +166,5 @@ nlu:
     - Como puedo obtener el permiso para importar combustibles
     - permiso para importar combustibles
     - Donde encuentro los requisitos para registrarme como Importador de Combustibles ante Sicom
-- intent: faq/agente_refinador
-  examples: |
-    - Que requisitos necesito para registrarme como Agente Refinador
-    - registrarme como Agente Refinador        
-    - Que debo hacer para registrarme como refinador
-    - Como puedo obtener el registro como refinador
-    - Ante quien tramito mi codigo de refinador
+
  
