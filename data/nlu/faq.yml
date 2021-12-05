@@ -114,3 +114,27 @@ nlu:
     - Cuales son los requisitos para el registro de Gran Consumidor                   
     - Pasos a seguir para el registro de Gran Consumidor
     - Que debo hacer para registrarme como Gran Consumidor
+- intent: faq/servicio_fluvial
+  examples: |
+    - Pasos a seguir para registrarme como estacion de servicio fluvial
+    - Que debo hacer para colocar el nombre de estacion de servicio Fluvial
+    - Si quiero registrarme como estacion de servicio fluvial Que debo realizar
+    - Donde encuentro los requisitos para registrarme como estacion de servicio fluvial
+- intent: faq/servicio_maritima
+  examples: |
+    - Que se debe hacer para registrarme como una estacion de servicio maritima                           
+    - Que necesito para registrarme como una estacion de servicio maritima        
+    - Pasos a seguir para registrame como una estacion de servicio maritima
+    - Donde encuentro los requisitos para registrarme como estacion de servicio maritima
+- intent: faq/responsabilidad_vehiculos
+  examples: |
+    - Cuales son las clausulas de una poliza de seguro de responsabilidad civil para vehiculos
+    - Si quiero obtener una clausula de poliza de responsabilidad civil para vehiculos que se debe tener en cuenta        
+    - Donde puedo encontrar  las clausulas de  una poliza de responsabilidad civil para vehiculos            
+    - Que piden las clausulas de poliza de responsabilidad civil para vehiculos
+- intent: faq/agentes_cadena
+  examples: |
+    - Donde encuentro los montos asegurados de las polizas para los agentes de la cadena
+    - Quiero saber los montos asegurados de las polizas para los agentes de cadena
+    - Cuales son  los montos asegurados de las polizas para los agentes de la cadena
+    -  Montos asegurados de las polizas para los agentes de la cadena Como los puedo encontrar    
