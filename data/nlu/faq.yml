@@ -137,4 +137,32 @@ nlu:
     - Donde encuentro los montos asegurados de las polizas para los agentes de la cadena
     - Quiero saber los montos asegurados de las polizas para los agentes de cadena
     - Cuales son  los montos asegurados de las polizas para los agentes de la cadena
-    - Montos asegurados de las polizas para los agentes de la cadena Como los puedo encontrar    
+    - Montos asegurados de las polizas para los agentes de la cadena Como los puedo encontrar
+- intent: faq/operador_estacion_servicio
+  examples: |
+    - Que documentos se necesito para un cambio de Operador de una estacion de servicio
+    - documentacion necesaria para un cambio de operador de una estacion de servicio          
+    - Cuales documentos son necesarios para  cambio de operador
+    - Si quisiera realizar un cambio de operador de una estacion de servicio que necesito
+- intent: faq/razon_social_estacion_servicio
+  examples: |
+    - Que documentos son para realizar un cambio de razon Social de una estacion de servicio
+    - Cuales documentos son necesarios para realizar un cambio de razon social de una estacion de servicio            
+    - Que se necesita para realizar un cambio de razon social de una estacion de servicio
+    - Donde encuentro los documentos que se requieren para un cambio de razon social de una estacion de servicio   
+- intent: faq/nomenclatura_estacion_servicio
+  examples: |
+    - Que documentos se necesitan para una actualizacion de nomenclatura de una estacion de servicio
+    - actualizacion de nomenclatura de una estacion de servicio            
+    - Tengo mal la direccion en Sicom y no se como actualizarla
+    - actualizar direccion sicom
+    - Que documentacion debo radicar para corregir la direccion
+    - Como modifico la direccion en Sicom
+- intent: faq/combustibles_sicom
+  examples: |
+    - Quiero ser importador de combustibles y no se los requisitos
+    - Quiero ser importador de combustibles            
+    - Donde puedo consultar los requisitos para poder importar combustibles
+    - Como puedo obtener el permiso para importar combustibles
+    - permiso para importar combustibles
+    - Donde encuentro los requisitos para registrarme como Importador de Combustibles ante Sicom    
