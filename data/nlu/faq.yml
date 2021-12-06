@@ -172,4 +172,350 @@ nlu:
     - registrarme como Agente Refinador        
     - Que debo hacer para registrarme como refinador
     - Como puedo obtener el registro como refinador
-    - Ante quien tramito mi codigo de refinador     
+    - Ante quien tramito mi codigo de refinador 
+- intent: faq/almacenador_combustible
+  examples: |
+    - Que requisitos necesito para ser autorizado como Agente Almacenador de Combustible
+    - Agente Almacenador de Combustible        
+    - Que hago para obtener informacion sobre los agentes almacenadores
+    - Necesito los requisitos para ser almacenador
+    - Quiero mi registro como almacenador y desconozco los requisitos   
+- intent: faq/transporte_combustible
+  examples: |
+    - Quien autoriza el transporte de combustible  menor a 250 galones
+    - Como tramito el permiso para transportar combustibles en pequeñas cantidades        
+    - Ante quien tramito el permiso para transportar combustible en cantidades menores
+    - Necesito transportar combustible en un municipio
+    - transportar combustible
+- intent: faq/vincular_vehiculo_comercial_industrial
+  examples: |
+    - Que documentos se necesitan para vincular un vehiculo a un Comercializador Industrial
+    - Quiero vincular mi vehiculo a un comercializador y no se como        
+    - Que documentos necesito para vincular el vehiculo al comercializador
+    - Necesito informacion de vinculacion de vehiculos
+    - vinculacion de vehiculos   
+- intent: faq/desvincular_vehiculo_comercial_industrial
+  examples: |
+    - Que debo hacer para desvincular un vehiculo a un Comercializador Industrial
+    - Quiero saber como desvincular mi vehiculo de un comercializador
+    - Como desvinculo el vehiculo
+    - informacion para desvincular de un comercializador
+    - desvinculacion de vehiculos
+- intent: faq/cambio_mayorista
+  examples: |
+    - Como puedo realizar un cambio de Mayorista
+    - Como puedo reportar un cambio de bandera
+    - Ante quien tramito un cambio de mayorista
+    - A quien le solicito autorizacion de un cambio de mayorista   
+- intent: faq/sobre_tasa_gasolina
+  examples: |
+    - Necesito informacion sobre la sobretasa de gasolina
+    - Que resolucion me orienta con la sobretasa a la gasolina
+    - Que resolucion me orienta sobre la sobretasa a la gasolina
+    - A quien le solicito autorizacion de un cambio de mayorista     
+    - Sobre tasa de la gasolina
+- intent: faq/operador_sicom
+  examples: |
+    - Puedo actualizar documentos en Sicom
+    - Sicom actualiza documentos
+    - Necesito actualizar unos documentos y no se si puedo hacerlo en Sicom
+    - Que documentos se pueden actualizar directamente con el operador Sicom  
+- intent: faq/actualizar_estacion_servicio
+  examples: |
+    - Que documentos debe actualizar ante el Ministerio de Minas la estacion de servicio
+    - Necesito actualizar unos documentos y no se si el Ministerio me los actualiza
+    - Como actualizo documentos ante el Ministerio de Minas
+    - Si quiero actualizar documentos de mi EDS Como debo hacerlo 
+- intent: faq/guia_transporte
+  examples: |
+    - Que es una guia de transporte
+    - Necesito informacion sobre la guia de y transporte
+    - Que norma habla sobre la guia de transporte
+    - Que regulacion aplica  la guia de transporte     
+- intent: faq/subsidio_GLP
+  examples: |
+    - Donde estan los requisitos para identificar  los  beneficiarios del subsidio de gas
+    - Necesito el subsidio de gas 
+    - subsidio de gas 
+    - Como acceder al subsidio de gas
+- intent: faq/electro_combustible
+  examples: |
+    - Quien puede utilizar electro combustible
+    - Que son los electro combustibles 
+    - Ante quien se puede tramitar  un cupo de electro combustible 
+    - Que es electro combustible 
+- intent: faq/combustibles_electrificadoras
+  examples: |
+    - Que es el IPSE
+    - informacion sobre el Instituto de promocion de Soluciones 
+    - Ante quien puedo averiguar sobre un cupo de electro combustible 
+    - Quien autoriza los cupos de electro combustible para las electrificadoras
+- intent: faq/zona_frontera_cupo
+  examples: |
+    - Como saber si puedo saber cupo en la zona de frontera
+    - Requisitos para ceder el cupo en la zona de fonrtera
+    - Puedo ceder todo el cupo en la zona de frontera
+    - Cuales son los requisitos para que una estacion de Zona de Frontera pueda ceder cupo 
+- intent: faq/planta_almacenamiento
+  examples: |
+    - Necesito informacion sobre permisos para construir plantas de almacenamiento de combustibles
+    - Que requisitos se deben cumplir para construir una planta de almacenamiento
+    - Que norma me orienta sobre los permisos para construir una planta
+    - Necesito mas informacion sobre permisos para construccion de una planta
+    - planta de almacenamiento
+- intent: faq/trafico_estupefacientes
+  examples: |
+    - Que es el certificado de carencia
+    - Donde obtengo el certificado de carencia
+    - Cuanto vale el certificado de carencia
+    - Como debo solicitar el certificado de carencia por trafico de estupefacientes
+    - estupefacientes  
+- intent: faq/certificacion_sector_hidrocarburos
+  examples: |
+    - informacion sobre la certificacion de dedicacion exclusiva
+    - Que norma reglamenta la certificacion de dedicacion exclusiva
+    - Quiero renovar el certificado de dedicacion exclusiva
+    - Que es la certificacion de dedicacion exclusiva del sector de hidrocarburos
+- intent: faq/sancion_agente_cadena
+  examples: |
+    - Que sanciones puede tener un agente de la cadena
+    - Necesito informacion sobre sanciones a los agentes de la cadena
+    - Que norma puedo consultar para revisar las sanciones a los agentes de cadena
+    - Sanciones de un agente de cadena
+- intent: faq/cancelacion_codigo_sicom
+  examples: |
+    - Me pueden cancelar el codigo Sicom
+    - por que me cancelan el codigo sicom
+    - Donde puedo consultar sobre cancelacion de un codigo
+    - cancelacion codigo Sicom
+    - Cuales son las causales para la cancelacion  de un codigo sicom 
+- intent: faq/cierre_establecimiento_comercial
+  examples: |
+    - Cual es el procedimiento  de la orden de cierre de un establecimiento comercial 
+    - Donde consulto la normativa aplicable al cierre de un establecimiento comercial
+    - Necesito mas informacion sobre faltas disciplinarias relacionadas con combustibles
+    - Como conozco el procedimiento de cierre de establecimiento
+    - Cierre de establecimiento comercial
+- intent: faq/usuario_menores_ingresos
+  examples: |
+    - Que es  la conexion de Usuarios de Menores Ingresos
+    - Necesito informacion sobre tarifas de usuarios de menores ingresos
+    - Donde estan los requisitos para conectar a usuarios de estratos 1 y 2
+    - Para que existe la figura de usuarios de menores ingresos
+    - conexion de Usuarios de Menores Ingresosl
+- intent: faq/quienes_agente_cadena
+  examples: |
+    - Quienes son los agentes de la cadena
+    - Que son los agentes de la cadena 
+    - Definicion de los agentes de la cadena
+    - Como puedo saber si soy agente de la cadena
+    - agentes de cadena 
+- intent: faq/balance_volumetrico
+  examples: |
+    - Que es el balance volumetrico
+    - A que refiere un balance volumetrico   
+    - Definicion de un balance volumetrico     
+    - Como se conoce un balance volumetrico
+    - balance volumetrico
+- intent: faq/codigo_autorizacion
+  examples: |
+    - Que es un codigo de autorizacion
+    - Definicion de codigo de autorizacion   
+    - Que se conoce como codigo de autorizacion      
+    - Que es el codigo de autorizacion
+    - codigo autorizacion
+- intent: faq/que_es_codigo_sicom
+  examples: |
+    - Que es un codigo SICOM
+    - Definicion de codigo SICOM              
+    - A que  se refiere un codigo SICOM      
+    - codigo SICOM
+- intent: faq/orden_de_pedido
+  examples: |
+    - Que es una orden de pedido
+    - Como se conoce una orden de pedido              
+    - Como se pide una orden de pedido            
+    - Definicion de orden de pedido
+- intent: faq/alarmas_sicom
+  examples: |
+    - Como funcionan las alarmas en SICOM
+    - Funcionalidad de las alarmas en SICOM              
+    - Para Que sirven las alarmas en SICOM            
+    - Puedo saber por que hay alarmas en SICOM
+    - alarmas Sicom
+- intent: faq/supervision_codigo_sicom
+  examples: |
+    - Que es la suspension del codigo SICOM
+    - Por que hay suspension de codigo SICOM              
+    - En que consiste la suspension de codigo SICOM             
+    - Puedo saber el motivo de la suspension del codigo SICOM 
+- intent: faq/transaccion_plataforma_sicom
+  examples: |
+    - Es  obligacion realizar las transacciones por la plataforma SICOM
+    - Que obligaciones tiene la plataforma SICOM              
+    - Si no se realizan transacciones en la plataforma SICOM  pasa algo             
+    - Puedo saber el motivo de la suspension del codigo SICOM
+- intent: faq/ampliacion_estacion_servicio
+  examples: |
+    - Cual es el procedimiento para la ampliacion de estaciones de servicio
+    - Procedimiento que se debe seguir para la  ampliacion de estaciones de servicio              
+    - Que se debe realizar para una ampliacion de estaciones de servicio              
+    - Si deseo hacer una ampliacion de estaciones de servicio Que debo hacer
+    - Ampliacion de estacion de servicio
+- intent: faq/fe_cuota_fomento
+  examples: |
+    - Definicion de Fondo Especial Cuota de Fomento
+    - Que es el Fondo Especial Cuota de Fomento              
+    - A que se dedica el Fondo Especial Cuota de Fomento              
+    - cual es el objetivo del Fondo Especial Cuota de Fomento
+- intent: faq/restriccion_gas_natural
+  examples: |
+    - Que es Insalvable restriccion en la Oferta de Gas Natural
+    - Como se conoce una Insalvable restriccion en la Oferta de Gas Natural o situacion de Grave Emergencia No Transitoria             
+    - Que es Insalvable restriccion en la Oferta de Gas Natural                       
+    - Que es un situacion de Grave Emergencia No Transitoria
+- intent: faq/productor_gas_natural
+  examples: |
+    - quien es un productor de gas natural
+    - Que es un productor de gas natural              
+    - Que se conoce como productor de gas natural                        
+    - Como puedo saber si soy productor de gas natural
+    - que es un productor de gas natural
+- intent: faq/poblacion_gas_natural
+  examples: |
+    - Cuales son las medidas para mitigar los efectos sobre la poblacion en temas de gas natural
+    - Los productores de gas natural deben declarar informacion                 
+    - Que condiciones debe tener un productor de gas natural para declarar                          
+    - Que Obligaciones debe declarar un productor de gas natural
+- intent: faq/gas_natural_declarar
+  examples: |
+    - Los productores de gas natural deben declarar informacion
+    - Tiene obligacion los productores de gas natural a declarar informacion                 
+    - Que condiciones debe tener un productor de gas natural para declarar                                
+    -  Que Obligaciones debe declarar un productor de gas natural
+- intent: faq/conforma_cno
+  examples: |
+    - Como se conforma el Consejo Nacional de Operaciones CNO
+    - Quienes conforman el Consejo Nacional de Operaciones                 
+    - De Que manera esta conformado el CNO                                
+    - El Consejo Nacional de Operaciones tiene integrantes del sector publico    
+- intent: faq/propietario_fondo_cuota_fomento
+  examples: |
+    - Quien el propietario de los recursos del fondo de cuota de fomento
+    - A quienes corresponden los recursos del fondo de cuota de manejo                    
+    - Quienes son los dueños del fondo de cuota de fomento                                
+    - Los recursos del fondo de la cuota de fomento son publicos
+- intent: faq/recaudo_cuota_fomento
+  examples: |
+    - Como se factura en la cuota de fomento
+    - Que se necesita para el recaudo de la cuota de fomento                    
+    - Cual es el proceso de recaudo de la cuota de fomento                                
+    - Como se realiza el recaudo de la cuota de fomento
+- intent: faq/que_gncv
+  examples: |
+    - Que es el GNCV
+    - A que se refiere las siglas GNCV                                      
+    - Significado de GNCV                                              
+    - Que se conoce como Gas Natural Comprimido para uso vehicular
+- intent: faq/regulacion_GNCV
+  examples: |
+    - Cual es el Ministerio competente en cuanto a la regulacion de GNCV en Colombia
+    - Que entidad es la  competente y regula el GNCV                   
+    - En Colombia hay algun ministerio que le competa la regulacion de GNCV                                 
+    - Quien responde por la regulacion de GNCV 
+- intent: faq/incentivos_GNCV
+  examples: |
+    - Cuales son los incentivos para el uso de GNCV
+    - Que incentivos hay para el uso de GNCV                   
+    - Cual ley esta estipulada para los incentivos de GNCV                                  
+    - Donde encuentro los incentivos de GNCV       
+- intent: faq/obligaciones_GNCV
+  examples: |
+    - Que obligaciones tiene la estacion de GNCV y los Talleres de conversion
+    - Las estaciones de servicio de GNCV tiene alguna obligacion                       
+    - Los talleres de conversion tiene alguna obligacion                                   
+    - Donde puedo encontrar las obligaciones que necesita una estacion de servicio GNCV
+- intent: faq/funciones_operacion_GNCV
+  examples: |
+    - cual es la Funcion que cumple el Organismo de inspeccion en Cuanto a la operacion de GNCV       
+    - Que decreto rige el Organismo de inspeccion en cuanto a la operacion de GNCV                        
+    - Cual es la relacion del organismo de inspeccion y el GNCV                                   
+    - Que funciones cumple el Organismo de inspeccion en cuanto a la operacion de GNCV
+- intent: faq/reglamentos_tecnicos_GNCV
+  examples: |
+    - Quien ejerce el control del cumplimiento de los reglamentos tecnicos de GNCV       
+    - Cual es el control del cumplimiento de los reglamentos tecnicos de GNCV                          
+    - Como se le llama al que tiene el control del cumplimientos de los reglamentos  tecnicos de GNCV                                   
+    - cual es la entidad que vigila y controla los reglamentos del GNCV  
+- intent: faq/estacion_precios_GNCV
+  examples: |
+    - Es una obligacion que las estaciones publiquen los precios mensuales del GNCV       
+    - Segun las obligaciones  de GNCV deben publicar los precios mensuales                                 
+    - Cada cuanto se deberan publicar los precios de GNCV                                       
+    - Si no se publican los precios de GNCV hay algun problema  
+- intent: faq/sancion_incumplimiento_GNCV
+  examples: |
+    - Que sanciones son aplicables por incumplimiento de la normatividad de GNCV       
+    - Cuales son las sanciones por el incumplimiento de la normativa vigente a los talleres y estaciones de servicio de GNCV                                   
+    - Donde encuentro las sanciones por incumplimiento en las estaciones de servicio  de GNCV                                      
+    - Que pasa si se incumple la normativa de los agentes de GNCV
+- intent: faq/tema_energia_electrica
+  examples: |
+    - Que es una area especial en temas relacionados con Energia electrica       
+    - A Que se le llama area especial Segun la Energia electrica                                   
+    - Significado de un  area especial en temas relacionados con  Energia electrica                                      
+    - Existe un area especial en Energia electrica 
+- intent: faq/definicion_foes
+  examples: |
+    - Que es el FOES       
+    - Definicion de FOES                                   
+    - A que se le conoce como FOES                                        
+    - A que se refiere las siglas FOES
+- intent: faq/que_es_sistema_alumbrado_publico
+  examples: |
+    - Que es el sistema de alumbrado publico       
+    - Que significa el sistema de Alumbrado Publico                                    
+    - A que se le conoce como sistema de alumbrado publico                                        
+    - Para que sirve el sistema de alumbrado publico 
+- intent: faq/definicion_sui
+  examples: |
+    - Cual es el significado de SUI         
+    - En que se basa el SUI                                        
+    - Que articulo  define el SUI 
+- intent: faq/definicion_subsidio
+  examples: |
+    - Que es un subsidio         
+    - A que refiere un subsidio                                          
+    - En que se basa un subsidio
+    - Segun el Decreto 1073 de 2015  que significa un subsidio
+- intent: faq/quienes_usuarios_menores_ingresos
+  examples: |
+    - quienes son los usuarios de menores ingresos         
+    - Quienes son los usuarios  que se benefician de las cosas del gobierno
+    - Que se entiende por usuarios de menores ingresos
+    - Definicion de usuarios de menores ingresos
+- intent: faq/zr_interconectada
+  examples: |
+    - Que se conoce como Zonas Rurales Interconectadas         
+    - A que se le llama Zonas Rurales Interconectadas    
+    - Que son las zonas rurales Interconectadas            
+    - Que significa las Zonas Rurales Interconectadas
+- intent: faq/pago_subsidio_energia
+  examples: |
+    - En que consisten  los giros por pagos de subsidios de Energia         
+    - Para que sirven los subsidios de Energia      
+    - Que funciones cumplen los  giros por pagos de subsidios de Energia            
+    - Que son los  giros por pagos de subsidios de Energia
+- intent: faq/resitribucion_ingresos_energia
+  examples: |
+    - En que consiste el Fondo de redistribucion de ingresos de Energia         
+    - Que son los  Fondo de redistribucion de ingresos de Energia
+    - A que se le llama Fondo de redistribucion de ingresos de Energia             
+    - A que se le conoce como el Fondo de redistribucion de ingresos de Energia  
+- intent: faq/definicion_FAER
+  examples: |
+    - Que es el fondo FAER     
+    - Definicion de las siglas FAER
+    - A que se refiere el fondo FAER                 
+    - De que trata el fondo FAER      
+    
