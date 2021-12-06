@@ -518,3 +518,100 @@ nlu:
     - Definicion de las siglas FAER
     - A que se refiere el fondo FAER                 
     - De que trata el fondo FAER 
+- intent: faq/expansaion_energia
+  examples: |
+    - Que debe contener el plan de expansion de Energia   
+    - Que significa el plan expansion de Energia  
+    - De Que trata el plan  expansion de Energia                   
+    - Segun el plan de expansion de Energia cual es la diferencia de kW para los proyectos
+- intent: faq/definicion_fondo_FAZNI
+  examples: |
+    - En Que consiste el fondo FAZNI   
+    - Para que sirve el fondo FAZNI         
+    - Que es el fondo FAZNI                           
+    - A que se le llama el fondo FAZN
+- intent: faq/definicion_PRONE
+  examples: |
+    - Que es el PRONE   
+    - En que consiste el PRONE                                                
+    - A que se le llama el PRONE                                     
+    - Definicion de PRONE
+- intent: faq/funcion_tecnico_prone
+  examples: |
+    - Cuales son las funciones del consejo nacional de tecnicos electricistas CONTE   
+    - En Que se basa  las funciones del consejo nacional de tecnicos electricistas CONTE                                                                           
+    - A Que se refiere las funciones del consejo nacional de tecnicos electricistas CONTE                                        
+    - Segun el decreto 1073 de 2015  Que indican las funciones de CONTE    I   
+- intent: faq/comercializador_minerales
+  examples: |
+    - A quien se puede denominar comercializador de minerales   
+    - Quien son los comercializadores de minerales               
+    - Que certificacion necesita sin comercializador de minerales                             
+    - Que son los comercializadores de minerales
+- intent: faq/certificado_mineral
+  examples: |
+    - Que es un certificado de origen de minerales   
+    - Que se conoce como Certificado de origen de minerales               
+    - En que se basa un certificado de origen de minerales                             
+    - Para que sirve un certificado de origen
+- intent: faq/definicion_barequeo
+  examples: |
+    - En Que consiste el Barequeo   
+    - A quien  se le llama Barequero                
+    - Que es barequeo                             
+    - De Que trata un Barequeo
+    - quienes realizan  el barequeo
+- intent: faq/definicion_chatarrero
+  examples: |
+    - Que actividades realiza un chatarrero   
+    - Que es un chatarrero                
+    - A que se dedica un Chatarrero                             
+    - Que recolecta un Chatarrero 
+- intent: faq/definicion_RUCOM
+  examples: |
+    - Que significa RUCOM   
+    - Definicion de RUCOM                      
+    - A que se refieren las siglas de RUCOM                               
+    - Para que sirve un RUCOM 
+- intent: faq/guia_transporte_despacho
+  examples: |
+    - Es una obligacion registrar la guia unica de transporte en los despachos   
+    - Si no se registra una guia de transporte que puede suceder                       
+    - En Cuanto  tiempo se debe registrar una guia de transporte                                  
+    - Donde se registra una guia de transporte 
+- intent: faq/orden_agente_por_dia
+  examples: |
+    - Cuantas ordenes de pedido puede hacer un agente en un dia   
+    - En un dia se puede realizar mas de una orden de pedido                       
+    - Si hay estaciones de servicio cercanas puedo realizar varias ordenes de pedido                                     
+    - Es prohibido realizar varias ordenes de pedido en un mismo dias
+- intent: faq/cerrar_orden_pedido
+  examples: |
+    - Cuando debo cerrar una orden de pedido   
+    - quien cierra la orden de pedido                        
+    - En Que momento se da el cierre en una orden de pedido                                         
+    - quien finaliza la orden de pedido
+- intent: faq/combustibles_liquidos_derivados
+  examples: |
+    - A que se le conoce como  combustibles liquidos derivados del petroleo   
+    - clasificacion de los combustibles liquidos derivados del petroleo                          
+    - Definicion de combustibles liquidos derivados del petroleo                                         
+    - Que son combustibles liquidos derivados del petroleo
+- intent: faq/combustibles_oxigenados
+  examples: |
+    - Que son combustibles oxigenados   
+    - Que se entiende por combustibles oxigenados                                 
+    - A que se le llama  combustibles oxigenados                                          
+    - Definicion de combustibles oxigenados 
+- intent: faq/definicion_comercializador_industrial
+  examples: |
+    - Que es un comercializador industrial   
+    - Para que sirve un comercializador industrial                                 
+    - quienes comercializan un comercializador industrial                                          
+    - Que vehiculos se pueden utilizar para un comercializador industrial
+- intent: faq/definicion_alcohol_carburante
+  examples: |
+    - Que es Alcohol Carburante   
+    - Que se entiende por Alcohol Carburante                                 
+    - Definicion de alcohol carburante                                           
+    - Es un combustible el alcohol carburante    
