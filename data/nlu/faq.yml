@@ -518,6 +518,12 @@ nlu:
     - Definicion de las siglas FAER
     - A que se refiere el fondo FAER                 
     - De que trata el fondo FAER
+- intent: faq/definicion_fondo_FAZNI
+  examples: |
+    - En Que consiste el fondo FAZNI   
+    - Para que sirve el fondo FAZNI         
+    - Que es el fondo FAZNI                           
+    - A que se le llama el fo    
 - intent: faq/definicion_PRONE
   examples: |
     - Que es el PRONE   
