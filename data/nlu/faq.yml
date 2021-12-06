@@ -517,4 +517,10 @@ nlu:
     - Que es el fondo FAER     
     - Definicion de las siglas FAER
     - A que se refiere el fondo FAER                 
-    - De que trata el fondo FAER 
+    - De que trata el fondo FAER
+- intent: faq/funcion_tecnico_prone
+  examples: |
+    - Cuales son las funciones del consejo nacional de tecnicos electricistas CONTE   
+    - En Que se basa  las funciones del consejo nacional de tecnicos electricistas CONTE                                                                           
+    - A Que se refiere las funciones del consejo nacional de tecnicos electricistas CONTE                                        
+    - Segun el decreto 1073 de 2015  Que indican las funciones de CONTE       
