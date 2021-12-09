@@ -939,11 +939,11 @@ responses:
   utter_faq/formato_declaracion_retie:  
   - text: |
       Lo encuentra en la pagina del CONTE Consejo Nacional de tecnicos Electricistas enlace de consulta
-     [entidades adscritas.](https://conte.org.co/?s=declaracion)
+      [entidades adscritas.](https://conte.org.co/?s=declaracion)
   utter_faq/requisitos_costos_tecnico_electricista:  
   - text: |
       Los requisitos los encuentra en la pagina del CONTE por medio del enlace:
-     [entidades adscritas.](https://conte.org.co/matricula-profesional/)
+      [entidades adscritas.](https://conte.org.co/matricula-profesional/)
   utter_faq/info_clases_matriculas_electricistas:  
   - text: |
       Toda la informacion relacionada la puede encontrar en la pagina del CONTE en el siguiente enlace
@@ -958,7 +958,7 @@ responses:
   utter_faq/precios_venta_combustibles:  
   - text: |
       Lo puede hacer por medio de la pagina web del Ministerio de Minas o a traves del enlace que dejamos a continuacion que lo llevara a un mapa que representa el precio promedio de venta por departamento, Municipio y a?o
-     [entidades adscritas.](https://www.sicom.gov.co/index.php/consulta-de-precios)
+      [entidades adscritas.](https://www.sicom.gov.co/index.php/consulta-de-precios)
   utter_faq/estadisticas_venta_combustible_colombia:  
   - text: |
       Puede consultar en la pagina de sicom donde encontrara el boletin estadistico del sector:
@@ -1168,7 +1168,7 @@ responses:
   utter_faq/plan_expansion_transmision_actual:  
   - text: |
       En este enlace puede consultar el plan de generacion y expansion con vigencia 2019 a 2033 [Enlace de consulta.]
-     (https://www.minEnergia.gov.co/documents/10192/24128710/Plan+GT+2019+-2033_SOLOTRANSMISION_vdef.pdf)
+      (https://www.minEnergia.gov.co/documents/10192/24128710/Plan+GT+2019+-2033_SOLOTRANSMISION_vdef.pdf)
   utter_faq/politica_derechos_humanos_sector_minero_energetico:  
   - text: |
       Puede consultar la politica en este enlace: [entidades adscritas.](https://www.minEnergia.gov.co/derechos-humanos-y-enfoque-de-genero)
@@ -1195,9 +1195,6 @@ responses:
   utter_faq/beneficiarios_programa_subsidios_GLP:  
   - text: |
       Los beneficiarios del programa piloto se identificaran mediante el sistema de informacion dise?ado por la Subdireccion de promocion Social y calidad de vida del Departamento Nacional de Planeacion DNP, denominado SISBEN.
-  utter_faq/beneficiarios_programa_subsidios_GLP:  
-  - text: |
-      Para poder acceder al programa piloto de subsidios debe cumplir los requisitos establecidos en la resolucion 40720 de 2016. La entidad encargada de seleccionar los beneficiarios es el SISBEN de cada municipio quienes se encargan de seleccionar y reportar la informacion de beneficiarios ante el DNP, quien a su vez certificara y enviara las bases consolidadas al Ministerio de Minas y Energia.  
   utter_faq/cuantas_correcciones_dictamen_diie:  
   - text: |
       El DIIE solo permite un cargue y una actualizacion por cada registro, de manera que en caso de que el organismo de inspeccion requiera una actualizacion adicional, debera solicitarse al ministerio la eliminacion del registro para el cargue de una plantilla con la informacion actualizada. La solicitud debe realizarse a traves de oficio firmado por el director tecnico del organismo de inspeccion y enviarse al correo menergia@minenergia.gov.co
@@ -1316,12 +1313,6 @@ responses:
   utter_faq/construccion_proyecto_vigencia_evaluacion:  
   - text: |
       De acuerdo al numeral 38.3 del reglamento, el constructor podra gestionar la inspeccion y certificacion de la instalacion conforme al RETIE con uno de los organismos de inspeccion acreditados por el ONAC, quien se encargara de validar si las evidencias asociadas a la fecha de inicio de la construccion son suficientes para permitir que la evaluacion de la conformidad de la instalacion se realice bajo la resolucion 181294, sin embargo, Como se menciona debera usar los criterios y formatos del Anexo General de la resolucion 90708 de 2013 y dejar declarado en las observaciones que se evaluo con los requisitos de la resolucion 181294 de 2008.
-  utter_faq/construccion_proyecto_vigencia_evaluacion:  
-  - text: |
-      minminas_certifica_competencias_expedida_conformidad_acreditada
-  utter_faq/construccion_proyecto_vigencia_evaluacion:  
-  - text: |
-      certificacion_ensayo_extranjero
   utter_faq/demostrar_conformidad_retie_certificado_exterior:  
   - text: |
       De acuerdo con el numeral 33.4.1 del RETIE vigente expedido bajo la resolucion 9 0708 del 30 agosto de 2013, se podra aceptar la demostracion de la conformidad con RETIE a productos certificados en el exterior, siempre y cuando i) el certificado sea expedido por un organismo de certificacion acreditado por un miembro perteneciente a IAF y  la Superintendencia de Industria y Comercio SIC en su ejercicio de control y vigilancia evalue y reconozca estos certificados de conformidad a traves de la Ventanilla unica de Comercio Exterior (VUCE), como parte del proceso de importacion. Para la evaluacion y reconocimiento del certificado, ademas de los aspectos que garanticen la confianza del mismo, la SIC verificara que la norma o reglamento base del certificado tenga equivalencia con el RETIE.Para efectos de la homologacion de certificados expedidos en el exterior, se podra emitir conceptos de equivalencia a aquellas normas o reglamentos tecnicos de otros paises que guarden semejanza con los requisitos obligatorios para cierto producto establecidos en el RETIE, en tal condicion el concepto de equivalencia de reglamento tecnico de otro pais o norma tecnica con el RETIE, es un acto de interpretacion del reglamento, en consecuencia seran otorgadas unicamente por el Ministerio de Minas y Energia o por quien este delegue
@@ -1482,7 +1473,7 @@ responses:
   - text: |
       En la seccion 2 de la resolucion 40340 de noviembre del 2020 puede encontrar la informacion concerniente a reportes de informacion de agentes de la cadena de AutoGLP Y NautiGLP 
       Mayor informaciиоn en el siguiente enlace:
-     [entidades adscritas.](https://www.minenergia.gov.co/documents/10180//23517//48745-40340.pdf)
+      [entidades adscritas.](https://www.minenergia.gov.co/documents/10180//23517//48745-40340.pdf)
   utter_faq/obtener_copia_certificado_capacitacion_sicom:  
   - text: |
       Estampe es el proceso de marcacion en bajo o alto relieve en el cuello u hombro de un cilindro
@@ -1498,7 +1489,7 @@ responses:
   utter_faq/consultar_talleres_conversion_registrados:  
   - text: |
       La informacion de numero de talleres registrados en el pais, puede ser consultada en la pagina de Sicom en el siguiente enlace: 
-     [entidades adscritas.](https://www.sicom.gov.co/index.php)
+      [entidades adscritas.](https://www.sicom.gov.co/index.php)
   utter_faq/SICOM_IGUAL_SICOQ:  
   - text: |
       NO, el SICOM es el Sistema de Informacion de Combustibles Liquidos Derivados del Petroleo sistema controlado por el Ministerio de Minas y Energia. Cuando se habla de SICOQ, se hacer referencia al Sistema de Informacion para el control de Sustancias y Productos Quimicos, sistema controlado por el Ministerio de Justicia y del Derecho
@@ -1623,11 +1614,11 @@ responses:
   utter_faq/resolucion_124_2021:  
   - text: |
       Por medio de la cual se modifica la resolucion 614 del 22 de diciembre de 2020 proferida por la Agencia Nacional de Mineria. [Enlace de consulta.]
-     (https://www.anm.gov.co/sites/default/files/resolucion-124-del-08-marzo-2021.pdf)
+      (https://www.anm.gov.co/sites/default/files/resolucion-124-del-08-marzo-2021.pdf)
   utter_faq/resolucion_34_2021:  
   - text: |
       Por medio de la cual adopta el Manual Especifico de Funciones y Competencias laborales para los empleos de la Planta de Personal de la Agencia Nacional de Mineria. [enlace de consulta.]
-     (https://www.anm.gov.co/sites/default/files/resolucion_34_del_18_enero_2021.pdf)
+      (https://www.anm.gov.co/sites/default/files/resolucion_34_del_18_enero_2021.pdf)
   utter_faq/resolucion_01_2021:  
   - text: |
       Por medio de la cual se desagrega el Presupuesto de Gastos de la Agencia Nacional de Mineria, para la vigencia fiscal 2021. [enlace de consulta.]
@@ -1643,15 +1634,15 @@ responses:
   utter_faq/anm_broshure_minera:  
   - text: |   
       Si, La Agencia Nacional de Mineria cuenta con un Broshure de formalizacion minera, el cual puede ser consultado en el [siguiente link.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/brochure-formalizacion-mineria-tradicional.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/brochure-formalizacion-mineria-tradicional.pdf)
   utter_faq/evaluar_contrato_concesion_mineros:  
   - text: |
       Para las propuestas de contrato que iniciaran unicamente en etapa de exploracion, la evaluacion se hara de acuerdo con la inversion que debe realizar el solicitante, de conformidad con el Programa minimo Exploratorio Diferencial. [informacion adicional.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-criterios-de-diferencia-contra-concesion-mineros-peque-escala.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-criterios-de-diferencia-contra-concesion-mineros-peque-escala.pdf)
   utter_faq/documentos_propuesta_contrato:  
   - text: |
       Para las propuestas de contrato que iniciaran unicamente en etapa de exploracion, la evaluacion se hara de acuerdo con la inversion que debe realizar el solicitante, de conformidad con el Programa minimo Exploratorio Diferencial. [informacion adicional.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-criterios-de-diferencia-contra-concesion-mineros-peque-escala.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-criterios-de-diferencia-contra-concesion-mineros-peque-escala.pdf)
   utter_faq/acredita_capacidad_economica_contrato:  
   - text: |
       Para mayor informacion [enlace de consulta.] (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-criterios-de-diferencia-contra-concesion-mineros-peque-escala.pdf)
@@ -1662,7 +1653,7 @@ responses:
   utter_faq/acredita_capacidad_economica_formalizacion_minera:  
   - text: |
       Para las propuestas que se presenten en desarrollo del tramite de Devolucion de areas se realizara la verificacion de capacidad economica conforme la informacion financiera de los primeros tres  a?os presentada en el Programa de Trabajos y Obras aportado como Anexo tecnico. [enlace de consulta.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-criterios-de-diferencia-contra-concesion-mineros-peque-escala.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-criterios-de-diferencia-contra-concesion-mineros-peque-escala.pdf)
   utter_faq/solicitar_prorroga_exploracion:  
   - text: |
       si, los beneficiarios de contratos de concesion con requisitos diferenciales interesados en presentar el Programa Exploratorio Adicional durante la prorroga de la etapa de exploracion, deberan diligenciar el Formato B, considerando los requisitos contemplados en el Programa Minino Exploratorio Diferencial
@@ -1694,14 +1685,14 @@ responses:
   utter_faq/abc_anm:  
   - text: |
       Si se cuenta y puede ser consultada en el [enlace de consulta.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/abc-presentacion-dt-estandar-crirsco-2021.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/abc-presentacion-dt-estandar-crirsco-2021.pdf)
   utter_faq/causales_rechazo_contrato_concesion:  
   - text: |
       La persona juridica solicitante que no cumple con la capacidad legal establecida en el articulo 17 de la Ley 685 de 2001 por no inclusion de manera expresa dentro del objeto social las actividades de exploracion y explotacion minera.
       Cargar la documentacion soporte de la propuesta en el Sistema Integral de gestion Minera иC AnnA Mineria por fuera de los tres dias establecidos en la resolucion No. 0299 del 27 de septiembre de 2012.
       No cumplir con los requerimientos efectuados por la ANM dentro del termino establecido para tal fin, o allegar la documentacion en indebida forma.
       Tenga en cuenta que el plazo dado para cumplir con cada requerimiento formulado se contabiliza de manera particular
-     [entidades adscritas.] (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-pcc-causas-frecuentes-de-rechazo.pdf)
+      [entidades adscritas.] (https://www.anm.gov.co/sites/default/files/DocumentosAnm/cartilla-pcc-causas-frecuentes-de-rechazo.pdf)
   utter_faq/definicion_anna:  
   - text: |
       ANNA es la plataforma digital que integra la informacion minero ambiental, con el fin de impulsar el desarrollo sostenible de las actividades mineras en Colombia, promoviendo la proteccion ambiental, la legalidad y la transparencia.
@@ -1724,7 +1715,7 @@ responses:
   utter_faq/recuperar_contrasena_anna:  
   - text: |
       Ver instructivo en el [Siguiente enlace.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/5.recuperar_contrasena.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/5.recuperar_contrasena.pdf)
   utter_faq/cambio_contrasena_anna:  
   - text: |
       Ver instructivo en el [link.]
@@ -1760,11 +1751,11 @@ responses:
   utter_faq/anm_protocolo_evaluacion_solicitud_tareas:  
   - text: |
       Si, lo puede encontrar en el [siguiente link.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/protocolo_de_evaluacion_de_salicitudes_de_integracion_de_areas.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/protocolo_de_evaluacion_de_salicitudes_de_integracion_de_areas.pdf)
   utter_faq/anm_producto_unico_evaluacion_mineros:  
   - text: |
       Si, lo puede encontrar en el [siguiente link.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/protocolo_de_evaluacion_de_salicitudes_de_integracion_de_areas.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/protocolo_de_evaluacion_de_salicitudes_de_integracion_de_areas.pdf)
   utter_faq/anm_procedimiento_exportacion_joyas:  
   - text: |
       Si, lo puede encontrar en el siguiente link
@@ -1780,7 +1771,7 @@ responses:
   utter_faq/anm_guia_area_libre:  
   - text: |
       Si, El Certificado de area Libre, Corresponde a un documento en el que se informa con coordenadas planas de Gauss y en el sistema de Referencia Datum Bogota, el area libre de acuerdo a una Zona de interes presentada por el solicitante y en el que debe indicar a la Gerencia de Catastro y Registro Minero un area de interes claramente definida, en este certificado se podra observar que titulos y/o solicitudes vigentes se encuentran en el area de interes, el porcentaje de superposicion y si existen areas libres para conocer la alinderacion de estas. lo puede encontrar en el [siguiente link.]
-     (https://www.anm.gov.co/sites/default/files/DocumentosAnm/guia_certificado_area_libre.pdf)
+      (https://www.anm.gov.co/sites/default/files/DocumentosAnm/guia_certificado_area_libre.pdf)
   utter_faq/anm_guia_expedicion_registro_minero_linea:  
   - text: |
       Si, El registro minero es un medio de autenticidad y publicidad de los actos y contratos estatales y privados, que tengan por objeto principal la constitucion, conservacion, ejercicio y gravamen de los derechos a explorar y explotar minerales, emanados de titulos otorgados por el Estado o de titulos de propiedad privada del subsuelo. (Art. 328 L685/2001). Es asi que el registro Minero representa la historia juridica que un determinado titulo minero y se materializa a traves de las diferentes anotaciones que se visualizan en el folio de registro dispuesto para tal efecto (CODIGO O PLACA), en este se pueden observar los actos, contratos, decisiones judiciales o administrativas, aclaraciones, modificaciones, y cancelaciones.
@@ -2057,9 +2048,6 @@ responses:
   utter_faq/expidio_retiq:  
   - text: |
       El Ministerio de Minas y energia expidio el Reglamento tecnico de Etiquetado иC RETIQ bajo la resolucion 41012 del 18 de septiembre de 2015, "Por la cual se expide el Reglamento tecnico de Etiquetado - RETIQ, con fines de Uso Racional de energia aplicable a algunos equipos de uso final de energia electrica y gas combustible, para su comercializacion y uso en Colombia".
-  utter_faq/expidio_retiq:  
-  - text: |    
-      resolucion Anexo General 41012 de 2015. resolucion 40656 de 2016. resolucion 40947 de 2016. resolucion 40234 de 2017.  resolucion 40590 de 2017.  resolucion 40951 de 2017. resolucion 40298 de 2018. resolucion 40993 de 2018. resolucion 40094 de 2020. resolucion 40207 de 2020.  resolucion 40245 de 2020. resolucion 40247 de 2020. resolucion 40099 de 2021. [Enlace de consulta.] (https://www.minenergia.gov.co/en/retiq)
   utter_faq/vigencia_retiq:  
   - text: |
       El RETIQ entro en vigencia a partir del 31 de agosto de 2016.
@@ -2351,9 +2339,6 @@ responses:
   utter_faq/_Cuales_son_los_agentes_de_la_cadena_de_distribucion_de_combustibles_que_pueden_derogar: 
   - text: |
       Aplica para el caso de aquellos agentes que se crearon por medio de una resolucion(Comercializador, estacion de Servicio Privada, Gran Consumidor etc.)
-  utter_faq/_Cuando_debo_derogar_una_resolucion_de_entrada_en_operacion: 
-  - text: |
-      El proceso se debe realizar cuando la empresa o compa?ia decida finalizar operaciones de comercializacion de combustibles o la empresa cierre por diferentes motivos
   utter_faq/_Cuando_debo_derogar_una_resolucion_de_entrada_en_operacion: 
   - text: |
       El proceso se debe realizar cuando la empresa o compa?ia decida finalizar operaciones de comercializacion de combustibles o la empresa cierre por diferentes motivos
@@ -2665,9 +2650,6 @@ responses:
   utter_faq/_Que_clase_de_actividad_es_la_mineria: 
   - text: | 
       La misma Ley clasifica a la mineria en el pais en cuatro clases: la artesanal o de?de?subsistencia, la peque?a mineria, la mediana mineria y la mineria a gran escala.?
-  utter_faq/_Que_clase_de_actividad_es_la_mineria: 
-  - text: | 
-      tambien puede ir a? al [enlace.] (www.anm.gov.co)?y buscar en Servicios en linea, el enlace Liberacion de areas. Consulta de areas libres mineras ahora en la web 1, Ingrese a la seccion Servicios en linea, despliegue la lista y seleccione Catastro.  2, En Catastro, de clic a la opcion Consulta de Expedientes. 
   utter_faq/_Como_consultar_concesiones_mineras: 
   - text: | 
       tambien puede ir a? al [enlace.] (www.anm.gov.co)?y buscar en Servicios en linea, el enlace Liberacion de areas. Consulta de areas libres mineras ahora en la web 1, Ingrese a la seccion Servicios en linea, despliegue la lista y seleccione Catastro.  2, En Catastro, de clic a la opcion Consulta de Expedientes. 
@@ -2909,9 +2891,6 @@ responses:
       ROV: Remote Operated Vehicle , vehiculo operado de manera remota debajo del agua
   utter_faq/_Donde_se_realizan_las_pruebas_de_presion_del_sistema_BOPs_: 
   - text: | 
-      Estas pruebas se deberan realizar en los momentos indicados segun la resolucion 4 0687 de 18 de julio 2017, Articulo 19. Para mas informacion usted podra consultar el [siguiente enlace.] (https://www.minenergia.gov.co/documents/10180/23517/37521-res_40687_180717.pdf)
-  utter_faq/_Donde_se_realizan_las_pruebas_de_presion_del_sistema_BOPs_: 
-  - text: | 
       En los pozos exploratorios para yacimientos no convencionales deberan tomarse como minimo los siguientes registros en la seccion vertical:  1. Rayos Gamma  2. Densidad - Neutron  3. Resistividad  4. Potencial espontaneo 
       Medidas de temperatura a la profundidad del zapato de cada revestimiento
   utter_faq/_Que_es_el_Fracking: 
@@ -3023,7 +3002,7 @@ responses:
   - text: |
       Hay suficiente oferta en materia prima aceite de palma y ca?a de azucar para cubrir tanto el sector de alimentos como el de los biocombustibles. La politica de los biocombustibles pudo concretarse en el pais, gracias a la disponibilidad de la materia prima. Lo que se hizo fue utilizar parte de los excedentes exportables para transformarlos en dichos productos. asi, por ejemplo, las exportaciones de azucar se redujeron en 300.000 toneladas anuales pasando de 1бп200.000 a 900.000 toneladas. Las necesidades internas han estado suficientemente cubiertas
       Mas informaciиоn en el siguiente enlace
-     [entidades adscritas.] (https://www.fedebiocombustibles.com/files/REVISTA%20MITOS%20Y%20REALIDADES(2).pdf)
+      [entidades adscritas.] (https://www.fedebiocombustibles.com/files/REVISTA%20MITOS%20Y%20REALIDADES(2).pdf)
   utter_faq/_Es_cierto_que_los_Biocombustibles_son_solo_un_negocio: 
   - text: |
       La ca?a y la palma, materias primas para el etanol y el biodiesel, respectivamente, son producidas por centenares de agricultores. De ninguna manera, son negocios de amigos del gobierno. Al contrario. No hay que olvidar que una cosa es la materia prima y, otra, bien distinta, es la produccion de los biocombustibles. El Gobierno Nacional ha diferenciado estas dos actividades y las ha reglamentado. El productor de biocombustibles tiene que comprar la materia prima al precio del mercado y el gobierno se lo reconoce, asi como un costo de transformacion para obtener el biocombustible. Las formulas de precios que el gobierno establecio permiten que el Ministerio de Minas y energia, fije cada mes el precio que regira para el etanol y para el biodiesel, que esta compuesto, fundamentalmente, por dos terminos, el valor de la materia prima en el mercado y el llamado Factor de produccion Eficiente.
@@ -3100,10 +3079,6 @@ responses:
   utter_faq/_Los_biocombustibles_son_contaminantes: 
   - text: |
       Esta demostrado que los biocombustibles son menos contaminantes que los combustibles de origen fosil. Eso es reconocido mundialmente. Basta con hacer calculos para llegar a la conclusion de manera simple. Si los biocombustibles tienen muchos menos carbonos que los otros combustibles, es logico que emitiran menos bioxido de carbono y menos monoxido de carbono. Ademas, la combustion en los motores es mucho mas completa gracias a los oxigenos presentes en sus moleculas. Tampoco tienen azufre los biocombustibles porque provienen de biomasas. Por tanto, las emisiones de oxidos de azufre se veran disminuidas en la proporcion en que se mezclen. La mezcla del biodiesel con ACPM, reduce, proporcionalmente, las emisiones de material particulado, que tanto afectan la salud humana, principalmente en las ciudades. 
-  utter_faq/_De_que_manera_la_produccion_de_etanol_afecta_la_industria_panelera: 
-  - text: |
-      Los precios estuvieron deprimidos por largos a?os debido a la utilizacion de excedentes de azucar para producir panela a traves de la llamada б░cristalizacionб▒ clandestina, hoy penalizada por la ley. Una vez iniciada la produccion de etanol que redujo en 300.000 toneladas las exportaciones de azucar, el precio de la panela se duplico. mas tarde, mayores siembras de ca?a panelera atribuibles a falsas expectativas, se tradujeron en mayor produccion de panela y, resultado de ello, en menores precios del producto, lo cual es ajeno a la industria de los biocombustibles. De darse el montaje de un proyecto de etanol en la zona de Rio Suarez, Santander-Boyaca, daria a esa zona panelera un nuevo horizonte. 
-      [Enlace de consulta.] (https://www.fedebiocombustibles.com/files/REVISTA%20MITOS%20Y%20REALIDADES(2).pdf )
   utter_faq/_De_que_manera_la_produccion_de_etanol_afecta_la_industria_panelera: 
   - text: |
       Los precios estuvieron deprimidos por largos a?os debido a la utilizacion de excedentes de azucar para producir panela a traves de la llamada б░cristalizacionб▒ clandestina, hoy penalizada por la ley. Una vez iniciada la produccion de etanol que redujo en 300.000 toneladas las exportaciones de azucar, el precio de la panela se duplico. mas tarde, mayores siembras de ca?a panelera atribuibles a falsas expectativas, se tradujeron en mayor produccion de panela y, resultado de ello, en menores precios del producto, lo cual es ajeno a la industria de los biocombustibles. De darse el montaje de un proyecto de etanol en la zona de Rio Suarez, Santander-Boyaca, daria a esa zona panelera un nuevo horizonte. 
@@ -3388,7 +3363,6 @@ responses:
   - text: |
       Por medio del siguiente enlace puede acceder a la base de preguntas frecuentes de la entidad
       [entidades adscritas.] (https://www.minenergia.gov.co/en/faq)  
-  utter_faq/_Donde_consulto_los_datos_abiertos_del_Ministerio_de_Minas: 
   utter_faq/_Donde_consulto_los_datos_abiertos_del_Ministerio_de_Minas: 
   - text: | 
       Son todos aquellos datos primarios, sin procesar, en formatos estивndar e interoperables que facilitan su acceso y permiten su reutilizaciиоn, los cuales estивn bajo la custodia de las entidades pи▓blicas y que pueden ser obtenidos y ofrecidos sin reserva alguna, de forma libre y sin restricciones, con el fin de que terceros puedan reutilizarlos y crear servicios derivados de los mismos.
